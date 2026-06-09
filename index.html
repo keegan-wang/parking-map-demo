@@ -292,15 +292,27 @@ map.on('load', async () => {
     layout: { 'line-cap': 'round' },
   });
 
-  // ASP suspension calendar (holiday suspensions; emergency ones need 311 API)
+  // ASP suspensions: published calendar + live 311 status (emergency suspensions)
   try {
     const aspData = await (await fetch(DATA + 'asp_suspensions.json')).json();
     ASP_SUSPENDED = new Set(aspData.suspensions.map(s => s.date));
-    if (ASP_SUSPENDED.has(isoDay(new Date()))) {
-      document.getElementById('search').insertAdjacentHTML('beforeend',
-        '<div class="hint" style="color:#1b5e20;font-weight:600">🧹 Street cleaning is SUSPENDED today (ASP)</div>');
-    }
   } catch { /* calendar optional */ }
+  let liveNote = '';
+  try {
+    const live = await (await fetch(DATA + 'asp_today.json')).json();
+    for (const d of live.days || []) {
+      if (/SUSPEND/i.test(d.status || '')) {
+        ASP_SUSPENDED.add(d.date);
+        if (d.date === isoDay(new Date())) liveNote = d.details || 'ASP suspended';
+      } else if (d.date === isoDay(new Date())) {
+        ASP_SUSPENDED.delete(d.date); // live status overrides stale calendar
+      }
+    }
+  } catch { /* live status optional */ }
+  if (ASP_SUSPENDED.has(isoDay(new Date()))) {
+    document.getElementById('search').insertAdjacentHTML('beforeend',
+      `<div class="hint" style="color:#1b5e20;font-weight:600">🧹 Street cleaning SUSPENDED today${liveNote ? ' — ' + liveNote : ' (ASP)'}</div>`);
+  }
 
   fetch(DATA + 'build_info.json').then(r => r.json())
     .then(j => { document.getElementById('stamp').textContent = `data: ${j.generated_at}`; })
