@@ -1,0 +1,165 @@
+{
+ "source": "NYC DOT ASP calendar (ICS)",
+ "note": "Holiday/scheduled suspensions only; emergency suspensions require the NYC 311 API.",
+ "years": [
+  2026
+ ],
+ "suspensions": [
+  {
+   "date": "2026-01-01",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-01-06",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-01-19",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-02-12",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-02-16",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-02-16",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-02-17",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-02-18",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-02-18",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-03-03",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-03-20",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-04-02",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-04-02",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-04-03",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-04-08",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-04-09",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-04-10",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-05-14",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-05-22",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-05-25",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-05-27",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-06-19",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-07-03",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-07-23",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-08-15",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-09-07",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-09-12",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-09-21",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-09-26",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-10-03",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-10-04",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-10-12",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-11-01",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-11-03",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-11-08",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-11-11",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-11-26",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-12-08",
+   "reason": "Alternate Side Parking Suspended"
+  },
+  {
+   "date": "2026-12-25",
+   "reason": "Alternate Side Parking Suspended"
+  }
+ ]
+}

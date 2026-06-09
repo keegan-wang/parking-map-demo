@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>About — NYC Parking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 720px;
+         margin: 0 auto; padding: 24px 16px 64px; color: #222; line-height: 1.55; }
+  h1 { font-size: 24px; } h2 { font-size: 17px; margin-top: 28px; }
+  .warn { background: #fff3e0; border-left: 4px solid #fb8c00; padding: 10px 14px;
+          border-radius: 6px; }
+  a { color: #1e88e5; }
+  footer { margin-top: 40px; color: #888; font-size: 13px; }
+</style>
+</head>
+<body>
+<p><a href="./">← Back to the map</a></p>
+<h1>About NYC Parking</h1>
+
+<div class="warn">
+  <b>Always verify the posted signs.</b> This app is informational only. It is built
+  from New York City's official open datasets, but signs change, datasets lag,
+  temporary restrictions (construction, events, emergencies) may not appear, and our
+  automated interpretation of sign text can contain errors. <b>The signs on the street
+  are the law — not this app.</b> We are not responsible for parking tickets, towing,
+  or other consequences of relying on this information.
+</div>
+
+<h2>What this is</h2>
+<p>Enter a destination, arrival time, and how long you're staying; the app evaluates
+every parking sign near your destination and recommends where to park — ranked by
+legality for your full time window, estimated cost, and walking distance. Tap any
+curb to see its rules <i>and the verbatim text of the actual posted signs</i>, so you
+can always double-check our interpretation.</p>
+
+<h2>Data sources</h2>
+<ul>
+  <li><b>Street parking rules:</b> NYC DOT <a href="https://data.cityofnewyork.us/Transportation/Parking-Regulation-Locations-and-Signs/nfid-uabd">Parking Regulation Locations and Signs</a> (updated daily by DOT)</li>
+  <li><b>Meter rates:</b> NYC DOT <a href="https://data.cityofnewyork.us/Transportation/Parking-Meters-ParkNYC-Block-Faces/e7yp-wx55">ParkNYC Block Faces</a></li>
+  <li><b>Street geometry:</b> NYC <a href="https://data.cityofnewyork.us/City-Government/Centerline/inkn-q76z">Centerline (CSCL)</a></li>
+  <li><b>Garages &amp; lots:</b> NYC DCWP <a href="https://data.cityofnewyork.us/Business/Issued-Licenses/w7w3-xahh">Issued Licenses</a></li>
+  <li><b>Street-cleaning suspensions:</b> NYC DOT <a href="https://www.nyc.gov/html/dot/html/motorist/alternate-side-parking.shtml">Alternate Side Parking calendar</a> (scheduled suspensions; same-day emergency suspensions may not be reflected)</li>
+  <li><b>Geocoding:</b> <a href="https://geosearch.planninglabs.nyc/">NYC GeoSearch</a> (NYC Dept. of City Planning)</li>
+  <li><b>Base map:</b> <a href="https://openfreemap.org/">OpenFreeMap</a> ·
+      © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a></li>
+</ul>
+<p>Data is refreshed nightly from the sources above. Current build:
+<span id="stamp">—</span>.</p>
+
+<h2>Cost estimates</h2>
+<p>Street costs use the city's published meter rates for your stay duration.
+Garage prices are not published by the city; garage results link to booking
+services. Booking links may be affiliate links that pay us a commission at no
+extra cost to you.</p>
+
+<h2>Privacy</h2>
+<p>No account, no tracking pixels, no sale of personal data. Addresses you search
+are sent to NYC's GeoSearch service to find coordinates and are not stored by us.
+If analytics are enabled they are aggregate and cookie-free.</p>
+
+<h2>Terms (short version)</h2>
+<p>Provided "as is", without warranty of any kind. Use at your own risk; verify
+posted signage before parking. By using the app you accept that we are not liable
+for fines, towing, or damages arising from use of this information.</p>
+
+<h2>Found a wrong rule?</h2>
+<p>Use the "report" link on any curb's details (coming at launch) or open an issue —
+corrections ship in the nightly data build.</p>
+
+<footer>
+  Map data © OpenStreetMap contributors · Tiles by OpenFreeMap ·
+  Parking data: NYC Open Data (NYC DOT, DCWP, DCP) ·
+  Not affiliated with the City of New York.
+</footer>
+<script>
+  fetch((location.pathname.includes('/web/') ? '/data/out/' : 'data/out/') + 'build_info.json')
+    .then(r => r.json())
+    .then(j => { document.getElementById('stamp').textContent = j.generated_at; })
+    .catch(() => {});
+</script>
+</body>
+</html>

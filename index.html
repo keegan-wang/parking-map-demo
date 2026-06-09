@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>NYC Parking — where should I park?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/pmtiles@4.3.0/dist/pmtiles.js"></script>
+<link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet" />
+<style>
+  html, body { margin: 0; height: 100%; font-family: -apple-system, system-ui, sans-serif; }
+  #map { position: absolute; inset: 0; }
+  .panel {
+    position: absolute; z-index: 2; background: #fff; border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.18); padding: 12px 14px; font-size: 13px;
+  }
+  #search { left: 12px; top: 12px; width: 300px; }
+  #search h2 { margin: 0 0 8px; font-size: 15px; }
+  #search input, #search select, #search button {
+    width: 100%; box-sizing: border-box; margin: 3px 0; padding: 7px 9px;
+    border: 1px solid #ccc; border-radius: 7px; font-size: 13px;
+  }
+  #search .row { display: flex; gap: 6px; }
+  #search button {
+    background: #1e88e5; color: #fff; border: none; font-weight: 600; cursor: pointer;
+  }
+  #search button:hover { background: #1976d2; }
+  #suggest { position: relative; }
+  #suggest .dd {
+    position: absolute; top: 100%; left: 0; right: 0; background: #fff; z-index: 3;
+    border: 1px solid #ddd; border-radius: 7px; max-height: 220px; overflow-y: auto;
+  }
+  #suggest .dd div { padding: 7px 9px; cursor: pointer; }
+  #suggest .dd div:hover { background: #eef5ff; }
+  #legend { left: 12px; bottom: 24px; max-width: 220px; font-size: 12px; }
+  #legend h3 { margin: 0 0 6px; font-size: 12px; }
+  .key { display: flex; align-items: center; gap: 7px; margin: 2px 0; }
+  .swatch { width: 16px; height: 5px; border-radius: 2px; flex: none; }
+  #right { right: 12px; top: 12px; width: 340px; max-height: calc(100% - 48px); overflow-y: auto; display: none; }
+  #right h3 { margin: 0 0 2px; font-size: 14px; }
+  #right .sub { color: #666; margin-bottom: 8px; }
+  #right .cat { display: inline-block; padding: 2px 8px; border-radius: 10px;
+                color: #fff; font-size: 12px; margin-bottom: 8px; }
+  #right ul { margin: 4px 0 8px; padding-left: 18px; }
+  #right .signs { color: #777; font-size: 11px; border-top: 1px solid #eee; padding-top: 6px; }
+  #right .signs div { margin: 2px 0; font-family: ui-monospace, monospace; }
+  .result { border-bottom: 1px solid #eee; padding: 8px 2px; cursor: pointer; }
+  .result:hover { background: #f4f8ff; }
+  .result .head { display: flex; justify-content: space-between; gap: 8px; font-weight: 600; }
+  .result .meta { color: #555; font-size: 12px; margin-top: 2px; }
+  .result .nav a { color: #1e88e5; text-decoration: none; font-size: 12px; }
+  .result .nav a:hover { text-decoration: underline; }
+  .result .addr { color: #1b5e20; font-size: 12px; margin-top: 2px; }
+  .hint { color: #999; font-size: 11px; margin-top: 4px; }
+  .badge { padding: 1px 7px; border-radius: 9px; color: #fff; font-size: 11px; white-space: nowrap; }
+  .b-free { background: #43a047; } .b-meter { background: #1e88e5; } .b-garage { background: #3949ab; }
+  .note { color: #888; font-size: 11px; margin-top: 8px; }
+  #closeinfo { display: none; position: sticky; top: 0; float: right; border: none;
+               background: #eee; border-radius: 50%; width: 26px; height: 26px;
+               font-size: 14px; cursor: pointer; }
+  @media (max-width: 640px) {
+    #search { left: 8px; right: 8px; top: 8px; width: auto; }
+    #legend { display: none; }
+    #right { left: 8px; right: 8px; top: auto; bottom: 8px; width: auto;
+             max-height: 45%; }
+    #closeinfo { display: block; }
+    #search input, #search select, #search button { font-size: 16px; } /* no iOS zoom */
+  }
+</style>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#1e88e5" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+</head>
+<body>
+<div id="map"></div>
+
+<div class="panel" id="search">
+  <h2>Where are you going?</h2>
+  <div id="suggest">
+    <input id="addr" placeholder="Address or place (e.g. 350 5th Ave)" autocomplete="off" />
+    <div class="dd" id="dd" style="display:none"></div>
+  </div>
+  <div class="row">
+    <input id="when" type="datetime-local" />
+    <select id="dur">
+      <option value="60">1 h</option><option value="120" selected>2 h</option>
+      <option value="180">3 h</option><option value="240">4 h</option>
+      <option value="480">8 h</option>
+    </select>
+  </div>
+  <div class="row">
+    <select id="blocks">
+      <option value="200">~2 blocks</option><option value="400" selected>~4 blocks</option>
+      <option value="600">~6 blocks</option>
+    </select>
+    <button id="go">Find parking</button>
+  </div>
+  <div class="hint">Tip: right-click (long-press) anywhere on the map to drop a pin instead.</div>
+  <div class="hint">⚠️ Always verify posted signs — <a href="about.html" style="color:#1e88e5">data sources &amp; disclaimer</a>
+    · <span id="stamp"></span></div>
+</div>
+
+<div class="panel" id="legend"><h3>Parking type</h3></div>
+<div class="panel" id="right"></div>
+
+<script>
+// data base path: '/data/out/' when served from repo root (local dev at /web/),
+// './data/out/' when the site is deployed with index.html at its root (gh-pages)
+const DATA = location.pathname.includes('/web/') ? '/data/out/' : 'data/out/';
+
+// ---------- categories / legend ----------
+const CATEGORIES = {
+  no_stopping_anytime:  { color: '#b71c1c', label: 'No stopping (anytime)' },
+  no_standing_anytime:  { color: '#e53935', label: 'No standing (anytime)' },
+  no_parking_anytime:   { color: '#fb8c00', label: 'No parking (anytime)' },
+  part_time_restricted: { color: '#ab47bc', label: 'Restricted part-time' },
+  free_with_cleaning:   { color: '#43a047', label: 'Free (street cleaning)' },
+  metered:              { color: '#1e88e5', label: 'Metered' },
+  metered_commercial:   { color: '#7986cb', label: 'Commercial-only metered' },
+  time_limited:         { color: '#fdd835', label: 'Time-limited' },
+  loading_only:         { color: '#6d4c41', label: 'Loading only' },
+  transit_taxi:         { color: '#00897b', label: 'Bus stop / taxi stand' },
+  authorized_only:      { color: '#757575', label: 'Authorized vehicles only' },
+  other:                { color: '#bdbdbd', label: 'Other / unknown' },
+};
+const legend = document.getElementById('legend');
+for (const { color, label } of Object.values(CATEGORIES)) {
+  legend.insertAdjacentHTML('beforeend',
+    `<div class="key"><span class="swatch" style="background:${color}"></span>${label}</div>`);
+}
+legend.insertAdjacentHTML('beforeend',
+  '<div class="key"><span class="swatch" style="background:#3949ab;height:11px;width:11px;border-radius:50%"></span>Garage / lot (licensed)</div>');
+const colorExpr = ['match', ['get', 'category'],
+  ...Object.entries(CATEGORIES).flatMap(([k, v]) => [k, v.color]), '#bdbdbd'];
+
+// ---------- rule evaluation (mirrors pipeline/parser.py schema) ----------
+const DAY_KEYS = ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa']; // Date.getDay() order
+const BLOCKING = new Set(['no_stopping', 'no_standing', 'no_parking', 'street_cleaning',
+  'loading_only', 'authorized_only', 'bus_stop', 'taxi_stand', 'bus_layover',
+  'metered_commercial']);  // commercial-only meters block passenger cars
+const ACT_LABEL = {
+  no_stopping: 'No stopping', no_standing: 'No standing', no_parking: 'No parking',
+  street_cleaning: 'Street cleaning', loading_only: 'Loading zone',
+  metered_commercial: 'Commercial-only metered',
+  authorized_only: 'Authorized vehicles only', bus_stop: 'Bus stop',
+  taxi_stand: 'Taxi stand', bus_layover: 'Bus layover',
+  metered: 'Metered', time_limited: 'Time limit',
+};
+
+function expandDays(rule) {
+  let days = rule.days ? [...rule.days] : [...DAY_KEYS];
+  if (days.includes('school_days')) days = ['mo', 'tu', 'we', 'th', 'fr'];
+  if (rule.exceptions) days = days.filter(d => !rule.exceptions.includes(d));
+  return days;
+}
+const ovl = (a0, a1, b0, b1) => Math.max(0, Math.min(a1, b1) - Math.max(a0, b0));
+
+let ASP_SUSPENDED = new Set();  // 'YYYY-MM-DD' dates when cleaning is suspended
+const isoDay = d =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
+function ruleOverlap(rule, segs) { // segs: [{date, s, e}] minutes within one day each
+  const days = expandDays(rule);
+  const times = rule.times?.length ? rule.times : [{ start: 0, end: 1440 }];
+  let total = 0;
+  for (const seg of segs) {
+    if (rule.asp && ASP_SUSPENDED.has(isoDay(seg.date))) continue; // cleaning suspended
+    if (rule.season) { // seasonal restrictions ("May 15 – Sept 30")
+      const md = `${String(seg.date.getMonth() + 1).padStart(2, '0')}-${String(seg.date.getDate()).padStart(2, '0')}`;
+      const { from, to } = rule.season;
+      const inSeason = from <= to ? (md >= from && md <= to) : (md >= from || md <= to);
+      if (!inSeason) continue;
+    }
+    if (!days.includes(DAY_KEYS[seg.date.getDay()])) continue;
+    for (const t of times) {
+      if (t.end <= t.start) // wraps midnight
+        total += ovl(seg.s, seg.e, t.start, 1440) + ovl(seg.s, seg.e, 0, t.end);
+      else total += ovl(seg.s, seg.e, t.start, t.end);
+    }
+  }
+  return total;
+}
+
+function windowSegments(start, durMin) {
+  const segs = []; const d = new Date(start);
+  let s = d.getHours() * 60 + d.getMinutes(), remaining = durMin;
+  while (remaining > 0) {
+    const e = Math.min(1440, s + remaining);
+    segs.push({ date: new Date(d), s, e });
+    remaining -= e - s; d.setDate(d.getDate() + 1); s = 0;
+  }
+  return segs;
+}
+
+function estimateCost(rateText, minutes) {
+  if (!rateText) return null;
+  const tiers = [...rateText.matchAll(/\$\s*(\d+(?:\.\d+)?)/g)].map(m => parseFloat(m[1]));
+  if (!tiers.length) return null;
+  let c = 0;
+  for (let h = 0; h < Math.ceil(minutes / 60); h++) c += tiers[Math.min(h, tiers.length - 1)];
+  return c;
+}
+
+// Can I park on this blockface for the whole window? Returns verdict.
+function assess(props, segs, durMin) {
+  let rules;
+  try { rules = JSON.parse(props.rules_json || '[]'); } catch { rules = []; }
+  if (!rules.length) return { ok: false, why: 'no parsed rules' };
+  let meterMin = 0, maxStay = Infinity;
+  for (const r of rules) {
+    const ov = ruleOverlap(r, segs);
+    if (ov <= 0) continue;
+    if (BLOCKING.has(r.activity))
+      return { ok: false, why: ACT_LABEL[r.activity] || r.activity };
+    if (r.activity === 'metered') {
+      meterMin += ov;
+      if (r.maxStay) maxStay = Math.min(maxStay, r.maxStay);
+    }
+    if (r.activity === 'time_limited' && r.maxStay) maxStay = Math.min(maxStay, r.maxStay);
+  }
+  if (maxStay < durMin)
+    return { ok: false, why: `${maxStay >= 60 ? maxStay / 60 + 'h' : maxStay + 'min'} max stay` };
+  const cost = meterMin > 0 ? estimateCost(props.rate, meterMin) : 0;
+  if (meterMin > 0 && cost === null) return { ok: false, why: 'metered, rate unknown' };
+  return { ok: true, cost, metered: meterMin > 0 };
+}
+
+// ---------- geometry helpers ----------
+const R = 6371000;
+function haversine(a, b) {
+  const dLat = (b[1] - a[1]) * Math.PI / 180, dLon = (b[0] - a[0]) * Math.PI / 180;
+  const s = Math.sin(dLat / 2) ** 2 +
+    Math.cos(a[1] * Math.PI / 180) * Math.cos(b[1] * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(s));
+}
+function geomVertices(g) {
+  if (g.type === 'LineString') return g.coordinates;
+  if (g.type === 'MultiLineString') return g.coordinates.flat();
+  if (g.type === 'Point') return [g.coordinates];
+  return [];
+}
+function minDist(dest, geom) {
+  let best = Infinity, bestPt = null;
+  for (const c of geomVertices(geom)) {
+    const d = haversine(dest, c);
+    if (d < best) { best = d; bestPt = c; }
+  }
+  return { d: best, pt: bestPt };
+}
+function circlePolygon(c, r, n = 64) {
+  const pts = [];
+  for (let i = 0; i <= n; i++) {
+    const t = 2 * Math.PI * i / n;
+    pts.push([c[0] + r / (R * Math.cos(c[1] * Math.PI / 180)) * Math.cos(t) * 180 / Math.PI,
+              c[1] + r / R * Math.sin(t) * 180 / Math.PI]);
+  }
+  return { type: 'Polygon', coordinates: [pts] };
+}
+
+// ---------- map ----------
+const protocol = new pmtiles.Protocol();
+maplibregl.addProtocol('pmtiles', protocol.tile);
+const map = new maplibregl.Map({
+  container: 'map',
+  style: 'https://tiles.openfreemap.org/styles/positron',
+  center: [-73.971, 40.757], zoom: 12.5,
+  attributionControl: { compact: false },
+});
+map.addControl(new maplibregl.NavigationControl());
+
+const right = document.getElementById('right');
+let resultsHTML = '';   // restored after hover
+let garagesData = null;
+let destMarker = null;
+
+map.on('load', async () => {
+  map.addSource('curbs', {
+    type: 'vector', promoteId: 'order',
+    url: 'pmtiles://' + new URL(DATA + 'curbs.pmtiles', location.href).href,
+  });
+  map.addLayer({
+    id: 'curbs', type: 'line', source: 'curbs', 'source-layer': 'curbs',
+    paint: {
+      'line-color': colorExpr,
+      'line-width': ['case', ['boolean', ['feature-state', 'hover'], false], 7, 3.5],
+      'line-offset': ['interpolate', ['linear'], ['zoom'],
+        13, ['case', ['==', ['get', 'side_lr'], 'L'], -2, 2],
+        17, ['case', ['==', ['get', 'side_lr'], 'L'], -7, 7]],
+      'line-opacity': 0.9,
+    },
+    layout: { 'line-cap': 'round' },
+  });
+
+  // ASP suspension calendar (holiday suspensions; emergency ones need 311 API)
+  try {
+    const aspData = await (await fetch(DATA + 'asp_suspensions.json')).json();
+    ASP_SUSPENDED = new Set(aspData.suspensions.map(s => s.date));
+    if (ASP_SUSPENDED.has(isoDay(new Date()))) {
+      document.getElementById('search').insertAdjacentHTML('beforeend',
+        '<div class="hint" style="color:#1b5e20;font-weight:600">🧹 Street cleaning is SUSPENDED today (ASP)</div>');
+    }
+  } catch { /* calendar optional */ }
+
+  fetch(DATA + 'build_info.json').then(r => r.json())
+    .then(j => { document.getElementById('stamp').textContent = `data: ${j.generated_at}`; })
+    .catch(() => {});
+
+  garagesData = await (await fetch(DATA + 'garages.geojson')).json();
+  map.addSource('garages', { type: 'geojson', data: garagesData });
+  map.addLayer({
+    id: 'garages', type: 'circle', source: 'garages',
+    paint: {
+      'circle-color': '#3949ab', 'circle-opacity': 0.85,
+      'circle-stroke-color': '#fff', 'circle-stroke-width': 1.5,
+      'circle-radius': ['interpolate', ['linear'],
+        ['coalesce', ['get', 'capacity'], 30], 10, 4, 100, 8, 500, 14],
+    },
+  });
+
+  map.addSource('search', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+  map.addLayer({
+    id: 'search-radius', type: 'fill', source: 'search',
+    paint: { 'fill-color': '#1e88e5', 'fill-opacity': 0.06 },
+  });
+  map.addLayer({
+    id: 'search-radius-line', type: 'line', source: 'search',
+    paint: { 'line-color': '#1e88e5', 'line-width': 1.5, 'line-dasharray': [3, 2] },
+  });
+  map.addSource('pick', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+  map.addLayer({
+    id: 'pick', type: 'line', source: 'pick',
+    paint: { 'line-color': '#000', 'line-width': 9, 'line-opacity': 0.55 },
+    layout: { 'line-cap': 'round' },
+  });
+
+  // always-on meter rates along metered curbs at street zoom (Google-style)
+  map.addLayer({
+    id: 'meter-rates', type: 'symbol', source: 'curbs', 'source-layer': 'curbs',
+    minzoom: 15.2,
+    filter: ['has', 'rate_hr'],
+    layout: {
+      'symbol-placement': 'line',
+      'text-field': ['concat', '$', ['to-string', ['get', 'rate_hr']], '/hr'],
+      'text-font': ['Noto Sans Regular'],
+      'text-size': 11,
+      'text-offset': [0, 1.1],
+    },
+    paint: {
+      'text-color': '#0d47a1',
+      'text-halo-color': '#ffffff',
+      'text-halo-width': 2,
+    },
+  });
+
+  // price pills shown after a search (FREE / ~$x / garage)
+  map.addSource('pills', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+  map.addLayer({
+    id: 'pills', type: 'symbol', source: 'pills',
+    layout: {
+      'text-field': ['get', 'label'],
+      'text-font': ['Noto Sans Regular'],
+      'text-size': 12,
+      'text-padding': 4,
+    },
+    paint: {
+      'text-color': ['match', ['get', 'kind'],
+        'free', '#1b5e20', 'meter', '#0d47a1', 'garage', '#283593', '#333'],
+      'text-halo-color': '#ffffff',
+      'text-halo-width': 2.5,
+    },
+  });
+
+  wireHover();
+
+  // drop a pin: right-click (long-press on touch) → set destination + search
+  map.on('contextmenu', async e => {
+    e.preventDefault();
+    dest = [e.lngLat.lng, e.lngLat.lat];
+    addr.value = 'Dropped pin…';
+    document.getElementById('go').click();
+    const label = await reverseGeocode(dest[0], dest[1]);
+    if (label) addr.value = label;
+  });
+});
+
+// ---------- hover (shared right panel; restores results on leave) ----------
+function wireHover() {
+  let hovered = null, pinnedInfo = false;
+  const fs = (id, st) => map.setFeatureState({ source: 'curbs', sourceLayer: 'curbs', id }, st);
+  const costLine = p => p.rate
+    ? `<li><b>Cost:</b> ${p.rate}${p.rate_hours ? ` (${p.rate_hours}${p.rate_limit ? ' · ' + p.rate_limit + ' max' : ''})` : ''}</li>`
+    : (['free_with_cleaning', 'time_limited', 'part_time_restricted'].includes(p.category)
+        ? '<li><b>Cost:</b> free when legal</li>' : '');
+  const closeBtn = '<button id="closeinfo" aria-label="close">✕</button>';
+  const restore = () => {
+    pinnedInfo = false;
+    right.innerHTML = resultsHTML;
+    right.style.display = resultsHTML ? 'block' : 'none';
+    if (resultsHTML) wireResultClicks();
+  };
+  const show = html => {
+    right.style.display = 'block';
+    right.innerHTML = closeBtn + html;
+    document.getElementById('closeinfo').onclick = restore;
+  };
+
+  const curbHTML = p => {
+    const rules = JSON.parse(p.rules || '[]'), signs = JSON.parse(p.signs || '[]');
+    const cat = CATEGORIES[p.category] || CATEGORIES.other;
+    return `
+      <h3>${p.street}</h3>
+      <div class="sub">${p.from} → ${p.to} · ${p.side} side</div>
+      <span class="cat" style="background:${cat.color}">${cat.label}</span>
+      <ul>${costLine(p)}${rules.map(r => `<li>${r}</li>`).join('')}</ul>
+      <div class="signs"><b>Posted signs (verbatim)</b>${signs.map(s => `<div>${s}</div>`).join('')}</div>`;
+  };
+  const garageHTML = f => {
+    const p = f.properties;
+    const [lng, lat] = f.geometry.coordinates;
+    const start = new Date(document.getElementById('when').value || Date.now());
+    const dur = +document.getElementById('dur').value || 120;
+    return `
+      <h3>${p.name}</h3><div class="sub">${p.address} · ${p.borough}</div>
+      <span class="cat" style="background:#3949ab">Garage / lot</span>
+      <ul><li>Vehicle capacity: ${p.capacity ?? 'unknown'}</li>
+          <li>DCWP license ${p.license} (expires ${p.expires})</li>
+          <li><b>Cost:</b> see live prices via booking links below</li></ul>
+      ${bookLinks(lng, lat, start, dur)}`;
+  };
+
+  // hover (desktop)
+  map.on('mousemove', 'curbs', e => {
+    map.getCanvas().style.cursor = 'pointer';
+    if (pinnedInfo) return;
+    const f = e.features[0];
+    if (hovered !== null) fs(hovered, { hover: false });
+    hovered = f.id; fs(hovered, { hover: true });
+    show(curbHTML(f.properties));
+  });
+  map.on('mouseleave', 'curbs', () => {
+    map.getCanvas().style.cursor = '';
+    if (hovered !== null) fs(hovered, { hover: false });
+    hovered = null;
+    if (!pinnedInfo) restore();
+  });
+  map.on('mousemove', 'garages', e => {
+    map.getCanvas().style.cursor = 'pointer';
+    if (pinnedInfo) return;
+    show(garageHTML(e.features[0]));
+  });
+  map.on('mouseleave', 'garages', () => {
+    map.getCanvas().style.cursor = '';
+    if (!pinnedInfo) restore();
+  });
+
+  // tap (mobile) — pins the panel until ✕
+  map.on('click', 'curbs', e => {
+    pinnedInfo = true; show(curbHTML(e.features[0].properties));
+    e.preventDefault?.();
+  });
+  map.on('click', 'garages', e => {
+    pinnedInfo = true; show(garageHTML(e.features[0]));
+  });
+}
+
+// ---------- geocoding (NYC GeoSearch — free, no key) ----------
+const addr = document.getElementById('addr'), dd = document.getElementById('dd');
+let dest = null, debounceT = null;
+addr.addEventListener('input', () => {
+  clearTimeout(debounceT);
+  const q = addr.value.trim();
+  if (q.length < 3) { dd.style.display = 'none'; return; }
+  debounceT = setTimeout(async () => {
+    const r = await fetch(
+      `https://geosearch.planninglabs.nyc/v2/autocomplete?text=${encodeURIComponent(q)}` +
+      `&focus.point.lat=40.75&focus.point.lon=-73.98&size=6`);
+    const j = await r.json();
+    dd.innerHTML = '';
+    for (const f of j.features || []) {
+      const div = document.createElement('div');
+      div.textContent = f.properties.label;
+      div.onclick = () => {
+        dest = f.geometry.coordinates; addr.value = f.properties.label;
+        dd.style.display = 'none';
+      };
+      dd.appendChild(div);
+    }
+    dd.style.display = j.features?.length ? 'block' : 'none';
+  }, 250);
+});
+
+// default time = now (rounded to next 15 min)
+const now = new Date(Date.now() + 14 * 60000);
+now.setMinutes(Math.floor(now.getMinutes() / 15) * 15, 0, 0);
+document.getElementById('when').value =
+  `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}` +
+  `T${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+
+// ---------- recommendation ----------
+document.getElementById('go').onclick = async () => {
+  if (!dest) {  // fall back: geocode current text
+    const q = addr.value.trim();
+    if (!q) return;
+    const r = await fetch(`https://geosearch.planninglabs.nyc/v2/search?text=${encodeURIComponent(q)}&size=1`);
+    const j = await r.json();
+    if (!j.features?.length) { alert('Address not found'); return; }
+    dest = j.features[0].geometry.coordinates;
+    addr.value = j.features[0].properties.label;
+  }
+  const start = new Date(document.getElementById('when').value);
+  const durMin = +document.getElementById('dur').value;
+  const radius = +document.getElementById('blocks').value;
+  const segs = windowSegments(start, durMin);
+
+  map.getSource('search').setData({ type: 'Feature', geometry: circlePolygon(dest, radius) });
+  if (destMarker) destMarker.remove();
+  destMarker = new maplibregl.Marker({ color: '#d32f2f' }).setLngLat(dest).addTo(map);
+  map.flyTo({ center: dest, zoom: 15.4 });
+  await new Promise(res => map.once('idle', res));
+
+  // candidate blockfaces from loaded tiles, deduped by work order
+  const seen = new Set(), spots = [];
+  for (const f of map.querySourceFeatures('curbs', { sourceLayer: 'curbs' })) {
+    const p = f.properties;
+    if (seen.has(p.order)) continue;
+    seen.add(p.order);
+    const { d, pt } = minDist(dest, f.geometry);
+    if (d > radius) continue;
+    const v = assess(p, segs, durMin);
+    if (!v.ok) continue;
+    const walkMin = Math.round(d * 1.3 / 80);
+    spots.push({ p, geom: f.geometry, pt, walkMin, cost: v.cost, metered: v.metered,
+                 score: (v.cost ?? 0) + walkMin * 0.4 });
+  }
+  spots.sort((a, b) => a.score - b.score);
+
+  const garages = (garagesData?.features || [])
+    .map(f => ({ f, d: haversine(dest, f.geometry.coordinates) }))
+    .filter(g => g.d <= radius)
+    .sort((a, b) => a.d - b.d).slice(0, 3);
+
+  // Google-style price pills for every legal spot + nearby garages
+  map.getSource('pills').setData({
+    type: 'FeatureCollection',
+    features: [
+      ...spots.map(s => ({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: s.pt },
+        properties: s.metered
+          ? { label: `$${s.cost.toFixed(0)}`, kind: 'meter' }
+          : { label: 'FREE', kind: 'free' },
+      })),
+      ...garages.map(g => ({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: g.f.geometry.coordinates },
+        properties: { label: 'GARAGE $', kind: 'garage' },
+      })),
+    ],
+  });
+
+  renderResults(spots.slice(0, 8), garages, start, durMin);
+};
+
+function fmtTime(d) {
+  return d.toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' });
+}
+
+// ---------- garage booking links (SpotHero / ParkWhiz) ----------
+// Fill these in after affiliate signup (docs/affiliate-setup.md):
+//   spothero_sha: SpotHero affiliate code (sha_affiliate=...)
+//   parkwhiz_pwa: ParkWhiz Affiliate Console code (pwa=...)
+const AFFILIATES = { spothero_sha: '', parkwhiz_pwa: '' };
+
+const pad2 = n => String(n).padStart(2, '0');
+const localISO = d =>
+  `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}T${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
+const roundHalfHour = (d, up) => {
+  const r = new Date(d);
+  const m = r.getMinutes();
+  r.setMinutes(up ? (m === 0 || m === 30 ? m : m < 30 ? 30 : 60) : (m < 30 ? 0 : 30), 0, 0);
+  return r;
+};
+
+function spotHeroURL(lng, lat, start, durMin) {
+  // verified format: local times, minutes must be :00/:30
+  const s = roundHalfHour(start, false);
+  const e = roundHalfHour(new Date(start.getTime() + durMin * 60000), true);
+  let u = `https://spothero.com/search?latitude=${lat.toFixed(6)}&longitude=${lng.toFixed(6)}` +
+          `&starts=${localISO(s)}&ends=${localISO(e)}`;
+  if (AFFILIATES.spothero_sha) u += `&sha_affiliate=${AFFILIATES.spothero_sha}`;
+  return u;
+}
+function parkWhizURL(lng, lat, start, durMin) {
+  const e = new Date(start.getTime() + durMin * 60000);
+  let u = `https://www.parkwhiz.com/destination/New-York-Parking/?lat=${lat.toFixed(6)}` +
+          `&lng=${lng.toFixed(6)}&start=${localISO(start)}&end=${localISO(e)}`;
+  if (AFFILIATES.parkwhiz_pwa) u += `&pwa=${AFFILIATES.parkwhiz_pwa}`;
+  return u;
+}
+const bookLinks = (lng, lat, start, durMin) => `<div class="meta nav">
+  <a href="${spotHeroURL(lng, lat, start, durMin)}" target="_blank" rel="noopener">Book: SpotHero</a> ·
+  <a href="${parkWhizURL(lng, lat, start, durMin)}" target="_blank" rel="noopener">ParkWhiz</a></div>`;
+
+const navLinks = (lng, lat) => `<div class="meta nav">
+  <a href="https://www.google.com/maps/dir/?api=1&destination=${lat.toFixed(6)},${lng.toFixed(6)}"
+     target="_blank" rel="noopener">Navigate: Google Maps</a> ·
+  <a href="https://maps.apple.com/?daddr=${lat.toFixed(6)},${lng.toFixed(6)}"
+     target="_blank" rel="noopener">Apple Maps</a></div>`;
+
+async function reverseGeocode(lng, lat) {
+  try {
+    const r = await fetch(
+      `https://geosearch.planninglabs.nyc/v2/reverse?point.lat=${lat}&point.lon=${lng}&size=1`);
+    const j = await r.json();
+    return j.features?.[0]?.properties?.label?.replace(', New York, NY, USA', '') || null;
+  } catch { return null; }
+}
+
+function renderResults(spots, garages, start, durMin) {
+  const items = spots.map((s, i) => {
+    const badge = s.metered
+      ? `<span class="badge b-meter">~$${s.cost.toFixed(2)}</span>`
+      : '<span class="badge b-free">FREE</span>';
+    return `<div class="result" data-i="${i}">
+      <div class="head"><span>${i + 1}. ${s.p.street}</span>${badge}</div>
+      <div class="meta">${s.p.from} → ${s.p.to} · ${s.p.side} side · ${s.walkMin} min walk</div>
+      <div class="addr" id="addr-${i}"></div>
+      ${navLinks(s.pt[0], s.pt[1])}
+    </div>`;
+  }).join('');
+  const gar = garages.map(g => {
+    const p = g.f.properties;
+    const [lng, lat] = g.f.geometry.coordinates;
+    return `<div class="result garage" data-ll="${g.f.geometry.coordinates}">
+      <div class="head"><span>${p.name}</span><span class="badge b-garage">GARAGE</span></div>
+      <div class="meta">${p.address} · ${Math.round(g.d * 1.3 / 80)} min walk · capacity ${p.capacity ?? '?'}</div>
+      ${bookLinks(lng, lat, start, durMin)}
+      ${navLinks(lng, lat)}
+    </div>`;
+  }).join('');
+
+  const suspDates = windowSegments(start, durMin)
+    .map(s => isoDay(s.date)).filter(d => ASP_SUSPENDED.has(d));
+  resultsHTML = `
+    <h3>Park near your destination</h3>
+    <div class="sub">${fmtTime(start)} for ${durMin / 60} h — legal the whole time</div>
+    ${suspDates.length ? `<div class="sub" style="color:#1b5e20">🧹 Street cleaning suspended ${suspDates.join(', ')} — cleaning rules ignored for those days.</div>` : ''}
+    ${items || '<div class="meta">No legal street parking found in this radius for that window — widen the radius or check garages.</div>'}
+    ${gar ? `<div style="margin-top:8px;font-weight:600">Garages</div>${gar}` : ''}
+    <div class="note">Street results are legality + cost + walk, from NYC DOT sign data —
+      always verify posted signs. Availability prediction not yet included: metered blocks
+      turn over more; free blocks are competitive. Garage prices need the booking
+      integration (next phase).</div>`;
+  right.innerHTML = resultsHTML;
+  right.style.display = 'block';
+  lastSpots = spots;
+  wireResultClicks();
+
+  // fill in approximate street addresses for the curb spots (NYC GeoSearch reverse)
+  spots.forEach(async (s, i) => {
+    const label = await reverseGeocode(s.pt[0], s.pt[1]);
+    const el = document.getElementById(`addr-${i}`);
+    if (label && el) {
+      el.textContent = `≈ ${label}`;
+      // keep a copy in resultsHTML so hover-restore doesn't lose it
+      resultsHTML = right.innerHTML;
+    }
+  });
+}
+
+let lastSpots = [];
+function wireResultClicks() {
+  right.querySelectorAll('.result[data-i]').forEach(el => {
+    el.onclick = () => {
+      const s = lastSpots[+el.dataset.i];
+      if (!s) return;
+      map.getSource('pick').setData({ type: 'Feature', geometry: s.geom, properties: {} });
+      map.flyTo({ center: s.pt, zoom: 16.5 });
+    };
+  });
+  right.querySelectorAll('.result.garage').forEach(el => {
+    el.onclick = () => {
+      const [lng, lat] = el.dataset.ll.split(',').map(Number);
+      map.flyTo({ center: [lng, lat], zoom: 17 });
+    };
+  });
+  right.querySelectorAll('.nav a').forEach(a => {
+    a.onclick = e => e.stopPropagation();  // don't hijack the row click
+  });
+}
+</script>
+</body>
+</html>
