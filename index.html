@@ -535,10 +535,36 @@ document.getElementById('go').onclick = async () => {
   }
   spots.sort((a, b) => a.score - b.score);
 
+  // licensed garages near destination + live ParkWhiz prices, matched by proximity
+  let quotes = [];
+  try { quotes = await fetchGarageQuotes(dest, start, durMin); } catch { /* links still work */ }
   const garages = (garagesData?.features || [])
-    .map(f => ({ f, d: haversine(dest, f.geometry.coordinates) }))
-    .filter(g => g.d <= radius)
-    .sort((a, b) => a.d - b.d).slice(0, 3);
+    .map(f => ({
+      f, d: haversine(dest, f.geometry.coordinates),
+      lng: f.geometry.coordinates[0], lat: f.geometry.coordinates[1],
+    }))
+    .filter(g => g.d <= radius);
+  for (const g of garages) { // attach nearest quote within ~60 m
+    let best = null, bestD = 60;
+    for (const q of quotes) {
+      const d = haversine([g.lng, g.lat], [q.lng, q.lat]);
+      if (d < bestD) { best = q; bestD = d; }
+    }
+    if (best) { g.price = best.price; g.locationId = best.locationId; }
+  }
+  // bookable ParkWhiz locations in radius that aren't in the licensed set
+  for (const q of quotes) {
+    const d = haversine(dest, [q.lng, q.lat]);
+    if (d > radius) continue;
+    if (garages.some(g => g.locationId === q.locationId)) continue;
+    garages.push({
+      d, lng: q.lng, lat: q.lat, price: q.price, locationId: q.locationId,
+      f: { geometry: { coordinates: [q.lng, q.lat] }, properties: {
+        name: q.name, address: q.address, capacity: null } },
+    });
+  }
+  garages.sort((a, b) => (a.price ?? 9999) - (b.price ?? 9999) || a.d - b.d);
+  garages.length = Math.min(garages.length, 5);
 
   // Google-style price pills for every legal spot + nearby garages
   map.getSource('pills').setData({
@@ -554,7 +580,7 @@ document.getElementById('go').onclick = async () => {
       ...garages.map(g => ({
         type: 'Feature',
         geometry: { type: 'Point', coordinates: g.f.geometry.coordinates },
-        properties: { label: 'GARAGE $', kind: 'garage' },
+        properties: { label: g.price ? `$${Math.round(g.price)}` : 'GARAGE $', kind: 'garage' },
       })),
     ],
   });
@@ -602,6 +628,37 @@ const bookLinks = (lng, lat, start, durMin) => `<div class="meta nav">
   <a href="${spotHeroURL(lng, lat, start, durMin)}" target="_blank" rel="noopener">Book: SpotHero</a> ·
   <a href="${parkWhizURL(lng, lat, start, durMin)}" target="_blank" rel="noopener">ParkWhiz</a></div>`;
 
+function parkWhizBookURL(locationId, start, durMin) {
+  const e = new Date(start.getTime() + durMin * 60000);
+  let u = `https://www.parkwhiz.com/find_and_book/?location_id=${locationId}` +
+          `&start_time=${localISO(start)}&end_time=${localISO(e)}`;
+  if (AFFILIATES.parkwhiz_pwa) u += `&pwa=${AFFILIATES.parkwhiz_pwa}`;
+  return u;
+}
+
+// live garage prices from the ParkWhiz quotes API (browser-callable, CORS-open)
+async function fetchGarageQuotes(dest, start, durMin) {
+  const e = new Date(start.getTime() + durMin * 60000);
+  const u = 'https://api.parkwhiz.com/v4/quotes/?' + new URLSearchParams({
+    q: `coordinates:${dest[1].toFixed(6)},${dest[0].toFixed(6)} distance:1`,
+    start_time: localISO(start), end_time: localISO(e),
+    fields: 'quote::default,location::default,location:name,location:address1',
+  });
+  const r = await fetch(u, { signal: AbortSignal.timeout(6000) });
+  if (!r.ok) throw new Error(`quotes ${r.status}`);
+  const quotes = await r.json();
+  return quotes.map(q => {
+    const loc = q._embedded?.['pw:location'] || {};
+    const prices = (q.purchase_options || [])
+      .map(po => parseFloat(po.price?.USD)).filter(p => !isNaN(p));
+    const coords = loc.entrances?.[0]?.coordinates; // [lat, lng]
+    return prices.length && coords ? {
+      locationId: q.location_id, name: loc.name, address: loc.address1,
+      price: Math.min(...prices), lng: coords[1], lat: coords[0],
+    } : null;
+  }).filter(Boolean);
+}
+
 const navLinks = (lng, lat) => `<div class="meta nav">
   <a href="https://www.google.com/maps/dir/?api=1&destination=${lat.toFixed(6)},${lng.toFixed(6)}"
      target="_blank" rel="noopener">Navigate: Google Maps</a> ·
@@ -632,10 +689,18 @@ function renderResults(spots, garages, start, durMin) {
   const gar = garages.map(g => {
     const p = g.f.properties;
     const [lng, lat] = g.f.geometry.coordinates;
+    const badge = g.price != null
+      ? `<span class="badge b-garage">$${g.price.toFixed(2)}</span>`
+      : '<span class="badge b-garage">GARAGE</span>';
+    const book = g.locationId
+      ? `<div class="meta nav"><a href="${parkWhizBookURL(g.locationId, start, durMin)}"
+           target="_blank" rel="noopener"><b>Book for $${g.price.toFixed(2)} — ParkWhiz</b></a> ·
+           <a href="${spotHeroURL(lng, lat, start, durMin)}" target="_blank" rel="noopener">SpotHero</a></div>`
+      : bookLinks(lng, lat, start, durMin);
     return `<div class="result garage" data-ll="${g.f.geometry.coordinates}">
-      <div class="head"><span>${p.name}</span><span class="badge b-garage">GARAGE</span></div>
-      <div class="meta">${p.address} · ${Math.round(g.d * 1.3 / 80)} min walk · capacity ${p.capacity ?? '?'}</div>
-      ${bookLinks(lng, lat, start, durMin)}
+      <div class="head"><span>${p.name}</span>${badge}</div>
+      <div class="meta">${p.address ?? ''} · ${Math.round(g.d * 1.3 / 80)} min walk${p.capacity ? ' · capacity ' + p.capacity : ''}</div>
+      ${book}
       ${navLinks(lng, lat)}
     </div>`;
   }).join('');
