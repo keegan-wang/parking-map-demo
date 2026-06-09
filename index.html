@@ -276,7 +276,7 @@ let destMarker = null;
 
 map.on('load', async () => {
   map.addSource('curbs', {
-    type: 'vector', promoteId: 'order',
+    type: 'vector', promoteId: 'span_id',
     url: 'pmtiles://' + new URL(DATA + 'curbs.pmtiles', location.href).href,
   });
   map.addLayer({
@@ -417,6 +417,16 @@ function wireHover() {
     document.getElementById('closeinfo').onclick = restore;
   };
 
+  const reportLink = p => {
+    const title = encodeURIComponent(`Wrong rule: ${p.street} (${p.from} → ${p.to}, ${p.side})`);
+    const body = encodeURIComponent(
+      `**Blockface:** ${p.order} · ${p.street}, ${p.from} → ${p.to}, ${p.side} side\n` +
+      `**Shown as:** ${p.category}\n**Parsed rules:** ${p.rules}\n**Posted signs in data:** ${p.signs}\n\n` +
+      `**What's actually wrong (what do the real signs say?):**\n\n`);
+    return `<div class="meta nav" style="margin-top:6px"><a target="_blank" rel="noopener"
+      href="https://github.com/keegan-wang/parking-map-demo/issues/new?title=${title}&body=${body}&labels=data-report">⚠ Report wrong rule</a></div>`;
+  };
+
   const curbHTML = p => {
     const rules = JSON.parse(p.rules || '[]'), signs = JSON.parse(p.signs || '[]');
     const cat = CATEGORIES[p.category] || CATEGORIES.other;
@@ -425,7 +435,8 @@ function wireHover() {
       <div class="sub">${p.from} → ${p.to} · ${p.side} side</div>
       <span class="cat" style="background:${cat.color}">${cat.label}</span>
       <ul>${costLine(p)}${rules.map(r => `<li>${r}</li>`).join('')}</ul>
-      <div class="signs"><b>Posted signs (verbatim)</b>${signs.map(s => `<div>${s}</div>`).join('')}</div>`;
+      <div class="signs"><b>Posted signs (verbatim)</b>${signs.map(s => `<div>${s}</div>`).join('')}</div>
+      ${reportLink(p)}`;
   };
   const garageHTML = f => {
     const p = f.properties;
@@ -520,6 +531,7 @@ document.getElementById('go').onclick = async () => {
     dest = j.features[0].geometry.coordinates;
     addr.value = j.features[0].properties.label;
   }
+  track('find-parking');
   const start = new Date(document.getElementById('when').value);
   const durMin = +document.getElementById('dur').value;
   const radius = +document.getElementById('blocks').value;
@@ -535,8 +547,8 @@ document.getElementById('go').onclick = async () => {
   const seen = new Set(), spots = [];
   for (const f of map.querySourceFeatures('curbs', { sourceLayer: 'curbs' })) {
     const p = f.properties;
-    if (seen.has(p.order)) continue;
-    seen.add(p.order);
+    if (seen.has(p.span_id)) continue;
+    seen.add(p.span_id);
     const { d, pt } = minDist(dest, f.geometry);
     if (d > radius) continue;
     const v = assess(p, segs, durMin);
@@ -609,6 +621,20 @@ function fmtTime(d) {
 //   spothero_sha: SpotHero affiliate code (sha_affiliate=...)
 //   parkwhiz_pwa: ParkWhiz Affiliate Console code (pwa=...)
 const AFFILIATES = { spothero_sha: '', parkwhiz_pwa: '' };
+
+// ---------- analytics (GoatCounter: free, cookie-free, no card) ----------
+// Claim a code at goatcounter.com (2 min) and put it here, e.g. 'nycparking'
+const GOATCOUNTER = '';
+if (GOATCOUNTER) {
+  const s = document.createElement('script');
+  s.dataset.goatcounter = `https://${GOATCOUNTER}.goatcounter.com/count`;
+  s.async = true; s.src = '//gc.zgo.at/count.js';
+  document.head.appendChild(s);
+}
+const track = name => {  // custom events: searches, bookings clicks
+  if (GOATCOUNTER && window.goatcounter?.count)
+    window.goatcounter.count({ path: name, event: true });
+};
 
 const pad2 = n => String(n).padStart(2, '0');
 const localISO = d =>
