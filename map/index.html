@@ -119,9 +119,10 @@ const CITIES = {
   nyc: { label: 'New York', center: [-73.971, 40.757], zoom: 12.5,
          tiles: 'curbs.pmtiles', garages: 'garages.geojson', asp: true,
          pwDest: 'New-York-Parking' },
-  sf:  { label: 'San Francisco', center: [-122.431, 37.773], zoom: 13.2,
+  sf:  { label: 'SF Bay Area', center: [-122.431, 37.773], zoom: 13.2,
          tiles: 'curbs_sf.pmtiles', garages: 'garages_sf.geojson', asp: false,
-         pwDest: 'San-Francisco-Parking' },
+         pwDest: 'San-Francisco-Parking',
+         coverageNote: 'San Francisco' },  // where street rules exist
 };
 const cityParam = new URLSearchParams(location.search).get('city');
 const CITY_ID = cityParam in CITIES ? cityParam : 'nyc';
@@ -575,12 +576,14 @@ document.getElementById('go').onclick = async () => {
 
   // candidate blockfaces from loaded tiles, deduped by work order
   const seen = new Set(), spots = [];
+  let curbsInRadius = 0;
   for (const f of map.querySourceFeatures('curbs', { sourceLayer: 'curbs' })) {
     const p = f.properties;
     if (seen.has(p.span_id)) continue;
     seen.add(p.span_id);
     const { d, pt } = minDist(dest, f.geometry);
     if (d > radius) continue;
+    curbsInRadius++;
     const v = assess(p, segs, durMin);
     if (!v.ok) continue;
     const walkMin = Math.round(d * 1.3 / 80);
@@ -649,7 +652,7 @@ document.getElementById('go').onclick = async () => {
     ],
   });
 
-  renderResults(spots.slice(0, 8), garages, start, durMin);
+  renderResults(spots.slice(0, 8), garages, start, durMin, curbsInRadius);
 };
 
 function fmtTime(d) {
@@ -798,7 +801,7 @@ async function reverseGeocode(lng, lat) {
   } catch { return null; }
 }
 
-function renderResults(spots, garages, start, durMin) {
+function renderResults(spots, garages, start, durMin, curbsInRadius = 1) {
   const items = spots.map((s, i) => {
     const badge = s.metered
       ? `<span class="badge b-meter">~$${s.cost.toFixed(2)}</span>`
@@ -836,7 +839,9 @@ function renderResults(spots, garages, start, durMin) {
     <h3>Park near your destination</h3>
     <div class="sub">${fmtTime(start)} for ${durMin / 60} h — legal the whole time</div>
     ${suspDates.length ? `<div class="sub" style="color:#1b5e20">🧹 Street cleaning suspended ${suspDates.join(', ')} — cleaning rules ignored for those days.</div>` : ''}
-    ${items || '<div class="meta">No legal street parking found in this radius for that window — widen the radius or check garages.</div>'}
+    ${items || (curbsInRadius === 0 && CITY.coverageNote
+      ? `<div class="meta">Street-rule data isn't available here yet (currently: ${CITY.coverageNote}). Garages with live prices below.</div>`
+      : '<div class="meta">No legal street parking found in this radius for that window — widen the radius or check garages.</div>')}
     ${gar ? `<div style="margin-top:8px;font-weight:600">Garages</div>${gar}` : ''}
     <div class="note">Ranked by legality (whole stay), cost, walk time, and parking
       pressure (🟢🟡🔴 — from 90 days of NYC ticket data for this hour &amp; day).
