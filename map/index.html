@@ -557,9 +557,19 @@ document.getElementById('go').onclick = async () => {
     const v = assess(p, segs, durMin);
     if (!v.ok) continue;
     const walkMin = Math.round(d * 1.3 / 80);
+    const pres = pressureAt(p, start);
     spots.push({ p, geom: f.geometry, pt, walkMin, cost: v.cost, metered: v.metered,
-                 score: (v.cost ?? 0) + walkMin * 0.4 });
+                 pres,
+                 score: (v.cost ?? 0) + walkMin * 0.4 + (pres ?? 4) * 0.35 });
   }
+  // one result per curb side: keep the best-scoring legal span of each blockface
+  const bestPerCurb = new Map();
+  for (const s of spots) {
+    const k = s.p.blockface_id;
+    if (!bestPerCurb.has(k) || s.score < bestPerCurb.get(k).score) bestPerCurb.set(k, s);
+  }
+  spots.length = 0;
+  spots.push(...bestPerCurb.values());
   spots.sort((a, b) => a.score - b.score);
 
   // licensed garages near destination + live ParkWhiz prices, matched by proximity
@@ -617,6 +627,21 @@ document.getElementById('go').onclick = async () => {
 
 function fmtTime(d) {
   return d.toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' });
+}
+
+// parking pressure: 28-digit string (Mon00-06,Mon06-12,... ) from 90 days of
+// ticket data — proxy for how contested the block is at that time
+function pressureAt(p, when) {
+  if (!p.pressure) return null;
+  const bucket = ((when.getDay() + 6) % 7) * 4 + Math.floor(when.getHours() / 6);
+  const d = +p.pressure[bucket];
+  return Number.isFinite(d) && d > 0 ? d : null;
+}
+function pressureChip(d) {
+  if (d === null) return '';
+  if (d <= 3) return '<span title="low ticket activity at this hour — usually findable">🟢 usually chill</span>';
+  if (d <= 6) return '<span title="moderate ticket activity at this hour">🟡 busy block</span>';
+  return '<span title="heavy ticket activity at this hour — very contested">🔴 very contested</span>';
 }
 
 // ---------- garage booking links (SpotHero / ParkWhiz) ----------
@@ -722,7 +747,8 @@ function renderResults(spots, garages, start, durMin) {
       : '<span class="badge b-free">FREE</span>';
     return `<div class="result" data-i="${i}">
       <div class="head"><span>${i + 1}. ${s.p.street}</span>${badge}</div>
-      <div class="meta">${s.p.from} → ${s.p.to} · ${s.p.side} side · ${s.walkMin} min walk</div>
+      <div class="meta">${s.p.from} → ${s.p.to} · ${s.p.side} side · ${s.walkMin} min walk
+        ${s.pres !== null ? ' · ' + pressureChip(s.pres) : ''}</div>
       <div class="addr" id="addr-${i}"></div>
       ${navLinks(s.pt[0], s.pt[1])}
     </div>`;
@@ -754,10 +780,10 @@ function renderResults(spots, garages, start, durMin) {
     ${suspDates.length ? `<div class="sub" style="color:#1b5e20">🧹 Street cleaning suspended ${suspDates.join(', ')} — cleaning rules ignored for those days.</div>` : ''}
     ${items || '<div class="meta">No legal street parking found in this radius for that window — widen the radius or check garages.</div>'}
     ${gar ? `<div style="margin-top:8px;font-weight:600">Garages</div>${gar}` : ''}
-    <div class="note">Street results are legality + cost + walk, from NYC DOT sign data —
-      always verify posted signs. Availability prediction not yet included: metered blocks
-      turn over more; free blocks are competitive. Garage prices need the booking
-      integration (next phase).</div>`;
+    <div class="note">Ranked by legality (whole stay), cost, walk time, and parking
+      pressure (🟢🟡🔴 — from 90 days of NYC ticket data for this hour &amp; day).
+      Always verify posted signs. Live spot availability isn't a thing yet — pressure
+      is the best honest signal.</div>`;
   right.innerHTML = resultsHTML;
   right.style.display = 'block';
   lastSpots = spots;
