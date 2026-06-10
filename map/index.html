@@ -77,7 +77,9 @@
 <div id="map"></div>
 
 <div class="panel" id="search">
-  <h2>Where are you going?</h2>
+  <h2 style="display:flex;justify-content:space-between;align-items:center">Where are you going?
+    <select id="city" style="width:auto;font-size:12px;padding:4px 6px;border:1px solid #ccc;border-radius:6px"></select>
+  </h2>
   <div id="suggest">
     <input id="addr" placeholder="Address or place (e.g. 350 5th Ave)" autocomplete="off" />
     <div class="dd" id="dd" style="display:none"></div>
@@ -111,6 +113,19 @@
 const DATA = location.pathname.includes('/web/') ? '/data/out/'
   : new URL(location.pathname.includes('/map') ? '../data/out/' : 'data/out/',
             location.href).href;
+
+// ---------- cities ----------
+const CITIES = {
+  nyc: { label: 'New York', center: [-73.971, 40.757], zoom: 12.5,
+         tiles: 'curbs.pmtiles', garages: 'garages.geojson', asp: true,
+         pwDest: 'New-York-Parking' },
+  sf:  { label: 'San Francisco', center: [-122.431, 37.773], zoom: 13.2,
+         tiles: 'curbs_sf.pmtiles', garages: 'garages_sf.geojson', asp: false,
+         pwDest: 'San-Francisco-Parking' },
+};
+const cityParam = new URLSearchParams(location.search).get('city');
+const CITY_ID = cityParam in CITIES ? cityParam : 'nyc';
+const CITY = CITIES[CITY_ID];
 
 // ---------- categories / legend ----------
 const CATEGORIES = {
@@ -169,6 +184,8 @@ function ruleOverlap(rule, segs) { // segs: [{date, s, e}] minutes within one da
   let total = 0;
   for (const seg of segs) {
     if (rule.asp && ASP_SUSPENDED.has(isoDay(seg.date))) continue; // cleaning suspended
+    if (rule.weeks &&
+        !rule.weeks.includes(Math.ceil(seg.date.getDate() / 7))) continue; // "1st & 3rd Tue"
     if (rule.season) { // seasonal restrictions ("May 15 – Sept 30")
       const md = `${String(seg.date.getMonth() + 1).padStart(2, '0')}-${String(seg.date.getDate()).padStart(2, '0')}`;
       const { from, to } = rule.season;
@@ -264,10 +281,21 @@ function circlePolygon(c, r, n = 64) {
 // ---------- map ----------
 const protocol = new pmtiles.Protocol();
 maplibregl.addProtocol('pmtiles', protocol.tile);
+const citySel = document.getElementById('city');
+for (const [id, c] of Object.entries(CITIES)) {
+  citySel.insertAdjacentHTML('beforeend',
+    `<option value="${id}" ${id === CITY_ID ? 'selected' : ''}>${c.label}</option>`);
+}
+citySel.onchange = () => {
+  const u = new URL(location.href);
+  u.searchParams.set('city', citySel.value);
+  location.href = u.toString();
+};
+
 const map = new maplibregl.Map({
   container: 'map',
   style: 'https://tiles.openfreemap.org/styles/positron',
-  center: [-73.971, 40.757], zoom: 12.5,
+  center: CITY.center, zoom: CITY.zoom,
   attributionControl: { compact: false },
 });
 map.addControl(new maplibregl.NavigationControl());
@@ -280,7 +308,7 @@ let destMarker = null;
 map.on('load', async () => {
   map.addSource('curbs', {
     type: 'vector', promoteId: 'span_id',
-    url: 'pmtiles://' + new URL(DATA + 'curbs.pmtiles', location.href).href,
+    url: 'pmtiles://' + new URL(DATA + CITY.tiles, location.href).href,
   });
   map.addLayer({
     id: 'curbs', type: 'line', source: 'curbs', 'source-layer': 'curbs',
@@ -295,13 +323,15 @@ map.on('load', async () => {
     layout: { 'line-cap': 'round' },
   });
 
-  // ASP suspensions: published calendar + live 311 status (emergency suspensions)
+  // ASP suspensions: published calendar + live 311 status (NYC only)
   try {
+    if (!CITY.asp) throw new Error('n/a');
     const aspData = await (await fetch(DATA + 'asp_suspensions.json')).json();
     ASP_SUSPENDED = new Set(aspData.suspensions.map(s => s.date));
   } catch { /* calendar optional */ }
   let liveNote = '';
   try {
+    if (!CITY.asp) throw new Error('n/a');
     const live = await (await fetch(DATA + 'asp_today.json')).json();
     for (const d of live.days || []) {
       if (/SUSPEND/i.test(d.status || '')) {
@@ -321,7 +351,7 @@ map.on('load', async () => {
     .then(j => { document.getElementById('stamp').textContent = `data: ${j.generated_at}`; })
     .catch(() => {});
 
-  garagesData = await (await fetch(DATA + 'garages.geojson')).json();
+  garagesData = await (await fetch(DATA + CITY.garages)).json();
   map.addSource('garages', { type: 'geojson', data: garagesData });
   map.addLayer({
     id: 'garages', type: 'circle', source: 'garages',
@@ -438,7 +468,7 @@ function wireHover() {
       <div class="sub">${p.from} → ${p.to} · ${p.side} side</div>
       <span class="cat" style="background:${cat.color}">${cat.label}</span>
       <ul>${costLine(p)}${rules.map(r => `<li>${r}</li>`).join('')}</ul>
-      <div class="signs"><b>Posted signs (verbatim)</b>${signs.map(s => `<div>${s}</div>`).join('')}</div>
+      ${signs.length ? `<div class="signs"><b>Posted signs (verbatim)</b>${signs.map(s => `<div>${s}</div>`).join('')}</div>` : ''}
       ${reportLink(p)}`;
   };
   const garageHTML = f => {
@@ -498,21 +528,19 @@ addr.addEventListener('input', () => {
   const q = addr.value.trim();
   if (q.length < 3) { dd.style.display = 'none'; return; }
   debounceT = setTimeout(async () => {
-    const r = await fetch(
-      `https://geosearch.planninglabs.nyc/v2/autocomplete?text=${encodeURIComponent(q)}` +
-      `&focus.point.lat=40.75&focus.point.lon=-73.98&size=6`);
-    const j = await r.json();
+    let suggestions = [];
+    try { suggestions = await geocodeSuggest(q); } catch { /* offline etc. */ }
     dd.innerHTML = '';
-    for (const f of j.features || []) {
+    for (const s of suggestions) {
       const div = document.createElement('div');
-      div.textContent = f.properties.label;
+      div.textContent = s.label;
       div.onclick = () => {
-        dest = f.geometry.coordinates; addr.value = f.properties.label;
+        dest = s.coords; addr.value = s.label;
         dd.style.display = 'none';
       };
       dd.appendChild(div);
     }
-    dd.style.display = j.features?.length ? 'block' : 'none';
+    dd.style.display = suggestions.length ? 'block' : 'none';
   }, 250);
 });
 
@@ -528,11 +556,10 @@ document.getElementById('go').onclick = async () => {
   if (!dest) {  // fall back: geocode current text
     const q = addr.value.trim();
     if (!q) return;
-    const r = await fetch(`https://geosearch.planninglabs.nyc/v2/search?text=${encodeURIComponent(q)}&size=1`);
-    const j = await r.json();
-    if (!j.features?.length) { alert('Address not found'); return; }
-    dest = j.features[0].geometry.coordinates;
-    addr.value = j.features[0].properties.label;
+    const suggestions = await geocodeSuggest(q).catch(() => []);
+    if (!suggestions.length) { alert('Address not found'); return; }
+    dest = suggestions[0].coords;
+    addr.value = suggestions[0].label;
   }
   track('find-parking');
   const start = new Date(document.getElementById('when').value);
@@ -685,7 +712,7 @@ function spotHeroURL(lng, lat, start, durMin) {
 }
 function parkWhizURL(lng, lat, start, durMin) {
   const e = new Date(start.getTime() + durMin * 60000);
-  let u = `https://www.parkwhiz.com/destination/New-York-Parking/?lat=${lat.toFixed(6)}` +
+  let u = `https://www.parkwhiz.com/destination/${CITY.pwDest}/?lat=${lat.toFixed(6)}` +
           `&lng=${lng.toFixed(6)}&start=${localISO(start)}&end=${localISO(e)}`;
   if (AFFILIATES.parkwhiz_pwa) u += `&pwa=${AFFILIATES.parkwhiz_pwa}`;
   return u;
@@ -731,12 +758,43 @@ const navLinks = (lng, lat) => `<div class="meta nav">
   <a href="https://maps.apple.com/?daddr=${lat.toFixed(6)},${lng.toFixed(6)}"
      target="_blank" rel="noopener">Apple Maps</a></div>`;
 
+function photonLabel(f) {
+  const p = f.properties;
+  const line = [p.housenumber, p.street].filter(Boolean).join(' ') || p.name || '';
+  return [line, p.city || p.district].filter(Boolean).join(', ');
+}
+const SF_BBOX = [-122.6, 37.2, -121.7, 38.1];
+const inSF = ([x, y]) =>
+  x > SF_BBOX[0] && x < SF_BBOX[2] && y > SF_BBOX[1] && y < SF_BBOX[3];
+
+async function geocodeSuggest(q) {
+  if (CITY_ID === 'nyc') {
+    const r = await fetch(
+      `https://geosearch.planninglabs.nyc/v2/autocomplete?text=${encodeURIComponent(q)}` +
+      `&focus.point.lat=40.75&focus.point.lon=-73.98&size=6`);
+    const j = await r.json();
+    return (j.features || []).map(f => ({
+      label: f.properties.label, coords: f.geometry.coordinates }));
+  }
+  const r = await fetch(
+    `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}` +
+    `&lat=${CITY.center[1]}&lon=${CITY.center[0]}&limit=10`);
+  const j = await r.json();
+  return (j.features || []).filter(f => inSF(f.geometry.coordinates)).slice(0, 6)
+    .map(f => ({ label: photonLabel(f), coords: f.geometry.coordinates }));
+}
+
 async function reverseGeocode(lng, lat) {
   try {
-    const r = await fetch(
-      `https://geosearch.planninglabs.nyc/v2/reverse?point.lat=${lat}&point.lon=${lng}&size=1`);
+    if (CITY_ID === 'nyc') {
+      const r = await fetch(
+        `https://geosearch.planninglabs.nyc/v2/reverse?point.lat=${lat}&point.lon=${lng}&size=1`);
+      const j = await r.json();
+      return j.features?.[0]?.properties?.label?.replace(', New York, NY, USA', '') || null;
+    }
+    const r = await fetch(`https://photon.komoot.io/reverse?lat=${lat}&lon=${lng}`);
     const j = await r.json();
-    return j.features?.[0]?.properties?.label?.replace(', New York, NY, USA', '') || null;
+    return j.features?.length ? photonLabel(j.features[0]) : null;
   } catch { return null; }
 }
 
