@@ -56,7 +56,7 @@
   .badge { padding: 1px 7px; border-radius: 9px; color: #fff; font-size: 11px; white-space: nowrap; }
   .b-free { background: #43a047; } .b-meter { background: #1e88e5; } .b-garage { background: #3949ab; }
   .note { color: #888; font-size: 11px; margin-top: 8px; }
-  #closeinfo { display: none; position: sticky; top: 0; float: right; border: none;
+  #closeinfo { display: block; position: sticky; top: 0; float: right; border: none;
                background: #eee; border-radius: 50%; width: 26px; height: 26px;
                font-size: 14px; cursor: pointer; }
   button, select, .result, .nav a { touch-action: manipulation; }
@@ -544,13 +544,18 @@ function wireHover() {
     if (!pinnedInfo) restore();
   });
 
-  // tap (mobile) — pins the panel until ✕
+  // click/tap pins the panel — ✕ or clicking elsewhere on the map unpins
+  let lastFeatClick = 0;
   map.on('click', 'curbs', e => {
+    lastFeatClick = Date.now();
     pinnedInfo = true; show(curbHTML(e.features[0].properties));
-    e.preventDefault?.();
   });
   map.on('click', 'garages', e => {
+    lastFeatClick = Date.now();
     pinnedInfo = true; show(garageHTML(e.features[0]));
+  });
+  map.on('click', () => {   // click-away: fires after layer handlers
+    if (pinnedInfo && Date.now() - lastFeatClick > 100) restore();
   });
 }
 
