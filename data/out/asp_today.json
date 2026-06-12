@@ -1,12 +1,7 @@
 {
  "source": "NYC 311 Public API",
- "fetched_at": "2026-06-11 23:13 UTC",
+ "fetched_at": "2026-06-12 12:49 UTC",
  "days": [
-  {
-   "date": "2026-06-11",
-   "status": "IN EFFECT",
-   "details": "Alternate side parking and meters are in effect."
-  },
   {
    "date": "2026-06-12",
    "status": "IN EFFECT",
@@ -16,6 +11,11 @@
    "date": "2026-06-13",
    "status": "IN EFFECT",
    "details": "Alternate side parking and meters are in effect."
+  },
+  {
+   "date": "2026-06-14",
+   "status": "NOT IN EFFECT",
+   "details": "Alternate side parking and meters are not in effect on Sundays."
   }
  ]
 }
