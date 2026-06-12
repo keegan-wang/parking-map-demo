@@ -149,8 +149,13 @@ const CITIES = {
          pwDest: 'New-York-Parking' },
   sf:  { label: 'SF Bay Area', center: [-122.431, 37.773], zoom: 13.2,
          tiles: 'curbs_sf.pmtiles', garages: 'garages_bay.geojson', asp: false,
-         pwDest: 'San-Francisco-Parking',
+         pwDest: 'San-Francisco-Parking', bbox: [-122.6, 37.2, -121.7, 38.1],
          coverageNote: 'SF, Oakland, Berkeley, Alameda, Emeryville & San Jose' },
+  la:  { label: 'Los Angeles', center: [-118.255, 34.048], zoom: 13,
+         tiles: 'curbs_la.pmtiles', garages: 'garages_la.geojson', asp: false,
+         pwDest: 'Los-Angeles-Parking', bbox: [-118.95, 33.6, -117.9, 34.6],
+         live: true,  // LADOT real-time meter occupancy
+         coverageNote: 'metered blocks (LA publishes no sweeping/permit map data)' },
 };
 const cityParam = new URLSearchParams(location.search).get('city');
 const CITY_ID = cityParam in CITIES ? cityParam : 'nyc';
@@ -719,7 +724,9 @@ document.getElementById('go').onclick = async () => {
     ],
   });
 
-  renderResults(spots.slice(0, 8), garages, start, durMin, curbsInRadius);
+  const top = spots.slice(0, 8);
+  if (CITY.live) await attachLiveOccupancy(top);
+  renderResults(top, garages, start, durMin, curbsInRadius);
   collapseSearch(start, durMin);
   right.classList.remove('full');  // open the sheet at peek height
 };
@@ -835,9 +842,8 @@ function photonLabel(f) {
   const line = [p.housenumber, p.street].filter(Boolean).join(' ') || p.name || '';
   return [line, p.city || p.district].filter(Boolean).join(', ');
 }
-const SF_BBOX = [-122.6, 37.2, -121.7, 38.1];
-const inSF = ([x, y]) =>
-  x > SF_BBOX[0] && x < SF_BBOX[2] && y > SF_BBOX[1] && y < SF_BBOX[3];
+const inCityBbox = ([x, y]) => !CITY.bbox ||
+  (x > CITY.bbox[0] && x < CITY.bbox[2] && y > CITY.bbox[1] && y < CITY.bbox[3]);
 
 async function geocodeSuggest(q) {
   if (CITY_ID === 'nyc') {
@@ -852,7 +858,7 @@ async function geocodeSuggest(q) {
     `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}` +
     `&lat=${CITY.center[1]}&lon=${CITY.center[0]}&limit=10`);
   const j = await r.json();
-  return (j.features || []).filter(f => inSF(f.geometry.coordinates)).slice(0, 6)
+  return (j.features || []).filter(f => inCityBbox(f.geometry.coordinates)).slice(0, 6)
     .map(f => ({ label: photonLabel(f), coords: f.geometry.coordinates }));
 }
 
@@ -870,6 +876,36 @@ async function reverseGeocode(lng, lat) {
   } catch { return null; }
 }
 
+// LIVE meter occupancy (LA Express Park, CORS-open) — attached to the top
+// results at search time: "● 4/12 open now"
+async function attachLiveOccupancy(spots) {
+  const targets = spots.filter(s => s.p.spaceids);
+  const ids = targets.flatMap(s => s.p.spaceids.split(',').filter(Boolean));
+  if (!ids.length) return;
+  const occ = {};
+  try {
+    for (let i = 0; i < Math.min(ids.length, 240); i += 80) {
+      const chunk = ids.slice(i, i + 80)
+        .map(id => `'${id.replace(/'/g, '')}'`).join(',');
+      const u = 'https://data.lacity.org/resource/e7h6-4a3e.json?' +
+        new URLSearchParams({ $where: `spaceid in(${chunk})`, $limit: '200' });
+      for (const row of await (await fetch(u)).json()) occ[row.spaceid] = row;
+    }
+  } catch { return; }
+  const fresh = t => t && (Date.now() - new Date(t).getTime()) < 6 * 3600 * 1000;
+  for (const s of targets) {
+    let open = 0, total = 0;
+    for (const id of s.p.spaceids.split(',')) {
+      const o = occ[id];
+      if (o && fresh(o.eventtime)) {
+        total++;
+        if (o.occupancystate === 'VACANT') open++;
+      }
+    }
+    if (total > 0) { s.liveOpen = open; s.liveTotal = total; }
+  }
+}
+
 function locLine(p) {
   const cross = p.from && p.to ? `${p.from} → ${p.to} · ` : '';
   const side = p.side ? `${p.side}${p.side.length <= 2 ? ' side' : ''} · ` : '';
@@ -884,7 +920,8 @@ function renderResults(spots, garages, start, durMin, curbsInRadius = 1) {
     return `<div class="result" data-i="${i}">
       <div class="head"><span>${i + 1}. ${s.p.street}</span>${badge}</div>
       <div class="meta">${locLine(s.p)}${s.walkMin} min walk
-        ${s.pres !== null ? ' · ' + pressureChip(s.pres) : ''}</div>
+        ${s.pres !== null ? ' · ' + pressureChip(s.pres) : ''}
+        ${s.liveOpen != null ? ` · <b style="color:${s.liveOpen > 0 ? '#1b5e20' : '#b71c1c'}">● ${s.liveOpen}/${s.liveTotal} open right now</b>` : ''}</div>
       <div class="addr" id="addr-${i}"></div>
       ${navLinks(s.pt[0], s.pt[1])}
     </div>`;
@@ -927,16 +964,19 @@ function renderResults(spots, garages, start, durMin, curbsInRadius = 1) {
   lastSpots = spots;
   wireResultClicks();
 
-  // fill in approximate street addresses for the curb spots (NYC GeoSearch reverse)
-  spots.forEach(async (s, i) => {
-    const label = await reverseGeocode(s.pt[0], s.pt[1]);
-    const el = document.getElementById(`addr-${i}`);
-    if (label && el) {
-      el.textContent = `≈ ${label}`;
-      // keep a copy in resultsHTML so hover-restore doesn't lose it
-      resultsHTML = right.innerHTML;
+  // fill in approximate street addresses — sequential, politely paced
+  // (Photon's fair-use policy rate-limits parallel bursts)
+  (async () => {
+    for (let i = 0; i < spots.length; i++) {
+      const label = await reverseGeocode(spots[i].pt[0], spots[i].pt[1]);
+      const el = document.getElementById(`addr-${i}`);
+      if (label && el) {
+        el.textContent = `≈ ${label}`;
+        resultsHTML = right.innerHTML;  // survive hover-restore
+      }
+      if (CITY_ID !== 'nyc') await new Promise(r => setTimeout(r, 400));
     }
-  });
+  })();
 }
 
 let lastSpots = [];
