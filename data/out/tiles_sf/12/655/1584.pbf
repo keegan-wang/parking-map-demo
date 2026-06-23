@@ -1,0 +1,836 @@
+ﬁ‡x
+curbs(Ä span_idorderstreetfromtosideside_lrblockface_idcategoryrules
+rules_jsonsigns
+sign_count
+confidencepressure"
+L"
+R"
+[]"
+East"
+West"
+North"
+South"
+REY ST"	
+03RD ST"	
+CORA ST"	
+EARL ST"	
+HAHN ST"	
+LANE ST"	
+LOIS LN"	
+MILL ST"	
+OYON LN"	
+WARD ST"
+
+ALDER ST"
+
+ALPHA ST"
+
+AUREN CT"
+
+BURR AVE"
+
+COLBY ST"
+
+DELTA ST"
+
+FITCH ST"
+
+HAWES ST"
+
+KEITH ST"
+
+LOEHR ST"
+
+MELRA CT"
+
+ROLPH ST"
+	ALANA WAY"
+	ANKENY ST"
+	ATHENS ST"
+	BEEMAN LN"
+	CANYON DR"
+	CARTER ST"
+	DUBLIN ST"
+	ELLIOT ST"
+	ERVINE ST"
+	GIANTS DR"
+	GILROY ST"
+	GIRARD ST"
+	ITALY AVE"
+	MOSCOW ST"
+	MUNICH ST"
+	NAPLES ST"
+	NAYLOR ST"
+	NUEVA AVE"
+	NorthEast"
+	NorthWest"
+	ORDWAY ST"
+	PARQUE DR"
+	PRAGUE ST"
+	RACINE LN"
+	SANTOS ST"
+	SAWYER ST"
+	SPARTA ST"
+	SouthEast"
+	SouthWest"
+	TEDDY AVE"
+	TIOGA AVE"
+	VIENNA ST"
+	WILDE AVE"
+
+ALBERTA ST"
+
+ARLETA AVE"
+
+BRAZIL AVE"
+
+BRITTON ST"
+
+CORDOVA ST"
+
+EGBERT AVE"
+
+END: NORTH"
+
+ESQUINA DR"
+
+FRANCE AVE"
+
+GENEVA AVE"
+
+GILMAN AVE"
+
+HARNEY WAY"
+
+HESTER AVE"
+
+HOLYOKE ST"
+
+INGALLS ST"
+
+LAPHAM WAY"
+
+LELAND AVE"
+
+MANSELL ST"
+
+NELSON AVE"
+
+PEABODY ST"
+
+PERSIA AVE"
+
+RECYCLE RD"
+
+REDONDO ST"
+
+RUSSIA AVE"
+
+RUTLAND ST"
+
+TALBERT ST"
+
+TUCKER AVE"
+
+TUNNEL AVE"
+
+WABASH TER"
+BLANKEN AVE"
+BRUSSELS ST"
+CAMERON WAY"
+CARRIZAL ST"
+CARROLL AVE"
+CHICAGO WAY"
+COUNTY LINE"
+END:  BLOCK"
+FRATESSA CT"
+GRIFFITH ST"
+IGNACIO AVE"
+JENNINGS ST"
+KELLOCH AVE"
+LATHROP AVE"
+NICHOLS WAY"
+OLMSTEAD ST"
+PASADENA ST"
+RAYMOND AVE"
+ROBINSON DR"
+SCHWERIN ST"
+SOMERSET ST"
+SUNRISE WAY"
+UNNAMED 047"
+VELASCO AVE"
+WHEELER AVE"
+WINDING WAY"
+sf:233202:R"
+ARGONAUT AVE"
+CAMBRIDGE ST"
+CAMPBELL AVE"
+DARTMOUTH ST"
+EDINBURGH ST"
+GARRISON AVE"
+GILLETTE AVE"
+HARKNESS AVE"
+INGERSON AVE"
+LE CONTE AVE"
+UNNAMED #047"
+sf:2141000:L"
+sf:2410000:R"
+sf:2443000:L"
+sf:2445000:R"
+sf:2446000:R"
+sf:2702201:L"
+sf:2817000:R"
+sf:2822201:R"
+sf:2823201:R"
+sf:2825201:R"
+sf:2826101:L"
+sf:2826201:R"
+sf:2995000:L"
+sf:2996000:L"
+sf:3135000:R"
+sf:3136000:R"
+sf:3233000:R"
+sf:3234000:R"
+sf:3270000:L"
+sf:3272000:L"
+sf:3274000:R"
+sf:3641000:R"
+sf:3642000:R"
+sf:3643000:R"
+sf:3644000:L"
+sf:3646000:L"
+sf:3652101:L"
+sf:3724000:R"
+sf:3733000:L"
+sf:3744000:R"
+sf:3987000:R"
+sf:3989000:L"
+sf:4233000:R"
+sf:4975001:R"
+sf:4976000:L"
+sf:5090000:L"
+sf:5091000:R"
+sf:5259000:R"
+sf:5372203:R"
+sf:5587000:R"
+sf:5597000:R"
+sf:6019000:R"
+sf:6148101:L"
+sf:6148201:R"
+sf:6148203:R"
+sf:6148204:R"
+sf:6170000:L"
+sf:6171000:R"
+sf:6176000:R"
+sf:6185000:L"
+sf:6186000:L"
+sf:6187000:L"
+sf:6188000:R"
+sf:6208000:L"
+sf:6245000:L"
+sf:6548000:R"
+sf:6598000:L"
+sf:6600000:L"
+sf:6683000:R"
+sf:6684000:L"
+sf:6690000:R"
+sf:6691000:R"
+sf:6803000:L"
+sf:6894004:R"
+sf:6962000:L"
+sf:7096000:R"
+sf:7097000:R"
+sf:7251000:R"
+sf:7424000:L"
+sf:7425101:L"
+sf:7425201:R"
+sf:7426000:R"
+sf:7431000:R"
+sf:7432000:R"
+sf:7550000:R"
+sf:7551000:R"
+sf:8112000:R"
+sf:8232000:R"
+sf:8296000:L"
+sf:8304000:L"
+sf:8671102:L"
+sf:8671202:R"
+sf:8671204:R"
+sf:8672101:R"
+sf:8672201:L"
+sf:8673101:L"
+sf:8673201:R"
+sf:8674101:R"
+sf:8674201:L"
+sf:8675101:L"
+sf:8675201:L"
+sf:8945000:L"
+sf:9400000:L"
+sf:9401000:R"
+sf:9403000:L"
+sf:9448000:L"
+sf:9450000:R"
+sf:9493000:L"
+sf:9603000:L"
+sf:9719000:R"
+sf:9974000:L"
+BALTIMORE WAY"
+BLYTHDALE AVE"
+BROOKDALE AVE"
+GOETTINGEN ST"
+HOLLISTER AVE"
+JAMESTOWN AVE"
+LA GRANDE AVE"
+SAN BRUNO AVE"
+STONERIDGE LN"
+SUNNYDALE AVE"
+UNIVERSITY ST"
+sf:10318000:L"
+sf:10374000:L"
+sf:10730000:L"
+sf:10734000:R"
+sf:10886000:L"
+sf:10942000:R"
+sf:10943000:L"
+sf:10944000:L"
+sf:10947000:R"
+sf:10988000:L"
+sf:11126000:L"
+sf:11128000:L"
+sf:11195000:R"
+sf:11196000:L"
+sf:11200000:L"
+sf:11205000:L"
+sf:11211000:L"
+sf:11386000:L"
+sf:11388000:L"
+sf:11395000:L"
+sf:11642000:R"
+sf:11644000:R"
+sf:11667000:R"
+sf:11673000:R"
+sf:11975000:R"
+sf:12004000:L"
+sf:12043000:R"
+sf:12260000:R"
+sf:12261000:R"
+sf:12268000:R"
+sf:12272000:L"
+sf:12370000:R"
+sf:12467000:R"
+sf:12468000:L"
+sf:12469000:L"
+sf:12470000:R"
+sf:12618000:L"
+sf:12706000:L"
+sf:12713000:R"
+sf:12715001:L"
+sf:12889000:R"
+sf:13189000:R"
+sf:13196000:R"
+sf:13303000:L"
+sf:13304000:L"
+sf:13323000:R"
+sf:13325000:R"
+sf:13326000:R"
+sf:13328000:L"
+sf:13330000:L"
+sf:13342000:L"
+sf:13596000:R"
+sf:13626000:R"
+sf:13628000:R"
+sf:13630000:R"
+sf:13673000:R"
+sf:19934000:L"
+BAY SHORE BLVD"
+FITZGERALD AVE"
+VISITACION AVE"
+SOUTH HILL BLVD"
+END: 01-60 BLOCK"
+LINDA VISTA STPS"
+JOHN F SHELLEY DR"
+THOMAS MELLON CIR"
+ARELIOUS WALKER DR"
+END: 100-199 BLOCK"
+END: 459-499 BLOCK"
+END: 500-575 BLOCK"
+END: 500-599 BLOCK"
+HUNTERS POINT EXPY"
+HWY 101 S OFF RAMP"
+START: 01-99 BLOCK"
+free_with_cleaning"
+EXECUTIVE PARK BLVD"
+CANDLESTICK COVE WAY"
+0000000000000000000000060000"
+0000000000000000000001000000"
+0000000000000000000100000001"
+0000000000000000001000000000"
+0000000000000000004000000000"
+0000000000000000005000000000"
+0000000000000000030000000000"
+0000000000000000040002000000"
+0000000000000000050000000000"
+0000000000000000060000000000"
+0000000000000000070000080000"
+0000000000000001000000000070"
+0000000000000004000000000000"
+0000000000000007000000000000"
+0000000000000008000000000000"
+0000000000000010000000000000"
+0000000000000300060000000000"
+0000000000000400020000000000"
+0000000000070000000000000000"
+0000000000100010001000000000"
+0000000000200000000000000000"
+0000000000200000002000000000"
+0000000000200000004000000000"
+0000000000300000000000000000"
+0000000000500000003000000000"
+0000000001000000000000000000"
+0000000004000000000000000000"
+0000000007000000000000000000"
+0000001000000000000000000000"
+0000002000000000000000000000"
+0000003000300000033000000000"
+0000006000000000000000000000"
+0000007000000060000000000000"
+0000010000000000000200000000"
+0000010000000001050000000000"
+0000030005000000000000000000"
+0000050000000000020000607080"
+0000050000600000020400000000"
+0000070000000000000000000000"
+0002000000000100000000000000"
+0003000000200000000000000000"
+0004060000000060070000000000"
+0006000000000508060000000060"
+0006030000000000030000000000"
+0008003000000400005000000000"
+0008003000600000000000000000"
+0010000000000040010000000000"
+0010000001000000040000000200"
+0018000000000000060000000200"
+0020000000000000006000000000"
+0020000000000000044000000000"
+0020000000030000062000000030"
+0030000000000000000000000000"
+0040000000000000000000800000"
+0040000000000000001000000000"
+0040007100000000070000000000"
+0050000000000000000000000000"
+0050000000000000020000000000"
+0050040000000000040000000000"
+0060000000000000000000060000"
+0060000000000000060000000000"
+0060001000000000060000010000"
+0060003000000000000000000000"
+0070000000000000040000000000"
+0070000000000000060000000000"
+0070000000000008070000000000"
+0100000000000000000000000000"
+0100000000100001000000000000"
+0100000004000001000600000001"
+0100000006000000000000000000"
+0100000008000000000000000000"
+0100004000010000000000000000"
+0100010101500000001001000010"
+0110001000000040000000000000"
+0110050006000110081600000800"
+0200000000000000000000000000"
+0200000000000200000002000000"
+0300000000000000000000000000"
+0300000000300500050000000000"
+0300000004300000000000000000"
+0300030008000000000000000000"
+0350000000000000030000060000"
+0350070708000050030000000000"
+0350073008080030055000050000"
+0400000001000000000000000000"
+0400000105000000000000000000"
+0400010004000000040000000000"
+0500000001000000000000000000"
+0530060007070005070000000000"
+0600030005300000000000000000"
+0630080408080070000000000700"
+0670000000000000000000000000"
+0700000000000040060000570000"
+0700000005000000000000000000"
+0700000006000000000000000000"
+0700030000000200040000000000"
+0703040000000000080000000000"#
+!["Street cleaning 6AM‚Äì8AM Fri"]"#
+!["Street cleaning 6AM‚Äì8AM Tue"]"#
+!["Street cleaning 7AM‚Äì8AM Fri"]"#
+!["Street cleaning 7AM‚Äì8AM Mon"]"#
+!["Street cleaning 7AM‚Äì8AM Thu"]"#
+!["Street cleaning 7AM‚Äì8AM Tue"]"#
+!["Street cleaning 7AM‚Äì8AM Wed"]"$
+"["Street cleaning 10AM‚Äì3PM Fri"]"$
+"["Street cleaning 11AM‚Äì1PM Fri"]"$
+"["Street cleaning 11AM‚Äì1PM Mon"]"$
+"["Street cleaning 11AM‚Äì1PM Thu"]"$
+"["Street cleaning 12AM‚Äì6AM Thu"]"$
+"["Street cleaning 12PM‚Äì2PM Mon"]"$
+"["Street cleaning 12PM‚Äì2PM Thu"]"$
+"["Street cleaning 12PM‚Äì2PM Tue"]"$
+"["Street cleaning 12PM‚Äì2PM Wed"]"$
+"["Street cleaning 12PM‚Äì3PM Fri"]"$
+"["Street cleaning 12PM‚Äì3PM Mon"]"$
+"["Street cleaning 12PM‚Äì3PM Thu"]"$
+"["Street cleaning 12PM‚Äì3PM Tue"]"$
+"["Street cleaning 12PM‚Äì3PM Wed"]"$
+"["Street cleaning 8AM‚Äì10AM Mon"]"$
+"["Street cleaning 8AM‚Äì10AM Wed"]"$
+"["Street cleaning 8AM‚Äì11AM Fri"]"$
+"["Street cleaning 8AM‚Äì11AM Mon"]"$
+"["Street cleaning 8AM‚Äì11AM Wed"]"$
+"["Street cleaning 9AM‚Äì11AM Fri"]"$
+"["Street cleaning 9AM‚Äì11AM Mon"]"$
+"["Street cleaning 9AM‚Äì11AM Wed"]"%
+#["Street cleaning 10AM‚Äì12PM Fri"]"%
+#["Street cleaning 10AM‚Äì12PM Thu"]"%
+#["Street cleaning 10AM‚Äì12PM Tue"]"C
+A["Street cleaning 7AM‚Äì8AM Sat","Street cleaning 7AM‚Äì8AM Sun"]"C
+A["Street cleaning 7AM‚Äì8AM Sun","Street cleaning 7AM‚Äì8AM Sat"]"C
+A["Street cleaning 7AM‚Äì8AM Thu","Street cleaning 7AM‚Äì8AM Tue"]"C
+A["Street cleaning 7AM‚Äì8AM Tue","Street cleaning 7AM‚Äì8AM Thu"]"E
+C["Street cleaning 10AM‚Äì3PM Fri","Street cleaning 8AM‚Äì10AM Mon"]"E
+C["Street cleaning 12PM‚Äì3PM Mon","Street cleaning 12PM‚Äì3PM Tue"]"E
+C["Street cleaning 12PM‚Äì3PM Tue","Street cleaning 12PM‚Äì3PM Mon"]"E
+C["Street cleaning 12PM‚Äì3PM Wed","Street cleaning 12PM‚Äì3PM Mon"]"E
+C["Street cleaning 8AM‚Äì10AM Mon","Street cleaning 10AM‚Äì3PM Fri"]"E
+C["Street cleaning 8AM‚Äì10AM Wed","Street cleaning 10AM‚Äì3PM Fri"]"E
+C["Street cleaning 8AM‚Äì11AM Mon","Street cleaning 8AM‚Äì11AM Wed"]"P
+N[{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":360}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":360,"end":480}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":480,"end":660}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":540,"end":660}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":720}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":660,"end":780}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":720,"end":900}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":660}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":660,"end":780}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":840}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":900}]}]"R
+P[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}]}]"R
+P[{"activity":"street_cleaning","days":["th"],"times":[{"start":600,"end":720}]}]"R
+P[{"activity":"street_cleaning","days":["th"],"times":[{"start":660,"end":780}]}]"R
+P[{"activity":"street_cleaning","days":["th"],"times":[{"start":720,"end":840}]}]"R
+P[{"activity":"street_cleaning","days":["th"],"times":[{"start":720,"end":900}]}]"R
+P[{"activity":"street_cleaning","days":["tu"],"times":[{"start":360,"end":480}]}]"R
+P[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}]}]"R
+P[{"activity":"street_cleaning","days":["tu"],"times":[{"start":600,"end":720}]}]"R
+P[{"activity":"street_cleaning","days":["tu"],"times":[{"start":720,"end":840}]}]"R
+P[{"activity":"street_cleaning","days":["tu"],"times":[{"start":720,"end":900}]}]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}]}]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]}]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":660}]}]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}]}]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":720,"end":840}]}]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":720,"end":900}]}]"c
+a["Street cleaning 7AM‚Äì8AM Fri","Street cleaning 7AM‚Äì8AM Mon","Street cleaning 7AM‚Äì8AM Wed"]"c
+a["Street cleaning 7AM‚Äì8AM Mon","Street cleaning 7AM‚Äì8AM Wed","Street cleaning 7AM‚Äì8AM Fri"]"d
+b["Street cleaning 7AM‚Äì8AM Sat","Street cleaning 10AM‚Äì3PM Fri","Street cleaning 7AM‚Äì8AM Sun"]"d
+b["Street cleaning 7AM‚Äì8AM Sat","Street cleaning 7AM‚Äì8AM Sun","Street cleaning 9AM‚Äì11AM Mon"]"d
+b["Street cleaning 7AM‚Äì8AM Sat","Street cleaning 7AM‚Äì8AM Sun","Street cleaning 9AM‚Äì11AM Wed"]"d
+b["Street cleaning 7AM‚Äì8AM Sun","Street cleaning 7AM‚Äì8AM Sat","Street cleaning 10AM‚Äì3PM Fri"]"d
+b["Street cleaning 7AM‚Äì8AM Sun","Street cleaning 9AM‚Äì11AM Wed","Street cleaning 7AM‚Äì8AM Sat"]"d
+b["Street cleaning 8AM‚Äì10AM Wed","Street cleaning 7AM‚Äì8AM Sat","Street cleaning 7AM‚Äì8AM Sun"]"d
+b["Street cleaning 8AM‚Äì10AM Wed","Street cleaning 7AM‚Äì8AM Sun","Street cleaning 7AM‚Äì8AM Sat"]"Ü
+É["Street cleaning 10AM‚Äì3PM Fri","Street cleaning 7AM‚Äì8AM Sun","Street cleaning 7AM‚Äì8AM Sat","Street cleaning 8AM‚Äì10AM Wed"]"Ü
+É["Street cleaning 10AM‚Äì3PM Fri","Street cleaning 8AM‚Äì10AM Wed","Street cleaning 7AM‚Äì8AM Sat","Street cleaning 7AM‚Äì8AM Sun"]"Ü
+É["Street cleaning 10AM‚Äì3PM Fri","Street cleaning 8AM‚Äì10AM Wed","Street cleaning 7AM‚Äì8AM Sun","Street cleaning 7AM‚Äì8AM Sat"]"Ü
+É["Street cleaning 7AM‚Äì8AM Sun","Street cleaning 8AM‚Äì10AM Wed","Street cleaning 10AM‚Äì3PM Fri","Street cleaning 7AM‚Äì8AM Sat"]"¢
+ü[{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}]}]"¢
+ü[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]}]"¢
+ü[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":660}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":660}]}]"¢
+ü[{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":900}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":720,"end":900}]}]"¢
+ü[{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]}]"¢
+ü[{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]}]"¢
+ü[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}]}]"¢
+ü[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}]}]"¢
+ü[{"activity":"street_cleaning","days":["tu"],"times":[{"start":720,"end":900}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":900}]}]"¢
+ü[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]}]"¢
+ü[{"activity":"street_cleaning","days":["we"],"times":[{"start":720,"end":900}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":900}]}]"¿
+Ω[{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]}]"¿
+Ω[{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]}]"¿
+Ω[{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]}]"¿
+Ω[{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]}]"Ò
+Ó[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]}]"	ÕÃÃÃÃÃÏ?" " " " 4' §§zRU8 §∫	¶
+–èé‚"	}ü
+ 4' úú<UF8 ú∫	ª
+Œèéﬁ"	%
+m∏5' ››*@R8 ›∫	™
+◊èé˚"	òü
+5' ‡‡+@R8 ‡∫	≠
+Áèé‘"	Äü
++J8' ﬁﬁ*RU0ﬁ∫	®
+€èéÁ"	àÉMÑ47' ÛÛ3RU8 Û∫	∏
+ÕèéÕ"
+	û)*Ué>% ÃÃ∞wO0Ã∫	≤
+Ëèé"	úü2P:¥6' ¢¢#DR¢∫	∏
+Õèé≈"		ûS1TB% ÿÿO∞@ÿ∫	±
+‚èé"	»	J K##!kPB% ŸŸO∞@ Ÿ∫	ƒ
+˛êé"	»	J	+=%!'cJ>& ÷÷O∞∞ ÷∫	≈
+Äêé"	‹623!ˇ?1	A( ÀÀ∞Ow/À∫	≤
+Ëèéœ"	‹6:!##	6( ôôjOô∫	≤
+Ëèé¡"	‰ü
+ f>) ’’O¨∞ ’∫	√
+˘êéΩ"	∆*	[o&5% ——Oy¨ —∫	†
+Àèé"
+	∆[˘R	5' °°jO°∫	Æ
+—èé—"	 ü
+H5& ””O¨0”∫	†
+Àèé"		Ñ9?4' ““Oy“∫	†
+Àèé√"	ºu
+Y6( ÂÂ1\È Â∫	≤
+Ëèé¯"	îù
+[ 5' ìì\O1 ì∫	Æ
+—èéÓ"	îü
+ 6' îî\} î∫	Æ
+—èé“"		¬*~6( ÇÇÌ1 Ç∫	¿
+¸êéì"	 ü
+\3% áá™á∫	©
+…èé"	–ü
+5' ƒƒ~Lf/ƒ∫	Ï
+àëéï"	î=
+âa6( ¡¡ÍLf9 ¡∫	π
+’èéê"	»á
+!2% øøHÍ8 ø∫	∫
+Êèé"	®S
+3H6' µµHd/µ∫	π
+’èéó"		÷*9)sS4% ©©´d]/©∫	≠
+Áèé"		Ñ qQ8$ „„i]] „∫	≠
+Áèé"	Ãü"L4$36' ùù_d9 ù∫	æ
+˙êéù"		–"4' ••zUF0•∫	Ω
+‡èé˜"	è
+4' ‚‚,UF8 ‚∫	Ω
+‡èéË"	ES
+Yò4' ùù<F)8 ù∫	ª
+Œèéá"	gí
+7\:( ¨¨G3Ø¨∫	û
+ èé«"	Æ∂.6' ÙÙ3-0Ù∫	´
+‹èéÜ"		]¶4#$5' ˚˚+3/ ˚∫	¨
+·èéŸ"	üÄ
+B&5' ®®t-B0®∫	¨
+·èéÃ"	Å‘
+6% ††`≠-8 †∫	¨
+·èé"	¶ 765' ˝˝U<9˝∫	ß
+÷èéÄ"	%>&6' ﬂﬂ*F)8 ﬂ∫	∏
+ÕèéÚ"		.Ï-L?j3' ˛˛U*/ ˛∫	≠
+Áèé»"	P
+L,6( ··+U∂0·∫	∏
+Õèéã"	Êb
+_†5' ££#RU8 £∫	º
+⁄èéŒ"	Í
+m∏6' ÚÚR3#/ Ú∫	™
+◊èé¿"		û)F*3% ˇˇU#Ï/ ˇ∫	≠
+Áèé"	¸º
+B(H( ´´G3Ë/ ´∫	ü
+ﬁèé„"	ÆJ
+÷62¨`à>,,, 6) ää≠`Ê/ ä∫	´
+‹èéæ"	¶
+@:<) ¸¸≠Ø ¸∫	¨
+·èéÑ"	Œ"#$h6' ÕÕM`m9Õ∫	´
+‹èé›"		åé
+Rî:( üü`πM/ü∫	¨
+·èé⁄"	ƒ˙s?/>) ≠≠GØÓ≠∫	û
+ èé·"	∂Í"0¨`L$=$ ⁄⁄O@O ⁄∫	≈
+Äêé"	÷R:
+_H 9$ €€O@O €∫	√
+˘êé"	÷R*qR#=) ÆÆGÓËÆ∫	û
+ èé≈"	¸à":*,* A) ííËÁG0í∫	∂
+‘èéÀ"	Ï⁄2(#6K#D) ëëË5Áë∫	∂
+‘èéõ"	∞	ê:9ì$06' ¶¶E2G¶∫	»
+¯êé…"		‡Ë
+9†4% ÜÜÊ-  Ü∫	´
+‹èé"		"û!D( õõ!≠a õ∫	¨
+·èé‹"	¢˙B
+C!$5' ûû"Gaû∫	û
+ èé∆"	ÑÃ
+%l7( ˘˘l6µ˘∫	µ
+Ãèéˇ"		í®
+ß7>& ééÔ5Ôé∫	∑
+Âèé"	ﬁ	‡*≈EC!≥=2$ úú^r2ú∫	∂
+‘èé"	™ﬁ
+	 9& ééÁ5Ë é∫	∑
+Âèé"	∞	ûCáw!6' ÜÜ5rGÜ∫	∑
+Âèéÿ"		˙˙
+C¬6& ÖÖ5ËÁÖ∫	∑
+Âèé"
+	∞	êj$7% ççÁ5 ç∫	∑
+Âèé"	ˆ
+ºQU 3% ππN¨ π∫	∑
+Âèé"	†⁄
++~6( èèp¥ è∫	∂
+‘èéÉ"	‡
+˙
+!5& ∫∫ÔÁ ∫∫	∑
+Âèé"		≤í
+;™>& ◊◊O∞∞◊∫	∞
+›èé"	‹62#'’3[<& ‘‘O¨∞‘∫	±
+‚èé"	∆* µ<	5' ––N6 –∫	µ
+Ãèé√"	ˆ¯
+U6' îî:$î∫	µ
+ÃèéÙ"		‰î
+«C6' ÖÖ?$Ö∫	Ø
+ÿèé˛"		»‰
+≈C6( ¢¢¨6 ¢∫	∑
+Âèéë"	†î
+U6( °°¨A °∫	∑
+Âèéÿ"	Œ“
+U8) áá6¨Ôá∫	∑
+ÂèéÖ"		 ˆ
+Aº5' ÇÇvvÇ∫	∂
+‘èéà"	êÓ
+F4& êêA¨≥ê∫	∑
+Âèé"	¯¥
+X5' ™™{v{™∫	∂
+‘èéå"	∫¬
+\7( èèAN¨è∫	∑
+Âèé◊"		§¥
++Ä8) ˙˙¨Ô ˙∫	∑
+ÂèéÇ"		Œ“
+Aº8) ààn¨Ôà∫	∑
+Âèéö"		¶
+Aæ6( ††¨n†∫	∂
+‘èé÷"	˙é
+S5' õõrk5õ∫	∂
+‘èé÷"	»	ñ
+M3$ öörngö∫	∂
+‘èé"		¯ﬁ	
+ô7;) ‹‹ÔÆ ‹∫	∂
+‘èéä"	∏Ã 
+#`4' ßß=%ß∫	Ø
+ÿèé‰"	‡Z
+[4' ºº} º∫	≤
+ËèéÍ"	∆&
+K6' ïï;V ï∫	µ
+ÃèéÏ"		˙Ï
+≈C2$ ööx%> ö∫	µ
+Ãèé"	¥™
+M6' ìì:V ì∫	Ø
+ÿèé˝"		™⁄
+≈E2$ ÄÄV;X Ä∫	Ø
+ÿèé"	˙Ï
+N4' ªª}ª∫	Æ
+—èéÈ"	í@
+K9( ¶¶=ÈV/¶∫	µ
+Ãèéƒ"	¿¢€kM6' ññXVX ñ∫	Ø
+ÿèéÌ"		‡∫
+≈C6' ôôxV ô∫	µ
+Ãèéˆ"		ƒä
+≈E8' òòxV/ò∫	Ø
+ÿèéÔ"	†ÓùM=6' ¯¯lV ¯∫	∂
+‘èéô"		Ù¯
+«C5' œœNV	 œ∫	µ
+Ãèéé"	ÿ»
+[7' ˜˜lV9 ˜∫	Ø
+ÿèéø"
+	ûƒ{;-8( ÅÅVN¨8 Å∫	°
+“èéÅ"
+	ÿ»	+z3% üü¨	ü∫	∂
+‘èé"	Œ¨
+S6( ççÔ	ç∫	∑
+Âèéî"	àË
+O3% ûû¨QVû∫	∂
+‘èé"	¯Ë
+U6' ÑÑ?VÑ∫	Ø
+ÿèéâ"		é®
+≈C8' íí:V9 í∫	Ø
+ÿèéﬂ"	Ê∞É?77( ˆˆl™/ˆ∫	µ
+Ãèé˙"		‘û
+µY<) êêW¨Ôê∫	∂
+‘èéí"	ƒÑ
+;¨=' åå™¨Ô0å∫	Í
+Üëé"	¸ƒ*2!T	>* ãã™¨Ô8 ã∫	¡
+˝êé "	¸ƒ" 4+n
+6' ãã7}ã∫	Æ
+—èé–"		∫N4$ óóxKó∫	Ø
+ÿèé"
+	æÚ	7( ∑∑È}= ∑∫	≤
+Ëèé’"		ñû
+*Ñ7' ññxoKñ∫	Ø
+ÿèéı"
+	ñ–O2% ÉÉÌP} É∫	¿
+¸êé"	Ï
+
+F5' ••=(\•∫	µ
+ÃèéÛ"	˙Ó
+[6' ïï\=xï∫	≤
+Ëèé”"		ûå
+.é@( ÑÑÌ o8 Ñ∫	£
+ﬂèéò"	‹∆2G% 
+		N>( ££Z Ì8 £∫	Ø
+ÿèé¸"	Úˆ*	 #Qh7' ∂∂(=c ∂∫	§
+„èé¬"
+	˙Ó(<( ââoxÌâ∫	µ
+Ãèé¸"	∫∆"Z9( ëë:Ì/ë∫	µ
+ÃèéÎ"	¬îœe9( ÉÉ?™9 É∫	µ
+Ãèé"	†Ùœe:% ıı4 Ì8 ı∫	µ
+Ãèé"	Úˆ"kä';) ää™N¨0ä∫	È
+ÖëéÂ"	≤Ë+L<& ââ™YÌ0â∫	£
+ﬂèé"	»å*'*#C=& àà™∏Y0à∫	£
+ﬂèé"	‰Ä*VcÄ 6' §§sJ[§∫	Ø
+ÿèé˘"		¿Ó
+3∞2$ óóY[hó∫	£
+ﬂèé"	ºÜ
+r3% ååÔV	å∫	∑
+Âèé"	‡Ü
+W8) ÒÒQ¨Ô Ò∫	»
+¯êéÇ"		¯Ë
+Cº6( òòY¨S  ò∫	°
+“èéˇ"	ä§
+ r<! uuu∫	≥
+”èé"	B	):	7 3$ ¿¿J¿∫	¢
+Ÿèé"		¨Ï
+4Ç6' ŒŒf/Œ∫	¥
+‰èéñ"		§hY?8(   ÎLf/ ∫	Ì
+âëéè"
+	ﬁùq5% ©©™J  ©∫	¢
+Ÿèé"
+	úÆzJJ	2$ ‰‰.[h‰∫	µ
+Ãèé"	¸Ê
+p5' ±±||[±∫	µ
+ÃèéÒ"	‰∞
+P5( ……ÎTL/…∫	Ô
+ãëé€"	∂J
+W=5' ¥¥H&d9 ¥∫	Ò
+çëéú"	Œ Ä
+wU6( ∏∏d~Î0∏∫	π
+’èé‡"	Ï¿
+A^6( »»Îe'/»∫	Ù
+Éíéç"	úŒ
+=g5$ ∞∞&~H8∞∫	«
+ˇêé"	ÿébâ8& ßßªºbß∫	•
+œèé"	¥÷`E% ««Î&e/«∫	Û
+Çíé"	÷ §R 	%'U5//:& ΩΩIÎªΩ∫	Ó
+äëé"	Ù ÏªH/
+±9% ÅÅaª Å∫	ø
+˚êé"	Ï≤	"|6& ææIª±0æ∫	Î
+áëé"
+	÷ 'z3% ≥≥H≤&9 ≥∫	Ú
+Åíé"	Ü!¶
+7%9( ®®≤_C0®∫	ø
+˚êéÊ"	–"Mn4% ≤≤H
+≤9 ≤∫	ı
+Ñíé"		¥"¶
+≠=& ¬¬∑HÄ¬∫	Ú
+Åíé"	‚#†*8*¥=$ ØØ&&~ Ø∫	
+åëé"	ö ∆2	W´[!C% ∆∆ÎIe9 ∆∫	¬
+ˆêé"	Ù ÏJ737=	!_/!=A& √√∑qÎ√∫	Ù
+Éíé"	∫$¥: îB`	"<& ≈≈Î∑I9 ≈∫	∆
+˜êé"	‰#∏"o3	3ó£

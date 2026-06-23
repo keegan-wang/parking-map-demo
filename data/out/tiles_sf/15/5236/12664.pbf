@@ -1,0 +1,978 @@
+ифx
+curbs(─ span_idorderstreetfromtosideside_lrblockface_idcategoryrules
+rules_jsonsigns
+sign_count
+confidencepressureraterate_hr"
+L"
+R"
+[]"
+East"
+West"
+North"
+South"	
+ANZA ST"	
+LAKE ST"	
+metered"
+
+05TH AVE"
+
+06TH AVE"
+
+07TH AVE"
+
+08TH AVE"
+
+09TH AVE"
+
+10TH AVE"
+
+11TH AVE"
+
+12TH AVE"
+
+14TH AVE"
+
+15TH AVE"
+
+16TH AVE"
+
+17TH AVE"
+	PARK BLVD"
+	TACOMA ST"
+
+CLEMENT ST"
+
+GEARY BLVD"
+CORNWALL ST"
+FUNSTON AVE"
+sf:312000:L"
+sf:312000:R"
+sf:313000:L"
+sf:313000:R"
+sf:314000:L"
+sf:314000:R"
+sf:315000:L"
+sf:315000:R"
+sf:316000:L"
+sf:316000:R"
+sf:349000:L"
+sf:349000:R"
+sf:350000:L"
+sf:350000:R"
+sf:351000:L"
+sf:351000:R"
+sf:352000:L"
+sf:352000:R"
+sf:353000:L"
+sf:353000:R"
+sf:386000:L"
+sf:386000:R"
+sf:387000:L"
+sf:387000:R"
+sf:388000:L"
+sf:388000:R"
+sf:389000:L"
+sf:389000:R"
+sf:390000:L"
+sf:390000:R"
+sf:422000:L"
+sf:422000:R"
+sf:423000:L"
+sf:423000:R"
+sf:424000:L"
+sf:424000:R"
+sf:425000:L"
+sf:425000:R"
+sf:426000:L"
+sf:426000:R"
+sf:461000:L"
+sf:461000:R"
+sf:462000:L"
+sf:462000:R"
+sf:463000:L"
+sf:463000:R"
+sf:464000:L"
+sf:464000:R"
+sf:465000:L"
+sf:465000:R"
+sf:492000:L"
+sf:492000:R"
+sf:493000:L"
+sf:493000:R"
+sf:494000:L"
+sf:494000:R"
+sf:495000:L"
+sf:495000:R"
+sf:496000:L"
+sf:496000:R"
+sf:519000:L"
+sf:519000:R"
+sf:520000:L"
+sf:520000:R"
+sf:521000:L"
+sf:521000:R"
+sf:522000:L"
+sf:522000:R"
+sf:523000:L"
+sf:523000:R"
+sf:552000:L"
+sf:552000:R"
+sf:553000:L"
+sf:553000:R"
+sf:554000:L"
+sf:554000:R"
+sf:555000:L"
+sf:555000:R"
+sf:556000:L"
+sf:556000:R"
+sf:604000:L"
+sf:604000:R"
+sf:605000:L"
+sf:605000:R"
+sf:606000:L"
+sf:606000:R"
+sf:607000:L"
+sf:607000:R"
+sf:608000:L"
+sf:608000:R"
+sf:609000:L"
+sf:609000:R"
+sf:669000:L"
+sf:669000:R"
+sf:670000:L"
+sf:670000:R"
+sf:671000:L"
+sf:671000:R"
+sf:672000:L"
+sf:672000:R"
+sf:673000:L"
+sf:673000:R"
+WEDEMEYER ST"
+sf:3581000:L"
+sf:3581000:R"
+sf:3582000:L"
+sf:3582000:R"
+sf:3583000:L"
+sf:3583000:R"
+sf:3584000:L"
+sf:3584000:R"
+sf:3585000:L"
+sf:3585000:R"
+sf:3586000:L"
+sf:3586000:R"
+sf:3587000:L"
+sf:3587000:R"
+sf:3588000:L"
+sf:3588000:R"
+sf:3589000:L"
+sf:3589000:R"
+sf:3590000:L"
+sf:3590000:R"
+sf:3591000:L"
+sf:3591000:R"
+sf:3592000:L"
+sf:3592000:R"
+sf:3593000:L"
+sf:3593000:R"
+sf:4154000:L"
+sf:4154000:R"
+sf:4155000:L"
+sf:4155000:R"
+sf:4156000:L"
+sf:4156000:R"
+sf:4157000:L"
+sf:4157000:R"
+sf:4158000:L"
+sf:4158000:R"
+sf:4159000:L"
+sf:4159000:R"
+sf:4160000:L"
+sf:4160000:R"
+sf:4161000:L"
+sf:4161000:R"
+sf:4162000:L"
+sf:4162000:R"
+sf:4163000:L"
+sf:4163000:R"
+sf:4164000:L"
+sf:4164000:R"
+sf:4165000:L"
+sf:4165000:R"
+sf:4166000:L"
+sf:4166000:R"
+sf:4408000:L"
+sf:4408000:R"
+sf:4409000:L"
+sf:4409000:R"
+sf:5957000:L"
+sf:5957000:R"
+sf:5958000:L"
+sf:5958000:R"
+sf:5959000:L"
+sf:5959000:R"
+sf:5960000:L"
+sf:5960000:R"
+sf:5961000:L"
+sf:5961000:R"
+sf:6062101:L"
+sf:6062201:R"
+sf:6063101:L"
+sf:6063201:R"
+sf:6064101:L"
+sf:6064201:R"
+sf:6065101:L"
+sf:6065201:R"
+sf:6066101:L"
+sf:6066201:R"
+sf:6067101:L"
+sf:6067201:R"
+sf:6068101:L"
+sf:6068201:R"
+sf:6069101:L"
+sf:6069201:R"
+sf:6070101:L"
+sf:6070201:R"
+sf:6071101:L"
+sf:6071201:R"
+sf:6072101:L"
+sf:6072201:R"
+sf:6073101:L"
+sf:6073201:R"
+sf:8013000:L"
+sf:8013000:R"
+sf:8014000:L"
+sf:8014000:R"
+sf:8015000:L"
+sf:8015000:R"
+sf:8016000:L"
+sf:8016000:R"
+sf:8017000:L"
+sf:8017000:R"
+sf:8018000:L"
+sf:8018000:R"
+sf:8019000:L"
+sf:8019000:R"
+sf:8020000:L"
+sf:8020000:R"
+sf:8021000:L"
+sf:8021000:R"
+sf:8022000:L"
+sf:8022000:R"
+sf:8023000:L"
+sf:8023000:R"
+sf:8024000:L"
+sf:8024000:R"
+sf:8025000:L"
+sf:8025000:R"
+time_limited"
+CALIFORNIA ST"
+sf:19002000:L"
+sf:19002000:R"
+NORTH 15TH AVE"
+PARK PRESIDIO BLVD"
+START: 01-99 BLOCK"
+free_with_cleaning"
+$2.00/hr (meter base rate)"
+0000000000000000000000000050"
+0000000000000000003007300000"
+0000000000000000020000000030"
+0000000000000000040000000000"
+0000000000000000050000000000"
+0000000000000630000000000000"
+0000000000230200084000000000"
+0000000000300470026000000000"
+0000000000500000020000000000"
+0000000004000000000000000000"
+0000000005000000070006000000"
+0000002000000000000000000000"
+0000003000000000000000000000"
+0000004000000200080000000000"
+0000006000000800003000800000"
+0000030000000000000000000000"
+0000030000000000000000300000"
+0000030000600760005000000000"
+0000060000200500022000030000"
+0000070000000800020000000000"
+0000080000000800000003200000"
+0020000000000450000000000000"
+0020070000200700020000030330"
+0020082000000870028000040040"
+0030000000050000070000000060"
+0030000000200830023000300000"
+0030000004000430000000600000"
+0030005007800430005400000000"
+0030033000700030080500000000"
+0030043000300630005000000000"
+0030080400000704000000000005"
+0050000000300030070000000000"
+0050000000500000023006000000"
+0050007007240080025400000400"
+0050078005600680047000500840"
+0050086002200870002300500000"
+0060006006300070000000000000"
+0060006006600060002000500000"
+0060040000000004000000000000"
+0064080400700760005000000000"
+0070000000000220062000000000"
+0070000500000000066000000000"
+0070053000700660005000000000"
+0070065000200764002007000000"
+0070082000000820000000230000"
+0073000705000000074003000030"
+0075003000600000073000000000"
+0080003000500000080000400000"
+0080004000400250050000000000"
+0080005000300030075000000000"
+0080005000500030073000000000"
+0080005402200070002000000004"
+0080033500300030070500060066"
+0080035500300005060000000060"
+0080067003700760005000000000"
+0080077400700560028000000000"
+0200000000000000000000000000"
+0200000000200000072000000000"
+0204000005000060004000000000"
+0230000000000000000000000000"
+0230000008000030000000000000"
+0270068000700780027000000004"
+0300003000000000000000000000"
+0300070000000200000000000700"
+0330000005300000040000000000"
+0370045000600700007004300000"
+0380003000500070085000000000"
+0400000000000000060000000030"
+0400000300000000050000000000"
+0400004005600000070000030000"
+0400060000000720022000300040"
+0400088300000673002300040000"
+0480027302700470057007700700"
+0500000003000200020000300000"
+0530000004340050053004300055"
+0580088004600880057003600000"
+0600005008000000033000300400"
+0620067006600680076006300800"
+0620068005600677057007700000"
+0620087004600780076008800600"
+0635003008000500043004700050"
+0670068000600570008003500800"
+0700002007000400007403000000"
+0700005000000000000000000000"
+0700007008700000070000500000"
+0700076005700870047006600800"
+0730000708000435003000000005"
+0760047408600020000003000000"
+0780000007030600000002200000"
+0800000008200004057000000000"
+0800000008500330007000300000"
+0800002008030020002006340000"
+0800002008400220006700000000"
+0800007008400248257000600000"
+0800020038080020006006500400"
+0800020308200070000300200000"
+0804006008240060022000300040"
+0820007007700680044006000000"
+0860002008600000022000030000"
+0870007004600050006000300000"
+0880057006600670074007800800"
+0883000008200000004002030600"#
+!["Street cleaning 7AMБ─⌠9AM Wed"]"8
+6["Street cleaning 1PMБ─⌠3PM Mon (weeks 2,4 of month)"]"8
+6["Street cleaning 7AMБ─⌠9AM Mon (weeks 1,3 of month)"]"8
+6["Street cleaning 7AMБ─⌠9AM Thu (weeks 1,3 of month)"]"8
+6["Street cleaning 7AMБ─⌠9AM Tue (weeks 1,3 of month)"]"9
+7["Street cleaning 12PMБ─⌠2PM Mon (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Fri (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Mon (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Thu (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Tue (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Wed (weeks 1,3 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Wed (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Mon (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Thu (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Tue (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Wed (weeks 2,4 of month)"]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":540}]}]"W
+U["Street cleaning 8AMБ─⌠10AM Mon (weeks 2,4 of month)","Metered (4h) 12PMБ─⌠6PM Sun"]"`
+^[{"activity":"street_cleaning","days":["fr"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":540}],"weeks":[1,3]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":840}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":780,"end":900}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":540}],"weeks":[1,3]}]"`
+^[{"activity":"street_cleaning","days":["th"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["th"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":540}],"weeks":[1,3]}]"`
+^[{"activity":"street_cleaning","days":["tu"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["tu"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}],"weeks":[1,3]}]"`
+^[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"i
+g["Street cleaning 7AMБ─⌠9AM Mon (weeks 1,3 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"i
+g["Street cleaning 7AMБ─⌠9AM Thu (weeks 1,3 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"j
+h["Street cleaning 8AMБ─⌠10AM Mon (weeks 2,4 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"j
+h["Street cleaning 8AMБ─⌠10AM Thu (weeks 2,4 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"┼
+┤["Street cleaning 7AMБ─⌠9AM Wed","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"█
+┼[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]}]"█
+┼[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]}]"█
+┼[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"█
+┼[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"█
+┼[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"█
+┼[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]}]"·
+⌡["Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Metered (4h) 12PMБ─⌠6PM Sun"]"·
+⌡["Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Metered (4h) 12PMБ─⌠6PM Sun"]"·
+⌡["Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Metered (4h) 12PMБ─⌠6PM Sun"]"÷
+°["Street cleaning 1PMБ─⌠3PM Mon (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"÷
+°["Street cleaning 7AMБ─⌠9AM Mon (weeks 1,3 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"÷
+°["Street cleaning 7AMБ─⌠9AM Tue (weeks 1,3 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"÷
+°["Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"÷
+°["Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"═
+²["Street cleaning 8AMБ─⌠10AM Fri (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"═
+²["Street cleaning 8AMБ─⌠10AM Thu (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"═
+²["Street cleaning 8AMБ─⌠10AM Tue (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"═
+²["Street cleaning 9AMБ─⌠11AM Mon (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"═
+²["Street cleaning 9AMБ─⌠11AM Thu (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"═
+²["Street cleaning 9AMБ─⌠11AM Tue (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"═
+²["Street cleaning 9AMБ─⌠11AM Wed (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"╔
+╒[{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["su"],"times":[{"start":720,"end":1080}],"maxStay":240}]"╔
+╒[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["su"],"times":[{"start":720,"end":1080}],"maxStay":240}]"╔
+╒[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"metered","days":["su"],"times":[{"start":720,"end":1080}],"maxStay":240}]"╙
+╖["Street cleaning 9AMБ─⌠11AM Wed (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","Metered","RPP area N permit holders exempt from time limits"]"╜
+╙[{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╜
+╙[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╝
+╚["Street cleaning 9AMБ─⌠11AM Tue (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat","Metered","RPP area N permit holders exempt from time limits"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝["Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"╠
+╝[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":540}]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╢
+╠["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"╥
+╢[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"metered","days":["su"],"times":[{"start":720,"end":1080}],"maxStay":240}]"╧
+╤[{"activity":"street_cleaning","days":["tu"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered","days":["mo","tu","we","th","fr"],"times":[{"start":480,"end":1080}],"maxStay":30}]"╩
+╦["Street cleaning 7AMБ─⌠9AM Wed","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat","RPP area N permit holders exempt from time limits"]"╬
+╩[{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"╬
+╩[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]}]"©
+╪[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":540}],"weeks":[1,3]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"©
+╪[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":540}],"weeks":[1,3]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"©
+╪[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":540}],"weeks":[1,3]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"©
+╪[{"activity":"street_cleaning","days":["we"],"times":[{"start":480,"end":600}],"weeks":[1,3]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"б
+©[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":540}]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"ф
+ц["Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"н
+к["Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)"]"о
+л[{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"о
+л[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"о
+л[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]}]"о
+л[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"о
+л[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["su"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"п
+м["Street cleaning 7AMБ─⌠9AM Mon (weeks 1,3 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat","RPP area N permit holders exempt from time limits"]"п
+м["Street cleaning 7AMБ─⌠9AM Thu (weeks 1,3 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat","RPP area N permit holders exempt from time limits"]"п
+м["Street cleaning 7AMБ─⌠9AM Tue (weeks 1,3 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat","RPP area N permit holders exempt from time limits"]"п
+м["Street cleaning 8AMБ─⌠10AM Tue (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","Metered (30min) 8AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"п
+м[{"activity":"street_cleaning","days":["fr"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":540}],"weeks":[1,3]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":540}],"weeks":[1,3]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["mo"],"times":[{"start":780,"end":900}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":540}],"weeks":[1,3]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["th"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["th"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["th"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":540}],"weeks":[1,3]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["tu"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["tu"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"п
+м[{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"я
+н["Street cleaning 8AMБ─⌠10AM Wed (weeks 1,3 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat","RPP area N permit holders exempt from time limits"]"ж
+с["Street cleaning 9AMБ─⌠11AM Wed (weeks 2,4 of month)","Street cleaning 9AMБ─⌠11AM Mon (weeks 2,4 of month)","Time-limited (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri","RPP area N permit holders exempt from time limits"]"Ю
+щ["Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)"]"Г
+Д[{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered"}]"Л
+И[{"activity":"street_cleaning","days":["tu"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120},{"activity":"metered"}]"Н
+К["Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat"]"Н
+К["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)"]"Н
+К["Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)"]"Н
+К["Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)"]"Н
+К["Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)"]"Н
+К["Street cleaning 7AMБ─⌠8AM Wed (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Sat","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Wed (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4,5 of month)"]"О
+Л[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"time_limited","days":["mo","tu","we","th","fr"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"Э
+Ы[{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["we"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":420,"end":480}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"─
+Щ["Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)"]"─
+Щ["Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)"]"─
+Щ["Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)"]"─
+Щ["Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)"]"─
+Щ["Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4,5 of month)","Street cleaning 7AMБ─⌠8AM Sun","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)"]"─
+Щ[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4,5]}]"	млллллЛ?" " " " " " " " 7% ''Щ'В	╙
+И░▌■"	ф8÷
+═Nэ
+7% &&Щ &Ч	Т
+┐▐▌■"	ф8÷
+═Nэ
+7% Щ В	╘
+Д░▌ь"	Д>÷
+═L╢
+7% ЩЧ	У
+├▐▌ь"	Д>÷
+═L╢
+7' ЖЖЖЧ	Г
+Щ▐▌≤"
+	>─=÷
+7' УУ УЧ	Л
+Ь▐▌≤"
+	>─=÷
+@, эээ		╥
+г■▌Ъ░▄"	Жж7W?²÷
+3% yyЩyЧ	У
+├▐▌╓"	й	
+ ╤3% {{Ь{В	О
+╠▒▌з"	>─
+bч3% xxЩ xВ	╛
+М░▌╓"	й	
+ ╤3% zzЬ zЧ	У
+├▐▌з"	>─
+bч6' СС СВ	╕
+Ю░▌°"		┌л
+ц44% mmШmЧ	Т
+┐▐▌╕"		Ю■
+"╦4% llШ lВ	╚
+Л░▌╕"		Ю■
+"╦4% nnЬ nВ	╚
+Л░▌╖"		┌л
+fБ6' ТТТЧ	Г
+Щ▐▌°"		┌л
+ц44% ooЬoЧ	С
+─▐▌╖"		┌л
+fБ4% ЫЫ┌ ЫЧ	Р
+Ш▐▌"		─╛
+ 4% ЗЗ┌ЗЧ	Р
+Ш▐▌"		─╛
+ 3$ cccЧ	Р
+Ш▐▌╩"		 ф
+0ж3$ bb bВ	╘
+Д░▌╩"		 ф
+0ж6' ЯЯ ЯВ	╕
+Ю░▌÷"		й°
+г06' РРРЧ	Г
+Щ▐▌÷"		й°
+г0:( °°Ь°Ч	Л
+Ь▐▌╜"	═ч÷
+÷:( ⌡⌡Ь ⌡Ч	К
+Э▐▌╜"	═ч÷
+÷7( ≥≥Ь ≥Ч	К
+Э▐▌█"		Х╝
+г04% qqЬqЧ	Н
+Ъ▐▌╙"		Х╝
+dэ4% ppЬ pВ	╗
+К░▌╙"		Х╝
+dэ7(   Ь В	╕
+Ю░▌█"		Х╝
+г07( ≈≈Ь ≈Ч	К
+Э▐▌└"		╝Ч
+е07( ≤≤Ь≤Ч	Л
+Ь▐▌└"		╝Ч
+е05& √√ЬЭ√Ч	Л
+Ь▐▌"		╬Д
+▐4% ffЬ fВ	╘
+Д░▌║"		╝Ч
+fБ4% ddЬ dВ	╘
+Д░▌Ё"		й°
+dБ5& ∙∙ЬЭ ∙Ч	Р
+Ш▐▌"		╬Д
+▐4% ggЬgЧ	У
+├▐▌║"		╝Ч
+fБ4% eeЬeЧ	У
+├▐▌Ё"		й°
+dБ4% ╩╩Щ ╩Ч	С
+─▐▌"		ьн
+
+╓4% ╪╪Щ╪В	╙
+И░▌"		ьн
+
+╓4% ППЭПЧ	Г
+Щ▐▌"		═┌
+у4% ООЭ ОЧ	Л
+Ь▐▌"		═┌
+у7( ╫╫Ь ╫Ч	С
+─▐▌≥"		ХР
+dь4% ММЭ МЧ	Л
+Ь▐▌"		ХР
+г6' КК КЧ	Л
+Ь▐▌╝"		├╬
+²47( ╬╬Ь╬В	╚
+Л░▌≥"		ХР
+dь4% ННЭНЧ	Г
+Щ▐▌"		ХР
+г6' ЛЛЛВ	∙
+Е░▌╝"		├╬
+²44% YYЩYЧ	У
+├▐▌┴"		Ж╒
+
+°4% XXЩ XВ	╛
+М░▌┴"		Ж╒
+
+°7( ©©Ь ©Ч	С
+─▐▌┘"		лй
+fН7( ююЬюВ	╚
+Л░▌┘"		лй
+fН5& ■■ЬЭ■Ч	Л
+Ь▐▌"		лй
+█5& ⌠⌠ЬЭ ⌠Ч	Р
+Ш▐▌"		лй
+█7( ▒▒Ь ▒В	╘
+Д░▌┐"		Й°
+².7( ▐▐Ь ▐Ч	Р
+Ш▐▌╧"		┼!Н
+÷.7( ▓▓Ь▓Ч	Л
+Ь▐▌┐"		Й°
+².4% ZZЬ ZЧ	У
+├▐▌ы"		├╬
+dч4% [[Ь[В	╘
+Д░▌ы"		├╬
+dч7( ░░Ь░В	╕
+Ю░▌╧"		┼!Н
+÷.4% ||Ь |Ч	Я
+┘▐▌л"		═ч
+fэ9' ╣╣ ╣Ч	Л
+Ь▐▌├"	├╨)┘÷6' ЁЁ ЁЧ	Л
+Ь▐▌╟"		л┼)
+е03$ ~~ ~Ч	Я
+┘▐▌п"		├╨)
+p°4% }}Ь}Ч	М
+З▐▌л"		═ч
+fэ6' ╢╢╢Ч	К
+Э▐▌╟"		л┼)
+е09' ╤╤╤Ч	К
+Э▐▌├"	├╨)┘÷8) 		┴
+Ц░▌Ъ░п"		├╨)
+p°6' ╠╠ ╠В	╕
+Ю░▌╗"		■Ю(
+г*6' ╡╡╡Ч	К
+Э▐▌╗"		■Ю(
+г*3$ rr rЧ	О
+┌▐▌╤"		л┼)
+"▄3$ sssВ	╖
+Х░▌╤"		л┼)
+"▄4% ╞╞Э ╞Ч	П
+█▓▌"		╒х(
+█4% ╟╟Э╟В	ю
+╡∙▌"		╒х(
+█?, ыы ы		ё
+┘√▌Ъ░ю"	╛	╙7U<┐([7?, ззз		╦
+х■▌Ъ░а"	╛	╙7[A┤"QL@, шш ш		 
+Э√▌Ъ░и"	Жж7QDё÷
+3$ uuuЧ	Н
+Ъ▐▌╥"		Н√.
+>■	8) tt t		ъ
+б▒▌Ъ░╥"		Н√.
+>■	8% ууЭ уЧ	В
+░∙▌"	┼ч6qNгSA6$ kkkВ	╛
+М░▌⌡"	ЭЖ6B┼	═?, ььь		╧
+и■▌Ъ░┬"	ЭЖ6I;╖(]H3$ hh hЧ	Р
+Ш▐▌╪"		■Ю(
+h√2# iii		╟
+Я▒▌╪"		■Ю(
+h√6$ jj jЧ	Р
+Ш▐▌⌡"	ЭЖ6B┼	═?, вв в		≥
+Ш√▌Ъ░й"	ЭЖ6GF⌡&k7;, ╛╛╛		╒
+└√▌Ъ░у"		н┌(
+⌡66' ╚╚ ╚Ч	┴
+ь⌠▌у"		н┌(
+⌡64% ╜╜Э ╜В	у
+Ы⌠▌"		╡╦(
+▐4% ╝╝Э╝Ч	ж
+о■▌"		╡╦(
+▐4% \\Ь \В	▀
+т░▌в"		Й°
+dФ4% ]]Ь]Ч	Х
+Ы▐▌в"		Й°
+dФ3$ ^^ ^Ч	Ф
+Ж▐▌Ц"		н┌(
+`°3$ ___В	√
+Б░▌Ц"		н┌(
+`°8% жжЭжЧ	▄
+ш⌠▌"	┼ч6uAк
+KP8% ттЭтЧ	┴
+ь⌠▌"	 ф6I;ыkL?, яя я		·
+─√▌Ъ░┴"	╝·6GBЩ$M=6' аа аВ	╙
+И░▌▒"		╡╦(
+h▌6' бббЧ	Т
+┐▐▌▒"		╡╦(
+h▌8% ссЭ сЧ	Ь
+▒∙▌"	 ф6?Dщq9?, ррр		╬
+н■▌Ъ░©"	╝·6a=И GF?, ппп		⌠
+╝■▌Ъ░ "	э"Т5aAГ cL?, оо о		║
+┐√▌Ъ░┼"	э"Т5S>Я&g91" NNЩ NВ	╚
+Л░▌"		■ Т	
+°1" OOЩOЧ	Т
+┐▐▌"		■ Т	
+°6' ЙЙЙВ	∙
+Е░▌╘"		╓ ░
+².4% PPЬ PЧ	Т
+┐▐▌≈"		╓ ░
+fч6' ИИ ИЧ	Л
+Ь▐▌╘"		╓ ░
+².4% QQЬQВ	╙
+И░▌≈"		╓ ░
+fч6' ХХХВ	∙
+Е░▌╞"		б&Д
+²,6' ГГ ГЧ	Л
+Ь▐▌╞"		б&Д
+²,4% DDЩ DВ	╘
+Д░▌╦"		╡&ф	
+·6' ФФФВ	∙
+Е░▌б"		Д,╢
+║06' ЕЕ ЕЧ	Л
+Ь▐▌б"		Д,╢
+║04% EEЩEЧ	Р
+Ш▐▌╦"		╡&ф	
+·4% ;;Щ;В	╙
+И░▌▀"		т,≤	
+°4% ::Щ :Ч	С
+─▐▌▀"		т,≤	
+°4% <<Ь <В	╙
+И░▌г"		Д,╢
+dЮ4% ==Ь=Ч	Т
+┐▐▌г"		Д,╢
+dЮ8' ЦЦ ЦЧ	Л
+Ь▐▌╠"	─3■Wц(8' ДДДВ	∙
+Е░▌╠"	─3■Wц(4% RRЬ RЧ	Й
+│▐▌╫"		┼!Н
+fФ9* SSЬS		щ
+я▒▌Ъ░╫"		┼!Н
+fФ4% FFЬ FЧ	Р
+Ш▐▌р"		б&Д
+dч7( ▌▌Ь▌В	╕
+Ю░▌ц"		╕'б
+⌡,7( ██Ь █Ч	Р
+Ш▐▌ц"		╕'б
+⌡,4% GGЬGВ	╛
+М░▌р"		б&Д
+dч7( ▄▄Ь▄В	╕
+Ю░▌┌"		х-■
+║.7( ▀▀Ь ▀Ч	Р
+Ш▐▌┌"		х-■
+║.7( ┴┴Ь ┴Ч	Р
+Ш▐▌└"		Ф3Х
+²,7( ┼┼Ь┼В	╕
+Ю░▌└"		Ф3Х
+²,1" 11Щ1Ч	У
+├▐▌"		П2Й
+╙1" 00Щ 0В	╛
+М░▌"		П2Й
+╙8' БББВ	∙
+Е░▌╢"	·9э
+w╔&8' АА АЧ	Л
+Ь▐▌╢"	·9э
+w╔&8' щщ
+ щВ	╕
+Ю░▌╡"	═A╕
+÷
+E8' чч
+чЧ	Г
+Щ▐▌╡"	═A╕
+÷
+E7% Ь Ч	Р
+Ш▐▌Е"	╨?╢
+Fн	Ю7% ЬВ	╛
+М░▌Е"	╨?╢
+Fн	Ю6' ЮЮЮВ	∙
+Е░▌╣"		╨?╢
+
+⌡(6' ъъ ъЧ	Л
+Ь▐▌╣"		╨?╢
+
+⌡(4% 22Ь 2Ч	У
+├▐▌ъ"		─3■
+fт4% 33Ь3В	╘
+Д░▌ъ"		─3■
+fт8( ┤┤Ь ┤Ч	Р
+Ш▐▌д"
+	Ч9Ф
+≈┌8( ┬┬Ь┬В	╕
+Ю░▌д"
+	Ч9Ф
+≈┌4% ((Ь (Ч	Т
+┐▐▌√"		·9э
+
+`┼9* **Ь *		ч
+р▒▌Ъ░╛"		Ч9Ф
+h╪4% ))Ь)В	╙
+И░▌√"		·9э
+
+`┼:( ├├Ь├Ч	Л
+Ь▐▌т"	■@Б│─4% ++Ь+Ч	И
+Ч▐▌╛"		Ч9Ф
+h╪:( ┘┘Ь ┘В	╚
+Л░▌т"	■@Б│─8) TT T		ч
+р▒▌Ъ░к"		П!т'
+l═;, ╖╖ ╖		╪
+л■▌Ъ░м"		▄(╕'
+⌡.3$ UUUЧ	И
+Ч▐▌к"		П!т'
+l═6' ╙╙╙Ч	Ж
+▐∙▌о"		П!т'
+║.6' ╗╗╗Ч	У
+▌∙▌м"		▄(╕'
+⌡.;, ╘╘ ╘		▓
+╜■▌Ъ░о"		П!т'
+║.3$ KKKЧ	Ф
+Ж▐▌ш"		▄(╕'
+h°8) JJ J		э
+п▒▌Ъ░ш"		▄(╕'
+h°9* IIЬI		ц
+©▒▌Ъ░ч"		╕'б
+fД4% HHЬ HЧ	Х
+Ы▐▌ч"		╕'б
+fД9* >>Ь >		щ
+я▒▌Ъ░ё"		х-■
+fЮ;, ёё ё		╤
+ф■▌Ъ░х"		х4х&
+≥,6' ╓╓╓Ч	С
+▄∙▌х"		х4х&
+≥,;, ╔╔ ╔		■
+╞■▌Ъ░Д"		╝.Т&
+║26' ╕╕╕Ч	Т
+█∙▌Д"		╝.Т&
+║24% ??Ь?Ч	Й
+│▐▌ё"		х-■
+fЮ?, мм м		═
+┌√▌Ъ░═"	Т(б5UDК$U56$ WWWЧ	И
+Ч▐▌╚"	э"Т5F▄
+═6$ VV VВ	≈
+Й░▌╚"	э"Т5F▄
+═?, ннн		╨
+й■▌Ъ░┤"	Т(б5gAя.]F;) MMM		Н
+с▒▌Ъ░╨"	Т(б5L╬
+═6$ LL LЧ	Х
+Ы▐▌╨"	Т(б5L╬
+═<) ллл		╩
+к■▌Ъ░"	√/┼5[7Е&_J?, кк к		÷
+│√▌Ъ░▐"	√/┼5UJЕ$e5?, ййй		╣
+е■▌Ъ░░"	╝5Ю4_=А"UF8) AAA		ч
+р▒▌Ъ░∙"		╝.Т&
+h√3$ @@ @Ч	И
+Ч▐▌∙"		╝.Т&
+h√?, ии и		⌡
+Щ√▌Ъ░─"	╝5Ю4WHъ"_?9* 55Ь5		э
+п▒▌Ъ░щ"		Ф3Х
+bЮ4% 44Ь 4Ч	Ф
+Ж▐▌щ"		Ф3Х
+bЮ6' ║║ ║Ч	▀
+з⌠▌я"		Ф:╒&
+²&3$ ---Ч	И
+Ч▐▌▓"		Ф:╒&
+h≤;, ╒╒╒		²
+Ъ√▌Ъ░я"		Ф:╒&
+²&8) ,, ,		ч
+р▒▌Ъ░▓"		Ф:╒&
+h≤8) 66 6		ц
+©▒▌Ъ░╔"		х4х&
+f≤3$ 777Ч	Х
+Ы▐▌╔"		х4х&
+f≤?, гг г		≤
+З√▌Ъ░╬"	н;╨4WDЦ"c??) ффф		╫
+м■▌Ъ░"	═Aь3"▀шUN?, ххх		╢
+д■▌Ъ░²"	н;╨4[CЦ&_D6$ .. .Ч	Й
+│▐▌⌠"	н;╨4Vф
+═;) ///		┬
+Ф░▌Ъ░⌠"	н;╨4Vф
+═B, ее е		°
+Ч√▌Ъ░│"	═Aй4"▐вY;>, │││		В
+а░▌Ъ░ж"	Жж78╙═9' ── ─Ч	Я
+┘▐▌ж"	Жж78╙═;) www		┼
+Г░▌Ъ░·"	╛	╙7Dж
+═6$ vv vЧ	О
+┌▐▌·"	╛	╙7Dж
+═8& ддд		Ё
+Р▒▌▌"	 ф6D╨	═9' цц цЧ	С
+─▐▌▌"	 ф6D╨	═;) aaa		э
+п▒▌Ъ░Ю"	╝·6NБ	
+═6$ `` `Ч	П
+└▐▌Ю"	╝·6NБ	
+═;) BB B		щ
+я▒▌Ъ░ф"	√/┼5LЖ
+
+═6$ CCCЧ	Й
+│▐▌ф"	√/┼5LЖ
+
+═;) 999		┤
+А░▌Ъ░Б"	╝5Ю4R═
+═6$ 88 8Ч	П
+└▐▌Б"	╝5Ю4R═
+═7( └└Ь
+└Ч	Л
+Ь▐▌е"		═Aл
+▀7( ┐┐Ь
+ ┐В	╚
+Л░▌е"		═Aл
+▀5' ╦╦
+╦В	╛
+М░▌с"	═A√
+{
+5' ╥╥
+ ╥Ч	Р
+Ш▐▌с"	═A√
+{
+1" !!Ь!Ч	Ф
+Ж▐▌"		■@Б
+╬1"   Ь  Ч	Х
+Ы▐▌"		■@Б
+╬3$ ###Ч	Ф
+Ж▐▌э"		╓@═
+^р8% ╧╧Ь ╧Ч	Р
+Ш▐▌"	╓@═#≈2im8% ╨╨Ь╨В	╛
+М░▌"	╓@═#≈2im8) "" "		э
+п▒▌Ъ░э"		╓@═
+^р>, ═══		╓
+├√▌Ъ░н"	┌AР%│≥(9' ÷÷ ÷Ч	┬
+в⌠▌н"	┌AР%│≥(5' ²²
+ ²Ч	┼
+ы⌠▌╒"	═AП%
+:, ··
+·		╔
+┤√▌Ъ░╒"	═AП%
+3$ $$ $Ч	Х
+Ы▐▌А"		┌AР%
+Ь8) %%%		ц
+©▒▌Ъ░А"		┌AР%
+Ь

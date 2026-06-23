@@ -1,0 +1,440 @@
+®£x
+curbs(Ä span_idorderstreetfromtosideside_lrblockface_idcategoryrules
+rules_jsonsigns
+sign_count
+confidencepressurerate
+rate_hours
+rate_limit
+meter_zonerate_hr"
+E"
+L"
+N"
+R"
+S"
+W"
+[]"
+other"	
+2 Hours"	
+Zone M1"	
+Zone M2"	
+metered"
+
+8 AVENUE"
+
+9 AVENUE"
+
+BROADWAY"
+
+S-382451"
+
+S-382756"
+
+S-539763"
+
+S-819001"
+	10 AVENUE"
+	11 AVENUE"
+	12 AVENUE"
+	212260497"
+	212260915"
+	212261102"
+	212261536"
+	212262114"
+
+1222600239"
+
+1222601179"
+
+1222601498"
+
+1222601574"
+
+1222601790"
+
+1222602311"
+
+1222602598"
+
+1222603839"
+
+1222604177"
+
+1222604580"
+
+1222604977"
+
+1222604982"
+
+1222605183"
+
+1222605274"
+
+1222605701"
+
+1222605769"
+
+1222606015"
+
+1222606395"
+
+1222606423"
+
+1222606492"
+
+1222606775"
+
+1222607214"
+
+1222607218"
+
+1222607326"
+
+1222607456"
+
+1222607464"
+
+1222607475"
+
+1222607752"
+
+1222608069"
+
+P-01361929"
+
+P-01689540"
+
+P-01689550"
+
+P-01709853"
+
+P-01738427"
+
+P-01739070"
+
+P-01760884"
+
+P-01811258"
+
+PARK PLACE"
+
+S-01272782"
+
+S-01296875"
+
+S-01348181"
+
+S-01362380"
+
+S-01372003"
+
+S-01373475"
+
+S-01425784"
+
+S-01438611"
+
+S-01448780"
+
+S-01448789"
+
+S-01539328"
+
+S-01567914"
+
+S-01567916"
+
+S-01596843"
+
+S-01598907"
+
+S-01717239"
+
+S-01742843"
+
+S-01767914"
+
+S-01768043"
+
+S-01789002"
+
+S-01793155"
+
+S-01831436"
+212260497:0"
+212260915:0"
+212261102:1"
+212261536:1"
+212262114:0"
+WEST STREET"
+1222600239:0"
+1222601179:1"
+1222601498:0"
+1222601574:2"
+1222601790:0"
+1222602311:1"
+1222602598:0"
+1222603839:0"
+1222604177:4"
+1222604580:1"
+1222604977:1"
+1222604982:2"
+1222605183:0"
+1222605274:0"
+1222605701:0"
+1222605769:6"
+1222606015:6"
+1222606395:1"
+1222606423:0"
+1222606492:3"
+1222606775:1"
+1222607214:2"
+1222607218:0"
+1222607326:2"
+1222607456:0"
+1222607464:0"
+1222607475:0"
+1222607752:0"
+1222608069:1"
+GRAND STREET"
+LEROY STREET"
+MINETTA LANE"
+PERRY STREET"
+READE STREET"
+VESEY STREET"
+loading_only"
+transit_taxi"
+BROOME STREET"
+CENTRE STREET"
+CHURCH STREET"
+HUBERT STREET"
+HUDSON STREET"
+LAIGHT STREET"
+MERCER STREET"
+MURRAY STREET"
+RIVER TERRACE"
+SPRING STREET"
+VANDAM STREET"
+WARREN STREET"
+WEST BROADWAY"
+BARCLAY STREET"
+BEDFORD STREET"
+CARMINE STREET"
+HORATIO STREET"
+MINETTA STREET"
+WOOSTER STREET"
+BLEECKER STREET"
+CHAMBERS STREET"
+CLARKSON STREET"
+ELEVENTH AVENUE"
+["Bus layover"]"
+["No standing"]"
+COLLISTER STREET"
+GREENWICH STREET"
+NORTH END AVENUE"
+WEST    4 STREET"
+WEST   10 STREET"
+WEST   12 STREET"
+WEST   17 STREET"
+WEST   18 STREET"
+WEST   19 STREET"
+WEST   22 STREET"
+WEST   23 STREET"
+WEST   24 STREET"
+WEST   26 STREET"
+WEST   33 STREET"
+WEST   34 STREET"
+WEST   40 STREET"
+WEST   41 STREET"
+["Loading only"]"
+GANSEVOORT STREET"
+WASHINGTON STREET"
+NORTH MOORE STREET"
+free_with_cleaning"
+metered_commercial"
+no_parking_anytime"
+WEST HOUSTON STREET"
+no_standing_anytime"
+no_stopping_anytime"
+part_time_restricted"
+AVENUE OF THE AMERICAS"
+["No parking anytime"]"
+LITTLE WEST   12 STREET"
+["No standing anytime"]"
+["No stopping anytime"]"
+Monday-Saturday 9 AM-7 PM"
+Monday-Saturday 7 AM-11 PM"
+0000000000300000000000000000"
+0000004000000000000000000000"
+0000010002000040000000000000"
+0000050000000000070000000000"
+0030005000300070007006770040"
+0050085807470658087807800050"
+0080008004800380006000100000"
+0100030000000020000002000020"
+0300400005006600605005300400"
+0340000004000040000000000000"
+0520080002100240070001300500"
+0680075008700780088007500000"
+0760057008000750087006600580"
+0770067005800880067007300000"
+0800000004200700022004100000"
+0840080008600740084000000000"
+0870087008700850085007000000"
+0880078807800860068007700000"
+1000002000000100300000000000"
+4400063007000750077006000700"
+[{"activity":"bus_layover"}]"
+[{"activity":"no_standing"}]"
+[{"activity":"loading_only"}]"!
+$5.00 1st Hour / $8.25 2nd Hour"!
+$5.50 1st Hour / $9.00 2nd Hour"'
+%["No standing anytime","No standing"]"*
+(["Street cleaning 3AM‚Äì6AM except Sun"]"+
+)["Street cleaning 9AM‚Äì10:30AM Mon Thu"]",
+*["Street cleaning 11AM‚Äì12:30PM Tue Fri"]"-
++Monday-Friday 2 PM-7 PM, Saturday 7 AM-7 PM"-
++["NO STANDING TRUCK WAITING LINE <------>"]"/
+-Monday-Friday 6 PM-10 PM, Saturday 8 AM-10 PM"0
+.["Loading only 8AM‚Äì6PM Mon Tue Wed Thu Fri"]"4
+2["No standing anytime","Authorized vehicles only"]">
+<[{"activity":"no_parking","times":[{"start":0,"end":1440}]}]"?
+=[{"activity":"no_standing","times":[{"start":0,"end":1440}]}]"?
+=[{"activity":"no_stopping","times":[{"start":0,"end":1440}]}]"@
+>["BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING <----->"]"A
+?["No stopping anytime","Street cleaning 9AM‚Äì10:30AM Mon Thu"]"A
+?["No stopping anytime","Street cleaning 9AM‚Äì10:30AM Tue Fri"]"A
+?["Street cleaning 11AM‚Äì12:30PM Mon Thu","No parking anytime"]"A
+?["Street cleaning 9AM‚Äì10:30AM Mon Thu","No standing anytime"]"B
+@["No standing","No standing anytime","Authorized vehicles only"]"I
+G["Time-limited (3h) 7AM‚Äì7PM Sun","Metered (3h) 7AM‚Äì7PM except Sun"]"K
+I["BUS (SYMBOL) MTA BUS LAYOVER ONLY <-> NO ENGINE IDLING MAX FINE $2000"]"N
+L["NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)"]"O
+M["Metered (2h) 9AM‚Äì7PM except Sun","Street cleaning 9AM‚Äì10:30AM Mon Thu"]"S
+Q["Street cleaning 9AM‚Äì10:30AM Mon Thu","Street cleaning 9AM‚Äì10:30AM Tue Fri"]"Z
+X["Commercial-only metered (3h) 7AM‚Äì4PM except Sun","No standing 4PM‚Äì7PM except Sun"]"Z
+X[{"activity":"no_standing","times":[{"start":0,"end":1440}]},{"activity":"no_standing"}]"^
+\[{"activity":"no_standing","times":[{"start":0,"end":1440}]},{"activity":"authorized_only"}]"_
+]["NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 11AM-12:30PM <-> (SUPERSEDES SP-360C)"]"_
+]["TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 8AM-6PM <-> (SUPERSEDES SP-449C & SP-70B)"]"b
+`[{"activity":"street_cleaning","asp":true,"times":[{"start":540,"end":630}],"days":["mo","th"]}]"b
+`[{"activity":"street_cleaning","asp":true,"times":[{"start":660,"end":750}],"days":["tu","fr"]}]"c
+a[{"activity":"street_cleaning","asp":true,"times":[{"start":180,"end":360}],"exceptions":["su"]}]"d
+b[{"activity":"loading_only","times":[{"start":480,"end":1080}],"days":["mo","tu","we","th","fr"]}]"y
+w[{"activity":"no_standing"},{"activity":"no_standing","times":[{"start":0,"end":1440}]},{"activity":"authorized_only"}]"z
+x["Street cleaning 11AM‚Äì12:30PM Tue Fri","Metered (2h) 7AM‚Äì11PM except Sun","Street cleaning 11AM‚Äì12:30PM Mon Thu"]"|
+z["NO PARKING ANYTIME <-> (SUPERSEDES SP-854C)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)"]"à
+Ö["LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW"]"à
+Ö["LOCAL MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUIRED)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","3 HMP COMMERCIAL VEHICLES ONLY MONDAY-FRIDAY 8AM-6PM --> (SUPERSEDES PS-20CA)","LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","PAY-BY-CELL LOCATOR NUMBER","SELECT BUS SERVICE ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","2 HMP MONDAY-FRIDAY 6PM-10PM SATURDAY 8AM-10PM -->","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)"]"ä
+á["NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 11AM-12:30PM <-> (SUPERSEDES SP-360C)","2 HMP 7AM-11PM EXCEPT SUNDAY <->","METERS ARE NOT IN EFFECT ABOVE TIMES (TO BE USED ONLY FOR CONFLICTING STREET CLEANING AND METERED PARKING REGULATIONS) (SUPERSEDES SW-473)","NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 11AM-12:30PM <-> (SUPERSEDES SP-853C)","PAY-BY-CELL LOCATOR NUMBER"]"ç
+ä["3 HOUR PARKING BUSES WITH PERMIT ONLY SUNDAY 7AM-7PM <-> (SUPERSEDES SP-996B)","3 HMP BUSES WITH PERMIT ONLY 7AM-7PM EXCEPT SUNDAY <->"]"ç
+ä["Commercial-only metered (3h) 8AM‚Äì6PM Mon Tue Wed Thu Fri","Metered (2h) 6PM‚Äì10PM Mon Tue Wed Thu Fri","Metered (2h) 8AM‚Äì10PM Sat"]"ç
+ä["NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 11AM-12:30PM <-> (SUPERSEDES SP-853C)","NO PARKING ANYTIME <-> (SUPERSEDES SP-854C)","NO PARKING ANYTIME --> (SUPERSEDES SP-854CA)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)"]"í
+è["NO PARKING ANYTIME <-> (SUPERSEDES SP-854C)","NON MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","SELECT BUS SERVICE ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","SELECT BUS SERVICE DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUESTED)","NO PARKING ANYTIME --> (SUPERSEDES SP-854CA)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)"]"ï
+í["14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY MIDNIGHT-3AM <-> (SUPERSEDES SP-841C)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","LOCAL MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUIRED)"]"ù
+ö["NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 9AM-10:30AM <-> (SUPERSEDES SP-413C)","2 HMP 9AM-7PM EXCEPT SUNDAY <-> (SUPERSEDES R7-182RB)","PAY-BY-CELL LOCATOR NUMBER","NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 9AM-10:30AM <-> (SUPERSEDES SP-415C)","METERS ARE NOT IN EFFECT ABOVE TIMES (TO BE USED ONLY FOR CONFLICTING STREET CLEANING AND METERED PARKING REGULATIONS) (SUPERSEDES SW-473)"]"û
+õ[{"activity":"street_cleaning","asp":true,"times":[{"start":660,"end":750}],"days":["mo","th"]},{"activity":"no_parking","times":[{"start":0,"end":1440}]}]"û
+õ[{"activity":"street_cleaning","asp":true,"times":[{"start":660,"end":750}],"days":["tu","fr"]},{"activity":"metered","maxStay":120,"times":[{"start":420,"end":1380}],"exceptions":["su"]},{"activity":"street_cleaning","asp":true,"times":[{"start":660,"end":750}],"days":["mo","th"]}]"ü
+ú[{"activity":"no_stopping","times":[{"start":0,"end":1440}]},{"activity":"street_cleaning","asp":true,"times":[{"start":540,"end":630}],"days":["mo","th"]}]"ü
+ú[{"activity":"no_stopping","times":[{"start":0,"end":1440}]},{"activity":"street_cleaning","asp":true,"times":[{"start":540,"end":630}],"days":["tu","fr"]}]"ü
+ú[{"activity":"street_cleaning","asp":true,"times":[{"start":540,"end":630}],"days":["mo","th"]},{"activity":"no_standing","times":[{"start":0,"end":1440}]}]"£
+†["NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 9AM-10:30AM --> (SUPERSEDES SP-413CA)","NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 9AM-10:30AM <-> (SUPERSEDES SP-413C)","NO PARKING ANYTIME --> (SUPERSEDES SP-854CA)","NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 9AM-10:30AM <-> (SUPERSEDES SP-415C)","NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 9AM-10:30AM --> (SUPERSEDES SP-415CA)"]"™
+ß["NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 9AM-10:30AM <-> (SUPERSEDES SP-415C)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)"]"™
+ß["PAY-BY-CELL LOCATOR NUMBER","3 HMP COMMERCIAL VEHICLES ONLY MONDAY-FRIDAY 8AM-6PM --> (SUPERSEDES PS-20CA)","2 HMP MONDAY-FRIDAY 6PM-10PM SATURDAY 8AM-10PM <->","3 HMP COMMERCIAL VEHICLES ONLY MONDAY-FRIDAY 8AM-6PM <-> (SUPERSEDES PS-20C)","2 HMP MONDAY-FRIDAY 6PM-10PM SATURDAY 8AM-10PM -->"]"´
+®["14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 9AM-10:30AM <-> (SUPERSEDES SP-415C)","LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","NO STOPPING ANYTIME <-> (SUPERSEDES SP-14A)","LOCAL MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUIRED)"]"¨
+©["3 HMP COMMERCIAL VEHICLES ONLY 7AM-4PM EXCEPT SUNDAY <-> (SUPERSEDES PS-76C)","PAY-BY-CELL LOCATOR NUMBER","NO STANDING 4PM-7PM EXCEPT SUNDAY <-> (SUPERSEDES R7-31R)"]"≠
+™["SELECT BUS SERVICE ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","SELECT BUS SERVICE DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUESTED)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)"]"±
+Æ["2 HMP MONDAY-FRIDAY 2PM-7PM SATURDAY 7AM-7PM -->","NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) MONDAY THURSDAY 2AM-6AM <-> (SUPERSEDES SP-632C)","2 HMP COMMERCIAL VEHICLES ONLY MONDAY-FRIDAY 7AM-2PM -->","NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) MONDAY THURSDAY 2AM-6AM --> (SUPERSEDES SP-632CA)","STAR (SYMBOL) AVO DEPARTMENT OF BUILDINGS MONDAY-FRIDAY 7AM-7PM -->","PAY-BY-CELL LOCATOR NUMBER","NON MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","EXPRESS MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUIRED)"]"≤
+Ø["NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 9AM-10:30AM <-> (SUPERSEDES SP-415C)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 9AM-10:30AM --> (SUPERSEDES SP-413CA)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 9AM-10:30AM <-> (SUPERSEDES SP-413C)"]"≤
+Ø[{"activity":"metered","maxStay":120,"days":["mo","tu","we","th","fr"],"times":[{"start":840,"end":1140}]},{"activity":"metered","maxStay":120,"days":["sa"],"times":[{"start":420,"end":1140}]},{"activity":"metered_commercial","maxStay":120,"times":[{"start":420,"end":840}],"days":["mo","tu","we","th","fr"]},{"activity":"street_cleaning","asp":true,"times":[{"start":120,"end":360}],"days":["mo","th"]},{"activity":"no_standing"}]"∫
+∑[{"activity":"metered_commercial","maxStay":180,"times":[{"start":480,"end":1080}],"days":["mo","tu","we","th","fr"]},{"activity":"metered","maxStay":120,"days":["mo","tu","we","th","fr"],"times":[{"start":1080,"end":1320}]},{"activity":"metered","maxStay":120,"days":["sa"],"times":[{"start":480,"end":1320}]}]"ª
+∏[{"activity":"time_limited","maxStay":180,"times":[{"start":420,"end":1140}],"days":["su"]},{"activity":"metered","maxStay":180,"times":[{"start":420,"end":1140}],"exceptions":["su"]}]"º
+π[{"activity":"metered_commercial","maxStay":180,"times":[{"start":420,"end":960}],"exceptions":["su"]},{"activity":"no_standing","times":[{"start":960,"end":1140}],"exceptions":["su"]}]"Ω
+∫["Metered (2h) 2PM‚Äì7PM Mon Tue Wed Thu Fri","Metered (2h) 7AM‚Äì7PM Sat","Commercial-only metered (2h) 7AM‚Äì2PM Mon Tue Wed Thu Fri","Street cleaning 2AM‚Äì6AM Mon Thu","No standing"]"Ω
+∫["NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 9AM-10:30AM <-> (SUPERSEDES SP-413C)","NO STOPPING ANYTIME <-> (SUPERSEDES SP-14A)","NO PARKING ANYTIME --> (SUPERSEDES SP-854CA)"]"ø
+º[{"activity":"metered","maxStay":120,"times":[{"start":540,"end":1140}],"exceptions":["su"]},{"activity":"street_cleaning","asp":true,"times":[{"start":540,"end":630}],"days":["mo","th"]}]"¬
+ø[{"activity":"street_cleaning","asp":true,"times":[{"start":540,"end":630}],"days":["mo","th"]},{"activity":"street_cleaning","asp":true,"times":[{"start":540,"end":630}],"days":["tu","fr"]}]"”
+–["EXPRESS MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUIRED)","NO PARKING ANYTIME <-> (SUPERSEDES SP-854C)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","EXPRESS MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUIRED)"]"’
+“["BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING <----->","STAR (SYMBOL) AUTHORIZED VEHICLES ONLY MAYOR'S OFFICE CITY HALL <->","STAR (SYMBOL) AVO CHCC -->","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","STAR (SYMBOL) AVO CHCC <->","STAR (SYMBOL) AUTHORIZED VEHICLES ONLY MAYOR'S OFFICE CITY HALL -->","EXPRESS MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUIRED)","LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)"]"›
+⁄["NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 11AM-12:30PM <-> (SUPERSEDES SP-360C)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","NO STOPPING ANYTIME <-> (SUPERSEDES SP-14A)"]"‚
+ﬂ["BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING <----->","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","NON MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUESTED)","NON MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)"]"‰
+·["NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","TRUCK (SYMBOL) TRUCK LOADING ONLY --> (SUPERSEDES SP-3BA & SP-83BA)"]"È
+Ê["NO STOPPING ANYTIME <-> (SUPERSEDES SP-14A)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","NO PARKING MONDAY-FRIDAY 8AM-6PM --> (SUPERSEDES R7-45RA)","STAR (SYMBOL) AVO DEPT OF HOMELAND SECURITY -->","NO STOPPING ANYTIME --> (SUPERSEDES SP-14AA)"]"Ó
+Î["NO PARKING (SANITATIOJN BROOM SYMBOL) MOON & STARS (SYMBOLS) 3AM-6AM EXCEPT SUNDAY --> (SUPERSEDES SP-795CA)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) 3AM-6AM EXCEPT SUNDAY <-> (SUPERSEDES SP-795C)","3 HMP COMMERCIAL VEHICLES ONLY 9AM-7PM EXCEPT SUNDAY <-> (SUPERSEDES PS-2C)","PAY-BY-CELL LOCATOR NUMBER","MOON & STARS (SYMBOLS) NO STANDING MIDNIGHT-7AM ALL DAYS <-> (SUPERSEDES SP-880B)"]"ı
+Ú["NO PARKING (SANITATION BROOM SYMBOL) MONDAY THURSDAY 9AM-10:30AM <-> (SUPERSEDES SP-413C)","NO STANDING FIRE ZONE --> (SUPERSEDES SP-453BA)","METERS ARE NOT IN EFFECT ABOVE TIMES (TO BE USED ONLY FOR CONFLICTING STREET CLEANING AND METERED PARKING REGULATIONS) (SUPERSEDES SW-473)","PAY-BY-CELL LOCATOR NUMBER","2 HMP 9AM-7PM EXCEPT SUNDAY --> (SUPERSEDES R7-182RBA)"]"˙
+˜["NO PARKING (SANITATION BROOM SYMBOL) TUESDAY FRIDAY 9AM-10:30AM --> (SUPERSEDES SP-415CA)","TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 8AM-6PM --> (SUPERSEDES SP-449CA & SP-70BA)","NO STANDING HOTEL LOADING ZONE --> (SUPERSEDES SP-1045BA)"]"¸
+˘["NO PARKING ANYTIME <-> (SUPERSEDES SP-854C)","NO PARKING ANYTIME --> (SUPERSEDES SP-854CA)","NON MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","NON MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUESTED)","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW"]"   ?"  ∞@"	
+◊£p=
+«?"	ÖÎQ∏’?"	333333„?"	R∏ÖÎQÿ?"	q=
+◊£pÂ?"	{ÆG·zƒ?"	{ÆG·z‰?"	{ÆG·zÏ?"	ÖÎQ∏ÖÎ?"	öôôôôôπ?"	∏ÖÎQ∏ﬁ?"	ÏQ∏ÖÎ·?"  " " " " " " " " 	" 
+" " " " " '3$ wB®© 5∂	ö
+”˙≤∞"		ˆ>¿,
+JÖ4& hCß&¥	ﬂ
+ù∏´ƒ"	ä?í.
+2$ dV≠π "Ä	¨
+‘ú≥®"	Ú=‰3
+3% vOò¢£ 4∂	ö
+”Å¥©"	º>Ù0
+2$ u\≠† 3∂	ö
+”‹±∞"	Ë=ä4
+%5' lGí\Æ*µ	ª
+‚ö∏±¡"	Ü>å4
+ B4 _;úí≠ 	¯
+Ñ¸∑¢√’Ω
+¥"	à?ä4
+4& `K}\Æ≤	Ê
+Éˇ∑±≈"	í>Ç6
+3% rSäçñ 0¥	∫
+·âª±"	˙;Ä>
+ 2$ tP\ã≥ 2≤	∏
+‡°π¶"	æ=Ù8
+2$ iFÆ{ó '∞	⁄
+ÙÒ≤±"	à>∏8
+-6( aúãå Ä	ﬁ
+ˆ†≥®—"	é>ú:
+2$ sU\ØÖ 1∂	ö
+”òµ•"	˙<¯<
+6( cAçäù!¥	Á
+áè∑±Õ"	ê<æ>
+6( káÜõ)Ä	ﬁ
+ˆÚ≤±«"	∂>î<
+%2$ ]M™´ Å	ô
+“Í±±"	Ã@æ)
+3# bT© ∂	ö
+”ç∂∞"
+	Ñ@ƒ+)5' oQ©®-¥	◊
+Ôõ∑ßæ"	¬@ú,
+4& yD©7¥	◊
+ÔÄæ•–"	åAê,
+4& mJ§+∞	Ì
+óàº±»"	ö@∞0
+5' g=¶•%±	Ó
+ìåµ®À"	àAê0
+	C3 f:¢°$	˛
+ë˚∫§œ’›
+¥"
+	˛?å24& ^>£∞	Ÿ
+Ûü∏®Ã"	úAà2
+e9?1 x8ûí≠6	Ï
+ñÇ∏Ø’º
+¥"	Ç@ä4
+ 	6( pEüïû.µ	Â
+Üã∫™¿"	é@¶6
+ 6( eHëïê#µ	‰
+Öï∑±…"	í@¶8
+	5' jI|ì∑(≤	∏
+‡˘¥±ø"	ÜAñ8
+5' qNzéî/∞	ÿ
+ıû∂¨∆"	å@˛;
+2$ n9Çà,	
+äµ®¬"	ûAä<
+2" W<\è 	È
+í˝≤±"
+	™<ä@	#3% XèúÆ¥	∫
+·Î±±"	î=í@
+A3 Z?Ñ@â	î
+êéΩÆ ÷€	£"	ä>¶@
+7' YLñç¥	Ë
+˜ôΩ≠Œ"
+	Ü?Ä@ 2$ [RÉ~ñ∂	ö
+”„±∞"	¯?≤@
+

@@ -1,0 +1,84 @@
+ŒTx
+curbs(Ä span_idorderstreetfromtosideside_lrblockface_idcategoryrules
+rules_jsonsigns
+sign_count
+confidenceraterate_hrpressure"
+L"
+R"
+[]"
+East"
+West"
+North"
+South"	
+MAIN ST"	
+metered"
+	BRYANT ST"
+
+BRANNAN ST"
+HARRISON ST"
+TOWNSEND ST"
+sf:3275000:L"
+sf:3275000:R"
+sf:12547201:L"
+sf:12547201:R"
+sf:12548101:L"
+sf:12548101:R"
+sf:12548201:L"
+sf:12548201:R"
+sf:12549101:L"
+sf:12549101:R"
+sf:12549201:L"
+sf:12549201:R"
+THE EMBARCADERO"
+free_with_cleaning"
+$1.75/hr (meter base rate)"
+$3.00/hr (meter base rate)"
+0000000300000000000000000000"E
+C["Street cleaning 12AM‚Äì2AM Tue","Street cleaning 12AM‚Äì2AM Wed"]"f
+d["Street cleaning 12AM‚Äì2AM Fri","Street cleaning 12AM‚Äì2AM Thu","Street cleaning 12AM‚Äì2AM Mon"]"ë
+é[{"activity":"street_cleaning","days":["su"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["sa"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true}]"ë
+é[{"activity":"street_cleaning","days":["su"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["sa"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true}]"í
+è["Street cleaning 12AM‚Äì2AM Tue & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Metered (4h) 7AM‚Äì10PM Mon Tue Wed Thu Fri Sat"]"û
+õ[{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}]}]"∂
+≥["Street cleaning 1AM‚Äì3AM Sun & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 1AM‚Äì3AM Sat & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Tue & holidays"]"∂
+≥["Street cleaning 1AM‚Äì3AM Sun & holidays","Street cleaning 1AM‚Äì3AM Sat & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Tue & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays"]"ƒ
+¡[{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1320}],"maxStay":240}]"’
+“[{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true}]"’
+“[{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true}]"’
+“[{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true}]"’
+“[{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true}]"‡
+›["Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Tue & holidays"]"‡
+›["Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Tue & holidays"]"‡
+›["Street cleaning 12AM‚Äì2AM Tue & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays"]"‡
+›["Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Tue & holidays"]"Ë
+Â["Street cleaning 12AM‚Äì2AM Tue & holidays","Street cleaning 1AM‚Äì3AM Sun & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 1AM‚Äì3AM Sat & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Metered (4h) 7AM‚Äì10PM Mon Tue Wed Thu Fri Sat"]"È
+Ê["Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 1AM‚Äì3AM Sat & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Tue & holidays","Street cleaning 1AM‚Äì3AM Sun & holidays","Metered (12h) 7AM‚Äì10PM Mon Tue Wed Thu Fri Sat"]"È
+Ê["Street cleaning 12AM‚Äì2AM Wed & holidays","Street cleaning 12AM‚Äì2AM Fri & holidays","Street cleaning 12AM‚Äì2AM Thu & holidays","Street cleaning 12AM‚Äì2AM Mon & holidays","Street cleaning 12AM‚Äì2AM Tue & holidays","Street cleaning 1AM‚Äì3AM Sat & holidays","Street cleaning 1AM‚Äì3AM Sun & holidays","Metered (12h) 7AM‚Äì10PM Mon Tue Wed Thu Fri Sat"]"Î
+Ë[{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}]}]"Ä
+˝[{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["sa"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["su"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1320}],"maxStay":720}]"Ä
+˝[{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["su"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["sa"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1320}],"maxStay":240}]"Ä
+˝[{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["mo"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":120}],"holidays":true},{"activity":"street_cleaning","days":["sa"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"street_cleaning","days":["su"],"times":[{"start":60,"end":180}],"holidays":true},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1320}],"maxStay":720}]"  ‡?"	ÕÃÃÃÃÃÏ?" " " " " " -  	 	/
+4=79"	I†
+U1) 		,
+(:7"	I†
+U13 		%
+!<7"	I†*J7{˜É7  	 	"
+&;79"	I†*J7{˜É+ 	 	
+#87"	I†
+U+ 		
+297"	I†
+U2 
+	 	-
+):7"	üÑ"$BÒ0Î?q6  
+		1
+5=76"	üÑ"$BÒ0Î?q* 
+		+
+':7"	ü‘
+V3.  
+	 	0
+3=76"	ü‘
+V3- 
+ 	.
+*:7"	üÆÁ- 
+	$
+ <7"	üÆÁ

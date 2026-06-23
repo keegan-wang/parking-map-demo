@@ -1,0 +1,550 @@
+º£x
+curbs(Ä span_idorderstreetfromtosideside_lrblockface_idcategoryrules
+rules_jsonsigns
+sign_count
+confidencepressure"
+L"
+R"
+[]"
+East"
+West"
+North"
+South"	
+03RD ST"	
+LANE ST"
+
+DUKES CT"
+
+KEITH ST"
+
+REUEL CT"
+
+WILLS ST"
+
+YOUNG CT"
+	AMADOR ST"
+	BOWMAN CT"
+	BURKE AVE"
+	CARGO WAY"
+	DEDMAN CT"
+	EVANS AVE"
+	INNES AVE"
+	MABREY CT"
+	NorthEast"
+	NorthWest"
+	PHELPS ST"
+	SouthEast"
+	SouthWest"
+
+CUSTER AVE"
+
+GALVEZ AVE"
+
+HUDSON AVE"
+
+MENDELL ST"
+
+NEWHALL ST"
+
+REBECCA LN"
+CASHMERE ST"
+FAIRFAX AVE"
+HILLVIEW CT"
+JENNINGS ST"
+JERROLD AVE"
+RICHARDS CT"
+sf:199101:L"
+sf:199201:R"
+sf:200101:L"
+sf:200201:R"
+sf:200202:R"
+sf:201000:L"
+sf:201000:R"
+sf:202101:L"
+DAVIDSON AVE"
+KIRKWOOD AVE"
+LA SALLE AVE"
+WESTBROOK CT"
+sf:3051000:L"
+sf:3051000:R"
+sf:3376000:L"
+sf:3376000:R"
+sf:3692101:L"
+sf:3692201:R"
+sf:3693101:L"
+sf:3693202:R"
+sf:3760101:L"
+sf:3760201:R"
+sf:3761101:L"
+sf:3761101:R"
+sf:3761102:L"
+sf:3761102:R"
+sf:3761201:R"
+sf:3762101:L"
+sf:3762101:R"
+sf:3762201:R"
+sf:3762202:R"
+sf:4667101:L"
+sf:4667201:L"
+sf:4667201:R"
+sf:4996101:L"
+sf:4996201:R"
+sf:5329000:L"
+sf:5329000:R"
+sf:5330101:L"
+sf:5330201:R"
+sf:5331101:L"
+sf:5331201:R"
+sf:5332101:L"
+sf:5332201:R"
+sf:5333101:L"
+sf:5333201:R"
+sf:5390000:L"
+sf:5390000:R"
+sf:5391000:L"
+sf:5391000:R"
+sf:5392000:L"
+sf:5392000:R"
+sf:5985000:L"
+sf:5985000:R"
+sf:5986000:L"
+sf:5986000:R"
+sf:7074000:L"
+sf:7074000:R"
+sf:7075000:L"
+sf:7075000:R"
+sf:7076000:L"
+sf:7076000:R"
+sf:7077000:L"
+sf:7077000:R"
+sf:7078000:L"
+sf:7078000:R"
+sf:7095000:L"
+sf:7095000:R"
+sf:7259101:L"
+sf:7259101:R"
+sf:7259201:L"
+sf:7259201:R"
+sf:7260000:L"
+sf:7260000:R"
+sf:7469000:L"
+sf:7469000:R"
+sf:7470000:L"
+sf:7470000:R"
+sf:7471000:L"
+sf:7471000:R"
+sf:7496000:L"
+sf:7496000:R"
+sf:7777000:L"
+sf:7777000:R"
+sf:7778000:L"
+sf:7778000:R"
+sf:7779000:L"
+sf:7779000:R"
+sf:7780000:L"
+sf:7780000:R"
+sf:7932101:L"
+sf:7932101:R"
+sf:7932201:R"
+sf:8589000:L"
+sf:8589000:R"
+sf:8954000:L"
+sf:8954000:R"
+sf:8955000:L"
+sf:8955000:R"
+sf:8956000:L"
+sf:8956000:R"
+sf:8957000:L"
+sf:8957000:R"
+sf:8958000:L"
+sf:8958000:R"
+sf:8959000:L"
+sf:8959000:R"
+sf:8960000:L"
+sf:8960000:R"
+sf:8961000:L"
+sf:8961000:R"
+sf:9011000:L"
+sf:9011000:R"
+sf:9012000:L"
+sf:9012000:R"
+sf:9013000:L"
+sf:9013000:R"
+sf:9561000:L"
+sf:9561000:R"
+sf:9562000:L"
+sf:9562000:R"
+sf:9563000:L"
+sf:9563000:R"
+sf:9564000:L"
+sf:9564000:R"
+sf:9565000:L"
+sf:9565000:R"
+sf:9566000:L"
+sf:9566000:R"
+WEST POINT RD"
+sf:10395000:L"
+sf:10395000:R"
+sf:10949000:L"
+sf:10949000:R"
+sf:10970101:L"
+sf:10970201:L"
+sf:10970201:R"
+sf:13576001:L"
+sf:13611000:L"
+sf:13611000:R"
+sf:13612000:L"
+sf:13612000:R"
+sf:13667000:L"
+sf:13667000:R"
+sf:13786000:L"
+sf:13786000:R"
+MIDDLE POINT RD"
+END: 01-99 BLOCK"
+WHITNEY YOUNG CIR"
+HUNTERS POINT BLVD"
+START: 01-15 BLOCK"
+START: 01-17 BLOCK"
+free_with_cleaning"
+START: 100-199 BLOCK"
+part_time_restricted"
+START: 1500-1599 BLOCK"
+0000000000000000010000000000"
+0000000000000000020000000000"
+0000000000000300000000000000"
+0000000000000400000000000000"
+0000000000000500000000000000"
+0000000000000700030004000086"
+0000000000300000000000000000"
+0000000002000000000000000000"
+0000003003000800050000000000"
+0000004005360000000000000000"
+0000010000000100000000000000"
+0000030000000000030600000000"
+0000030000000300000000000000"
+0000030000000607000000000000"
+0000040000000000000000000000"
+0000040000000300003000000000"
+0000070000000300000000000000"
+0000730000007030000000000000"
+0007000000000000040000000000"
+0008000000000000070000000000"
+0020000000000000060000000000"
+0050000000000000000000000000"
+0060000000000000040000000000"
+0300000000006600050000000000"
+0300050000000338003000000000"
+0408000000000000000300000000"
+0505080000000700003000000550"
+0700080500000005080500050000"#
+!["Street cleaning 1PM‚Äì3PM Mon"]"#
+!["Street cleaning 4AM‚Äì6AM Fri"]"#
+!["Street cleaning 4AM‚Äì6AM Mon"]"$
+"["Street cleaning 10AM‚Äì3PM Fri"]"$
+"["Street cleaning 12AM‚Äì6AM Thu"]"$
+"["Street cleaning 12AM‚Äì6AM Tue"]"$
+"["Street cleaning 12AM‚Äì6AM Wed"]"$
+"["Street cleaning 8AM‚Äì10AM Fri"]"$
+"["Street cleaning 8AM‚Äì10AM Thu"]"$
+"["Street cleaning 8AM‚Äì10AM Tue"]"$
+"["Street cleaning 9AM‚Äì11AM Fri"]"$
+"["Street cleaning 9AM‚Äì11AM Wed"]";
+9["Street cleaning 8AM‚Äì10AM Tue","No parking 3AM‚Äì6AM"]"E
+C["Street cleaning 12AM‚Äì6AM Thu","Street cleaning 8AM‚Äì10AM Tue"]"E
+C["Street cleaning 12AM‚Äì6AM Tue","Street cleaning 12AM‚Äì6AM Thu"]"P
+N[{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":360}]}]"P
+N[{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":360}]}]"P
+N[{"activity":"street_cleaning","days":["we"],"times":[{"start":0,"end":360}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":480,"end":600}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":540,"end":660}]}]"R
+P[{"activity":"street_cleaning","days":["fr"],"times":[{"start":600,"end":900}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]}]"R
+P[{"activity":"street_cleaning","days":["mo"],"times":[{"start":780,"end":900}]}]"R
+P[{"activity":"street_cleaning","days":["th"],"times":[{"start":480,"end":600}]}]"R
+P[{"activity":"street_cleaning","days":["tu"],"times":[{"start":480,"end":600}]}]"R
+P[{"activity":"street_cleaning","days":["we"],"times":[{"start":540,"end":660}]}]"è
+å[{"activity":"street_cleaning","days":["tu"],"times":[{"start":480,"end":600}]},{"activity":"no_parking","times":[{"start":180,"end":360}]}]"û
+õ[{"activity":"street_cleaning","days":["tu"],"times":[{"start":0,"end":360}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":360}]}]"†
+ù[{"activity":"street_cleaning","days":["th"],"times":[{"start":0,"end":360}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":480,"end":600}]}]"Ω
+∫[{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]}]"Ω
+∫[{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]}]"Ω
+∫[{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]}]"Ω
+∫[{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]}]"Ω
+∫[{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]}]"Ω
+∫[{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]}]"Ω
+∫[{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]}]"Ω
+∫[{"activity":"street_cleaning","days":["we"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["su"],"times":[{"start":120,"end":360}],"holidays":true},{"activity":"street_cleaning","days":["th"],"times":[{"start":120,"end":360}]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":240,"end":360}]},{"activity":"street_cleaning","days":["sa"],"times":[{"start":120,"end":360}]}]"Ô
+Ï["Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 2AM‚Äì6AM Wed","Street cleaning 2AM‚Äì6AM Tue","Street cleaning 2AM‚Äì6AM Sat","Street cleaning 4AM‚Äì6AM Fri","Street cleaning 4AM‚Äì6AM Mon","Street cleaning 2AM‚Äì6AM Thu"]"Ô
+Ï["Street cleaning 2AM‚Äì6AM Thu","Street cleaning 4AM‚Äì6AM Mon","Street cleaning 2AM‚Äì6AM Wed","Street cleaning 4AM‚Äì6AM Fri","Street cleaning 2AM‚Äì6AM Sat","Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 2AM‚Äì6AM Tue"]"Ô
+Ï["Street cleaning 2AM‚Äì6AM Tue","Street cleaning 2AM‚Äì6AM Sat","Street cleaning 2AM‚Äì6AM Wed","Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 2AM‚Äì6AM Thu","Street cleaning 4AM‚Äì6AM Mon","Street cleaning 4AM‚Äì6AM Fri"]"Ô
+Ï["Street cleaning 2AM‚Äì6AM Tue","Street cleaning 2AM‚Äì6AM Thu","Street cleaning 4AM‚Äì6AM Mon","Street cleaning 4AM‚Äì6AM Fri","Street cleaning 2AM‚Äì6AM Sat","Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 2AM‚Äì6AM Wed"]"Ô
+Ï["Street cleaning 2AM‚Äì6AM Wed","Street cleaning 2AM‚Äì6AM Tue","Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 2AM‚Äì6AM Thu","Street cleaning 4AM‚Äì6AM Fri","Street cleaning 4AM‚Äì6AM Mon","Street cleaning 2AM‚Äì6AM Sat"]"Ô
+Ï["Street cleaning 4AM‚Äì6AM Fri","Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 2AM‚Äì6AM Tue","Street cleaning 2AM‚Äì6AM Wed","Street cleaning 2AM‚Äì6AM Sat","Street cleaning 2AM‚Äì6AM Thu","Street cleaning 4AM‚Äì6AM Mon"]"Ô
+Ï["Street cleaning 4AM‚Äì6AM Mon","Street cleaning 2AM‚Äì6AM Sat","Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 4AM‚Äì6AM Fri","Street cleaning 2AM‚Äì6AM Wed","Street cleaning 2AM‚Äì6AM Thu","Street cleaning 2AM‚Äì6AM Tue"]"Ô
+Ï["Street cleaning 4AM‚Äì6AM Mon","Street cleaning 2AM‚Äì6AM Thu","Street cleaning 2AM‚Äì6AM Tue","Street cleaning 2AM‚Äì6AM Sat","Street cleaning 2AM‚Äì6AM Sun & holidays","Street cleaning 2AM‚Äì6AM Wed","Street cleaning 4AM‚Äì6AM Fri"]"	ÕÃÃÃÃÃÏ?" " " 2$ ©©/ ©ø	Â
+éç"	ó‹
+2$ ™™/™ø	„
+Óéç"	ó‹
+1! .." .ø	Ü
+Åêç"
+	üÿ.42$ ]] ]¡	Î
+˙èç—"		Æ
+ïk2$ ^^^ø	Á
+˜éç—"		Æ
+ïk3$ ßßßø	Á
+˜éç"			Æ
+ï“3$ ¶¶ ¶ø	Ë
+¯éç"			Æ
+ï“4$ ww% wø	Á
+˜éç”"
+	|Ñ3{Wüs4$ xx%xø	Ë
+¯éç”"
+	|Ñ3{Wüs9' ïï%0ïø	Ë
+¯éçœ"	|Ñ3{Æü‚9' îî%0 îø	Á
+˜éçœ"	|Ñ3{Æü‚9$ ÉÉ1!Éø	Ë
+¯éç"	ä†Aﬂü)üs6' ÅÅ1! Åø	Á
+˜éç»"		f†A
+Öª6' ÇÇ1!Çø	‚
+Ùéç»"		f†A
+Öª7! 99 9ø	‰
+Ôéç"	‘⁄{’≈›ü6! (((ø	â
+Ñêç"	“ü+†CÙÑ6! ))/ )ø	ã
+˛êç"	¯ÇÉ‰GJ7! '' 'ø	Ö
+Äêç"	≤ü"#ÑIéOj1! ***ø	å
+ˇêç"
+	¯MhR3! ,,/ ,ø	à
+Éêç"	2®1∞ü∞2! ++/+ø	á
+Çêç"	å≤kÜp3! --/-ø	ä
+˝êç"	2®1∞ü∞D' †† †ø	‰
+Ôéç⁄"	¥‰*ó	◊◊£6Éx…“D' °°°ø	„
+Óéç⁄"	¥‰*ó	◊◊£6Éx…“7! SS Sø	„
+Óéç"	“¯"u€ëYAEa6! QQ Qø	„
+Óéç"	∂⁄•ù	’m5! RRRø	‰
+Ôéç"	∂⁄;}∑	Áo8! TTTø	‰
+Ôéç"	“¯"#m≠Àó9' ••"•ø	„
+ÓéçÃ"	ú‡õ¿	4$ ¢¢" ¢ø	‰
+Ôéç"
+	“¯
+µË4$ YY" Yø	„
+Óéç "
+	à∆ 
+Î
+Â4$ ZZ"Zø	‰
+Ôéç "
+	à∆ 
+Î
+Â9' §§" §ø	Ì
+˚èçÃ"	ú‡õ¿	4$ ££"£ø	„
+Óéç"
+	“¯
+µË9% 55¬ 5ø	·
+ıéçƒ"	÷ ë	…›ü9% 66¬6ø	‡
+Òéçƒ"	÷ ë	…›ü7! :::ø	„
+Óéç"	‘⁄3mﬂÎﬂü;' ÜÜ Üø	„
+Óéç‘"	‘⁄ﬂ≤øÿ=' àà àø	„
+Óéç…"	¥‰CƒQÍÁ»;' áááø	‰
+Ôéç‘"	‘⁄ﬂ≤øÿ=' âââø	‰
+Ôéç…"	¥‰CƒQÍÁ»;% ûû¿ ûø	„
+Óéç"	ÆíÎÌª}—A;% üü¿üø	„
+Óéç"	ÆíÎÌª}—A7$ gg gø	Á
+˜éç›"	∆Ê)≈≥üs7$ hhhø	Ë
+¯éç›"	∆Ê)≈≥üs7' ëëëø	Ë
+¯éç≈"
+	∆Ê)
+°Ã7$ pppø	Á
+˜éç–"	§≤.£áüs7$ oo oø	Ë
+¯éç–"	§≤.£áüs7' êê êø	Á
+˜éç≈"
+	∆Ê)
+°Ã8$ mm mø	Á
+˜éç€"	¢ö5sãÈa	8$ nnnø	Ë
+¯éç€"	¢ö5sãÈa	6$ [[ [ø	„
+Óéç∆"	Ï
+ò%Î
+·	4$ åå" åø	Á
+˜éç"
+	à∆ 
+õ“7' èèèø	Ë
+¯éçŒ"
+	Ï
+ò%
+•Œ4$ çç"çø	Ë
+¯éç"
+	à∆ 
+õ“7' éé éø	Á
+˜éçŒ"
+	Ï
+ò%
+•Œ6$ \\\ø	‰
+Ôéç∆"	Ï
+ò%Î
+·	4$ XX"Xø	‰
+Ôéç "
+	¸∞(
+Û
+È4$ ãã"ãø	‰
+Ôéç"
+	∂⁄
+≠Ï4$ WW" Wø	„
+Óéç "
+	¸∞(
+Û
+È4$ ää" äø	„
+Óéç"
+	∂⁄
+≠Ï7' ìì%ìø	Ë
+¯éç«"
+	§≤.
+ß“7' íí% íø	Á
+˜éç«"
+	§≤.
+ß“@! EE!	1Eø	Ê
+Úéç"	»º::XwòY™û	åMÇ:$ II	!	 Iø	Ê
+Úéçƒ"	»º:"G'Ÿ"ÎH+7! JJ	!	Jø	Ê
+Úéç"	»º:""E%—&Ø'?8" DD!ª	Dø	Ê
+Úéç"	∆¨;"5a’M¡/"F" CC!ª1Cø	‚
+Ùéç"	∆¨;J]
+k/ÂﬂXëíW∂Í	X!HF" BB!ª1 Bø	ﬂ
+ˆéç"	∆¨;J]
+k/ÂﬂXëíW∂Í	X!H8$ lllø	Á
+˜éç“"	¢ö5KëÔW8$ kk kø	Ë
+¯éç“"	¢ö5KëÔWC% AA!ªAø	Ê
+Úéç‹"	úA:i=•À1mIµ©?-i8) ∏∏Ωª∏ø	Ê
+Úéç√"		ú»=
+⁄8) ∑∑Ωª ∑ø	Ê
+Úéç√"		ú»=
+⁄:% ¥¥ª&¥ø	Í
+˘éç"	ˆ
+∆="bÿ\ D:% ≥≥ª& ≥ø	Ê
+Úéç"	ˆ
+∆="bÿ\ D6% ±±ª! ±ø	Ê
+Úéç"	∆¨;/v§6% ≤≤ª!≤ø	Í
+˘éç"	∆¨;/v§G% FFª Fø	Ê
+Úéç’"	∆¨;B q.AñgÑaÍ ˙ZÓ∏<G% HHªHø	Ê
+Úéç÷"	∆¨;B`C&7ÇW‚E¬¬ååtDG% GGª Gø	‚
+Ùéç÷"	∆¨;B`C&7ÇW‚E¬¬ååtD4" ??!#ª ?ø	ﬂ
+ˆéç"	ò‘?ß—)U4" @@!#ª@ø	‚
+Ùéç"	ò‘?ß—)U1! VV"
+Vø	‰
+Ôéç"
+	‡#í0
+„
+·1! UU"
+ Uø	„
+Óéç"
+	‡#í0
+„
+·<$ ff
+fø	Ë
+¯éçﬁ"	†–4±È˜«Ø
+∑<$ ee
+ eø	Ê
+Úéçﬁ"	†–4±È˜«Ø
+∑7! dd
+dø	Ë
+¯éç"	“™;)≈mˇôì7! cc
+ cø	Ê
+Úéç"	“™;)≈mˇôìK' ÄÄ
+ Äø	Ê
+Úéçÿ"	ƒ"¸4JZ
+p=jy6oØ©ÉÅ˚#ÎHH$ 
+  ø	ﬂ
+ˆéçÿ"	ƒ"¸4JZ
+p=jy6oØ©ÉÅ˚#ÎHC( ¨¨ 
+∫¨ø	ﬂ
+ˆéçŸ"	ƒ"¸42K"]«}£Ø%=wC( ´´ 
+∫ ´ø	Ê
+ÚéçŸ"	ƒ"¸42K"]«}£Ø%=w@$ ≠≠ ≠ø	Ê
+Úéç"	“™;2L=⁄ºLÓ\¬$8C' ØØØø	Ê
+ÚéçÕ"	“™;2P:ú‡X¥Vò5C' ÆÆ Æø	‚
+ÙéçÕ"	“™;2P:ú‡X¥Vò55! OO
+ Oø	„
+Óéç"	¨'∂+wÀÎ1u6! PP
+Pø	‰
+Ôéç"	¨'∂+kœ„â1! zz
+"zø	Ê
+Úéç"
+	¨'∂+
+À‹1! yy
+" yø	ﬂ
+ˆéç"
+	¨'∂+
+À‹9! MM$
+ Mø	Ï
+¸èç"	Ç2≤3"W√—•Øi=! NN$
+Nø	‰
+Ôéç"	Ç2≤32+OΩˇmuO[¡Âk>% 44
+∫4ø	Ê
+Úéç◊"	∞"ﬁ2*á?Ak[ΩùY>% 33
+∫ 3ø	ﬂ
+ˆéç◊"	∞"ﬁ2*á?Ak[ΩùY4! {{
+" {ø	ﬂ
+ˆéç"	‡#í0â∏%î4! ||
+"|ø	Ê
+Úéç"	‡#í0â∏%î4! }}
+  }ø	ﬂ
+ˆéç"	∞"ﬁ2	$ö`4! ~~
+ ~ø	Ê
+Úéç"	∞"ﬁ2	$ö`1! qq$ qø	„
+Óéç"
+	ò?Ú 
+©ÿ1! rr$rø	‰
+Ôéç"
+	ò?Ú 
+©ÿ9! 77$ 7ø	‰
+Ôéç"	ò?Ú "oÅÈØπ!e9! 88$8ø	„
+Óéç"	ò?Ú "'iÅÈ•±s5% úú$∫ úø	Ê
+Úéç"
+	å:Ü(
+£ﬂ5% ùù$∫ùø	Ê
+Úéç"
+	å:Ü(
+£ﬂ1! tt$tø	‰
+Ôéç"
+	Ó; %
+·º1! ss$ sø	„
+Óéç"
+	Ó; %
+·º2" LLº$Lø	Á
+˜éç"
+	˙;ƒ:
+˜	ë1! uu$ uø	„
+Óéç"
+	å:Ü(
+â¨1! vv$vø	‰
+Ôéç"
+	å:Ü(
+â¨2" KKº$ Kø	Ë
+¯éç"
+	˙;ƒ:
+˜	ë<& ññπ$® ñø	È
+Ûéç"	Ç2≤3ßä5¯‚<& óóπ$®óø	Á
+˜éç"	Ç2≤3ßä5¯‚5& òòπ® òø	È
+Ûéç"		¢0ñ:
+Ã5& ôôπ®ôø	Á
+˜éç"		¢0ñ:
+Ã8& µµπ∫ µø	Á
+˜éç"	û0‚=Ü‡D 8& ∂∂π∫∂ø	È
+Ûéç"	û0‚=Ü‡D 5" iiº iø	Ë
+¯éç"	¯>†AEü∑ª5" jjºjø	Á
+˜éç"	¯>†AEü∑ª7& ÖÖæªÖø	Í
+˘éç"	¨à@•zI7& ÑÑæª Ñø	Í
+˘éç"	¨à@•zI:! ==!# =ø	ﬂ
+ˆéç"	úA
+	ß Èü?+:! >>!#>ø	‚
+Ùéç"	úA
+	ß Èü?+3! bb!bø	Ë
+¯éç"	úAõ}’/! __2! _ø	Ê
+Úéç"	†A
+ /! ``2!`ø	Í
+˘éç"	†A
+ 3! aa! aø	Ê
+Úéç"	úAõ}’9! <<!!<ø	Ê
+Úéç"	ú†A*+ù)·9E>2$ ;;!! ;ø	Ê
+Úéçƒ"	ˆ†A
+;) ööπ® öø	È
+ÛéçÀ"	û0‚= û †6' ∞∞®ππ ∞ø	È
+Ûéç"		à'å@
+lî;) õõπ®õø	Á
+˜éçÀ"	û0‚= û †

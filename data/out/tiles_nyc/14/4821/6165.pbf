@@ -1,0 +1,333 @@
+›Nx
+curbs(Ä span_idorderstreetfromtosideside_lrblockface_idcategoryrules
+rules_jsonsigns
+sign_count
+confidencepressure"
+E"
+L"
+N"
+R"
+S"
+W"
+[]"
+other"
+
+DEAD END"
+
+P-377424"
+
+P-593493"
+
+S-346303"
+
+S-352152"
+
+S-379627"
+
+S-379869"
+
+S-500545"
+
+1622600119"
+
+1622603043"
+
+1622603382"
+
+1622603983"
+
+1622603984"
+
+1622604019"
+
+1622604134"
+
+1622604135"
+
+1622604172"
+
+1622604428"
+
+1622604511"
+
+1622604512"
+
+1622604556"
+
+1622604562"
+
+1622605176"
+
+1622605242"
+
+1622605254"
+
+1622605255"
+
+1622606106"
+
+1622606778"
+
+1622608570"
+
+1622609276"
+
+1622609491"
+
+1622609729"
+
+1622609940"
+
+1622610565"
+
+1622610839"
+
+1622610844"
+
+1622610864"
+
+1622611795"
+
+BAY STREET"
+
+P-01252441"
+
+P-01419308"
+
+P-01599208"
+
+S-01249401"
+
+S-01253399"
+
+S-01253574"
+
+S-01335942"
+
+S-01335953"
+
+S-01343051"
+
+S-01357509"
+
+S-01392804"
+
+S-01410347"
+
+S-01542290"
+
+S-01572566"
+
+S-01587461"
+
+S-01666079"
+
+S-01695146"
+
+S-01744584"
+
+S-01766844"
+
+S-01780682"
+
+S-01780961"
+
+S-01801659"
+
+S-01815303"
+
+SYLVA LANE"
+CHURCH LANE"
+WIMAN PLACE"
+1622600119:1"
+1622600119:3"
+1622603043:0"
+1622603382:0"
+1622603983:0"
+1622603984:0"
+1622603984:1"
+1622604019:1"
+1622604134:0"
+1622604135:1"
+1622604172:0"
+1622604428:0"
+1622604511:0"
+1622604512:0"
+1622604512:2"
+1622604556:0"
+1622604562:1"
+1622605176:0"
+1622605242:0"
+1622605254:0"
+1622605254:1"
+1622605255:0"
+1622606106:0"
+1622606106:2"
+1622606778:0"
+1622608570:1"
+1622609276:0"
+1622609491:1"
+1622609729:0"
+1622609940:0"
+1622610565:2"
+1622610839:1"
+1622610844:0"
+1622610864:0"
+1622610864:2"
+1622611795:0"
+BUTLER PLACE"
+ORMOND PLACE"
+TILSON PLACE"
+time_limited"
+ABBOTT STREET"
+CAMDEN STREET"
+LANGERE PLACE"
+WILLOW AVENUE"
+CLIFTON AVENUE"
+ANDERSON STREET"
+ANDREASE STREET"
+CHESTNUT AVENUE"
+HYLAN BOULEVARD"
+LYNHURST AVENUE"
+MARYLAND AVENUE"
+SCARBORO AVENUE"
+ST MARYS AVENUE"
+TOMPKINS AVENUE"
+VIRGINIA AVENUE"
+WATERVIEW COURT"
+["No standing"]"
+EDGEWATER STREET"
+SYLVATON TERRACE"
+no_parking_anytime"
+no_standing_anytime"
+part_time_restricted"
+["No parking anytime"]"
+["No standing anytime"]"
+["No standing 11PM‚Äì6AM"]"
+0000000000000000000003000000"
+0000000000000000000004000000"
+0000000000000000000005000000"
+0000000000000020000000000000"
+0000000000000400000000000000"
+0000000000300000000000000000"
+0000000001000000010000000500"
+0400000002200000040000000000"
+6600000000000000000700000000"
+[{"activity":"no_standing"}]"$
+"["Bus stop","No standing anytime"]",
+*["Time-limited (2h) 8AM‚Äì7PM except Sun"]",
+*["Time-limited (2h) 9AM‚Äì7PM except Sun"]"1
+/["NO PARKING ANYTIME <-> (SUPERSEDES SP-854C)"]"2
+0["No standing anytime","No standing","Bus stop"]":
+8["No standing","Time-limited (2h) 8AM‚Äì7PM except Sun"]">
+<[{"activity":"no_parking","times":[{"start":0,"end":1440}]}]"?
+=[{"activity":"no_standing","times":[{"start":0,"end":1440}]}]"A
+?[{"activity":"no_standing","times":[{"start":1380,"end":360}]}]"E
+C["No standing 6AM‚Äì9AM Mon Tue Wed Thu Fri","No standing anytime"]"N
+L["NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)"]"R
+P["NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)"]"W
+U[{"activity":"bus_stop"},{"activity":"no_standing","times":[{"start":0,"end":1440}]}]"X
+V["No standing 6AM‚Äì9AM Mon Tue Wed Thu Fri","Time-limited (2h) 9AM‚Äì7PM except Sun"]"`
+^["NO PARKING ANYTIME --> (SUPERSEDES SP-854CA)","NO PARKING ANYTIME <-> (SUPERSEDES SP-854C)"]"d
+b[{"activity":"time_limited","maxStay":120,"times":[{"start":480,"end":1140}],"exceptions":["su"]}]"d
+b[{"activity":"time_limited","maxStay":120,"times":[{"start":540,"end":1140}],"exceptions":["su"]}]"r
+p[{"activity":"no_standing","times":[{"start":0,"end":1440}]},{"activity":"no_standing"},{"activity":"bus_stop"}]"
+}[{"activity":"no_standing"},{"activity":"time_limited","maxStay":120,"times":[{"start":480,"end":1140}],"exceptions":["su"]}]"Ö
+Ç["2 HOUR PARKING 9AM-7PM EXCEPT SUNDAY --> (SUPERSEDES R7-182RA)","2 HOUR PARKING 9AM-7PM EXCEPT SUNDAY <-> (SUPERSEDES R7-182R)"]"û
+õ["NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)"]"û
+õ["NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)"]"ü
+ú[{"activity":"no_standing","times":[{"start":360,"end":540}],"days":["mo","tu","we","th","fr"]},{"activity":"no_standing","times":[{"start":0,"end":1440}]}]"§
+°["PARALLEL PARKING ONLY --> (SUPERSEDES SP-174DA)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","MOON & STARS (SYMBOLS) NO STANDING 11PM-6AM ALL DAYS --> (SUPERSEDES SP-1106BA)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","MOON & STARS (SYMBOLS) NO STANDING 11PM-6AM ALL DAYS <-> (SUPERSEDES SP-1106B)","PARALLEL PARKING ONLY <-> (SUPERSEDES SP-174D)"]"©
+¶["LIMITED MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING <----->","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","LTD/RUSH MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUESTED)","REAL TIME PUBLIC INFORMATION BOX (FOR FULL TIME BUS STOPS)","LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","NO STANDING MONDAY-FRIDAY 6AM-9AM --> (SUPERSEDES SP-551BA)"]"¨
+©["NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","LOCAL MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUIRED)"]"Æ
+´["LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","REAL TIME PUBLIC INFORMATION BOX (FOR FULL TIME BUS STOPS)","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","LOCAL MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUIRED)"]"∫
+∑["NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","2 HOUR PARKING 8AM-7PM EXCEPT SUNDAY <-> (SUPERSEDES R7-128R)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","2 HOUR PARKING 8AM-7PM EXCEPT SUNDAY --> (SUPERSEDES R7-128RA)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","LIMITED MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)"]"ƒ
+¡[{"activity":"no_standing","times":[{"start":360,"end":540}],"days":["mo","tu","we","th","fr"]},{"activity":"time_limited","maxStay":120,"times":[{"start":540,"end":1140}],"exceptions":["su"]}]"Õ
+ ["NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)","NO PARKING ANYTIME --> (SUPERSEDES SP-854CA)"]"Õ
+ ["NO STANDING MONDAY-FRIDAY 6AM-9AM <-> (SUPERSEDES SP-551B)","2 HOUR PARKING 9AM-7PM EXCEPT SUNDAY --> (SUPERSEDES R7-182RA)","NO STANDING ANYTIME <-> (SUPERSEDES SP-1044B, SP-10B, SP-216B & SP-270B)"]"–
+Õ["2 HOUR PARKING 9AM-7PM EXCEPT SUNDAY <-> (SUPERSEDES R7-182R)","NO STANDING MONDAY-FRIDAY 6AM-9AM <-> (SUPERSEDES SP-551B)","NO STANDING ANYTIME --> (SUPERSEDES SP-1044BA, SP-10BA, SP-216BA & SP-270BA)"]"‚
+ﬂ["LOCAL MTA BUS ROUTE PANEL (TEXT TO BE MODIFIED AS REQUESTED)","BUS STOP SIGN (BUS & HANDICAP SYMBOLS) NO STANDING W/ SINGLE ARROW","14 STREET & UNION SQ (BOTTOM LOCATION PANEL)(USE AS EXAMPLE FOR DIFFERENT LOCATION)","2 HOUR PARKING 8AM-7PM EXCEPT SUNDAY <-> (SUPERSEDES R7-128R)","LOCAL MTA BUS DESTINATION PANEL (TEXT TO BE MODIFIED AS REQUIRED)"]"   ?"  Ä>"	
+◊£p=
+◊?"	R∏ÖÎQÿ?"	öôôôôô…?"	öôôôôôÈ?" " " " " " " " 
+" " " .  hD.rÇ *	
+≠æ∂"	ü™*
+(>2# cBr.Ç%Ñ	á
+öóºª"		wË*xq, b?t.~$	
+®¿ª"	3Ç-
+k@/" NEvmx Ö	à
+õüªª"	1≤7
+/" MAmvoÖ	à
+õûºª"	1≤7
+m>4" T}ovÑ	á
+öóºª"	Üñ:ÖRü`5# i2Çt. +Ö	à
+õ®æª"	ü¬(†à3# e4Çtz'Ö	à
+õ©æª"
+	ÿÇ+
+Ç¯3# [t.ÇÖ	à
+õûºª"
+	ÿÇ+
+∑–2$ g/.tz)p	ô
+¶Øƒ∏å"	ºÍ.
+(5" Z5zs.Ñ	á
+ö¢æª"	¸‹/˚îü\3# L;z.ÇÖ	à
+õ©Ωª"
+	⁄˙-
+›‚2" ^6x.v!Ñ	á
+öóøª"
+	¥¶2
+•¨3% \
+.x} Ü	Å
+ì¥øπí"	¥¶2
+8f2" a>nm}#Ö	à
+õûΩª"
+	™5
+∫–3# d:É.H&Ö	à
+õüºª"
+	ˆÍ3
+Õ»4$ ]
+.x} p	ï
+£¥øπí"
+	Ïå3
+™∞0" _9.}"Ö	î
+†Æ¬µ"	ÜÜ7
+. OEvmx 	
+üªª"		/∂70^ @2" fC}v.(Ñ	á
+öóΩª"
+	‰¿8
+›÷3% W8.vÖ	à
+õ®æªé"	ñ™<
+gD3% V8.vÖ	à
+õ®æªé"	¥æ9
+O6. `9.}"	
+Æ¬µ"		æÏ7
+v“2$ YÉHÇÖ	à
+õüªª"	Ùú3
+-2" SGH.Ö	à
+õûºª"
+	†	í5
+ôÙ3# X3ÇFuÖ	à
+õûºª"
+	™¨5
+Í∫3$ U	.up	°
+∞≥øªã"		¥æ9
+Pê4% P1.uyÖ	ù
+™≤æªë"		î	Œ<
+t–3# Jy.Ç	
+±¡ªê"
+	 Ú<
+Ò¯3# Iy.Ç	
+±¡ªê"
+	“ñ:
+≠†4& j@Çyz ,Ö	à
+õ´≈∫ç"	îÊ6
+ 6& k@Çyz ,Ü	â
+ú´≈∫ç"
+	¶ˆ7BV"83" l=q|{ -Ö	à
+õ®æª"	Üà?Pxl†1# K7wÄ Ö	à
+õ©Ωª"	ÜÙ>
+>h6$ Q0yv.p	ñ
+§ßºªè"	‡
+∫?kF’é5% R<.y{Ö	ò
+•¨√∑ä"
+	‚
+æ?$B*

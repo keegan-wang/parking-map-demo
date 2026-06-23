@@ -1,0 +1,987 @@
+Хнx
+curbs(─ span_idorderstreetfromtosideside_lrblockface_idcategoryrules
+rules_jsonsigns
+sign_count
+confidencepressureraterate_hr"
+L"
+R"
+[]"
+East"
+West"
+North"
+South"	
+metered"
+
+28TH AVE"
+
+29TH AVE"
+
+30TH AVE"
+
+31ST AVE"
+
+32ND AVE"
+
+33RD AVE"
+
+34TH AVE"
+
+35TH AVE"
+
+36TH AVE"
+
+37TH AVE"
+
+38TH AVE"
+
+39TH AVE"
+
+40TH AVE"
+
+ULLOA ST"
+
+YORBA ST"
+	NorthEast"
+	NorthWest"
+	RIVERA ST"
+	SouthEast"
+	SouthWest"
+	WAWONA ST"
+
+TARAVAL ST"
+
+VICENTE ST"
+ESCOLTA WAY"
+SANTIAGO ST"
+SUNSET BLVD"
+CRESTLAKE DR"
+sf:1624000:L"
+sf:1624000:R"
+sf:1625000:L"
+sf:1625000:R"
+sf:1626000:L"
+sf:1626000:R"
+sf:1658000:L"
+sf:1658000:R"
+sf:1659000:L"
+sf:1659000:R"
+sf:1660000:L"
+sf:1660000:R"
+sf:1661000:L"
+sf:1661000:R"
+sf:1662000:L"
+sf:1662000:R"
+sf:1663000:L"
+sf:1663000:R"
+sf:1693000:L"
+sf:1693000:R"
+sf:1694000:L"
+sf:1694000:R"
+sf:1695000:L"
+sf:1695000:R"
+sf:1696000:L"
+sf:1696000:R"
+sf:1697000:L"
+sf:1697000:R"
+sf:1717000:L"
+sf:1717000:R"
+sf:1718000:L"
+sf:1718000:R"
+sf:1719000:L"
+sf:1719000:R"
+sf:1720000:L"
+sf:1720000:R"
+sf:1736000:L"
+sf:1736000:R"
+sf:1737000:L"
+sf:1737000:R"
+sf:1738000:L"
+sf:1738000:R"
+sf:1739000:L"
+sf:1739000:R"
+sf:1740000:L"
+sf:1740000:R"
+sf:1756000:L"
+sf:1756000:R"
+sf:1757000:L"
+sf:1757000:R"
+sf:1758000:L"
+sf:1758000:R"
+sf:1759000:L"
+sf:1759000:R"
+sf:1760000:L"
+sf:1760000:R"
+sf:1761000:L"
+sf:1761000:R"
+sf:1779000:L"
+sf:1779000:R"
+sf:1780000:L"
+sf:1780000:R"
+sf:1781000:L"
+sf:1781000:R"
+sf:1782000:L"
+sf:1782000:R"
+sf:1783000:L"
+sf:1783000:R"
+sf:1784000:L"
+sf:1784000:R"
+sf:1812000:L"
+sf:1812000:R"
+sf:1813000:L"
+sf:1813000:R"
+sf:1814000:L"
+sf:1814000:R"
+sf:1815000:L"
+sf:1815000:R"
+sf:1816000:L"
+sf:1816000:R"
+sf:1817000:L"
+sf:1817000:R"
+sf:1836000:L"
+sf:1836000:R"
+sf:1837000:L"
+sf:1837000:R"
+sf:1838000:L"
+sf:1838000:R"
+sf:1839000:L"
+sf:1839000:R"
+sf:1840000:L"
+sf:1840000:R"
+sf:1841000:L"
+sf:1841000:R"
+sf:1858000:L"
+sf:1858000:R"
+sf:1859000:L"
+sf:1859000:R"
+sf:1860000:L"
+sf:1860000:R"
+sf:1861000:L"
+sf:1861000:R"
+sf:1862000:L"
+sf:1862000:R"
+sf:1863000:L"
+sf:1863000:R"
+sf:1877000:L"
+sf:1877000:R"
+sf:1878000:L"
+sf:1878000:R"
+sf:1879000:L"
+sf:1879000:R"
+sf:1880000:L"
+sf:1880000:R"
+sf:1881000:L"
+sf:1881000:R"
+sf:1882000:L"
+sf:1882000:R"
+sf:1902000:L"
+sf:1902000:R"
+sf:4522000:L"
+sf:4522000:R"
+sf:5245000:L"
+sf:5245000:R"
+sf:5246000:L"
+sf:5246000:R"
+time_limited"
+sf:11619000:L"
+sf:11619000:R"
+sf:11620000:L"
+sf:11620000:R"
+sf:11621000:L"
+sf:11621000:R"
+sf:11622000:L"
+sf:11622000:R"
+sf:11623000:L"
+sf:11623000:R"
+sf:11624000:L"
+sf:11624000:R"
+sf:11625000:L"
+sf:11625000:R"
+sf:11626000:L"
+sf:11626000:R"
+sf:11627000:L"
+sf:11627000:R"
+sf:11628000:L"
+sf:11628000:R"
+sf:11629000:L"
+sf:11629000:R"
+sf:11630000:L"
+sf:11630000:R"
+sf:11631000:L"
+sf:11631000:R"
+sf:12404000:L"
+sf:12404000:R"
+sf:12405000:L"
+sf:12405000:R"
+sf:12406000:L"
+sf:12406000:R"
+sf:12407000:L"
+sf:12407000:R"
+sf:12408000:L"
+sf:12408000:R"
+sf:12409000:L"
+sf:12409000:R"
+sf:12410000:L"
+sf:12410000:R"
+sf:12411000:L"
+sf:12411000:R"
+sf:12412000:L"
+sf:12412000:R"
+sf:12413000:L"
+sf:12413000:R"
+sf:12414000:L"
+sf:12414000:R"
+sf:12415000:L"
+sf:12415000:R"
+sf:12416000:L"
+sf:12416000:R"
+sf:12806000:L"
+sf:12806000:R"
+sf:12807000:L"
+sf:12807000:R"
+sf:12808000:L"
+sf:12808000:R"
+sf:12809000:L"
+sf:12809000:R"
+sf:12810000:L"
+sf:12810000:R"
+sf:12811000:L"
+sf:12811000:R"
+sf:12812000:L"
+sf:12812000:R"
+sf:12813000:L"
+sf:12813000:R"
+sf:12814000:L"
+sf:12814000:R"
+sf:12815000:L"
+sf:12815000:R"
+sf:12816000:L"
+sf:12816000:R"
+sf:12817000:L"
+sf:12817000:R"
+sf:13255000:L"
+sf:13255000:R"
+sf:13256000:L"
+sf:13256000:R"
+sf:13257000:L"
+sf:13257000:R"
+sf:13258000:L"
+sf:13258000:R"
+sf:13259000:L"
+sf:13259000:R"
+sf:13260000:L"
+sf:13260000:R"
+sf:13261000:L"
+sf:13261000:R"
+sf:13262000:L"
+sf:13262000:R"
+sf:13263000:L"
+sf:13263000:R"
+sf:13264000:L"
+sf:13264000:R"
+sf:13265000:L"
+sf:13265000:R"
+sf:13266000:L"
+sf:13266000:R"
+sf:13483000:L"
+sf:13483000:R"
+sf:13484000:L"
+sf:13484000:R"
+sf:13485000:L"
+sf:13485000:R"
+sf:13486000:L"
+sf:13486000:R"
+sf:13487000:L"
+sf:13487000:R"
+sf:13488000:L"
+sf:13488000:R"
+sf:13489000:L"
+sf:13489000:R"
+sf:13490000:L"
+sf:13490000:R"
+sf:13491000:L"
+sf:13491000:R"
+sf:13492000:L"
+sf:13492000:R"
+sf:13493000:L"
+sf:13493000:R"
+free_with_cleaning"
+$2.00/hr (meter base rate)"
+0000000000000000002000000000"
+0000000000000000010000000000"
+0000000000000000011000000000"
+0000000000000040000000000000"
+0000000000000100000000000000"
+0000000000000100004000000000"
+0000000000000400000000000000"
+0000000000000500008000700200"
+0000000000000500040000000000"
+0000000000000600011000100000"
+0000000000000700000000000000"
+0000000000100000004000000000"
+0000000001000010000000000000"
+0000000001000070000000000000"
+0000000001000140010100000000"
+0000000002000000041000000000"
+0000000100000010004000500000"
+0000000200100400050000000000"
+0000001000000000000000000000"
+0000001000000000004000020000"
+0000002000000000006000000000"
+0000002000000000008000000000"
+0000002200000000004000000000"
+0000004000000000000000000000"
+0000004001000000040000000000"
+0000004002000000006040000000"
+0000005000000100040000000000"
+0000006000000000002000000000"
+0000006000000000006000000000"
+0000006000000100010000000000"
+0000006000100000000000000003"
+0000007000000000000000000000"
+0000007000000100007000000000"
+0000010000000000000000000000"
+0000010000000000001000000000"
+0000010000000000001010001000"
+0000010000000000006000000000"
+0000010000000100000000000000"
+0000010000000100001000000000"
+0000010000000100040000000000"
+0000010000000400000000000000"
+0000010000010410011000000000"
+0000011000000000010000000000"
+0000014000100010040000600000"
+0000020000000000000000000000"
+0000020000000000010000000000"
+0000020000000000050000000000"
+0000020000000000070000000000"
+0000020000100000050000200000"
+0000040000000000000000000000"
+0000040000000000010000000000"
+0000050000000000000000000000"
+0000050000000000050000000000"
+0000050000000000060000000000"
+0000050000000020040000000000"
+0000050002000000050000020020"
+0000060000000000012000000000"
+0000060000000000040000020000"
+0000060000000100040000000002"
+0000060002000000010000000000"
+0000060002000020080000000280"
+0000070000000100002000000000"
+0010060000000000051000000000"
+0020080000000000070000000000"
+0040010000000000000000000000"
+0070000000000040000000000000"
+0070000000100060010000000000"
+0100000000000070000000000000"
+0100000000000100050010000000"
+0100000000000400000000000000"
+0100001000000000004000001000"
+0160060000000040051100700000"
+0200000000000100000000000002"
+0200000000000500000000000000"
+0200000000000520000000000000"
+0200000000000600000000000000"
+0200060000000000050000000000"
+0220022000100400000000000000"
+0270000002000080044000020000"
+0280000000000060000002000200"
+0400000000000000010000000000"
+0400000000000400000000000000"
+0400000000000400000040000000"
+0400000000000600000000000000"
+0400000600000000002000000000"
+0400060004000100011010000000"
+0410010000010400000000100000"
+0460000000000000000000000000"
+0500040000160807004000000000"
+0600000000000400000000200003"
+0600000000000600000000000000"
+0600020004000600000000000000"
+0602000000000700010000020000"
+0700000001000100000000000000"
+0720000000000500041000000000"
+0720002202060620014602200000"
+0760060000000140084000100000"8
+6["Street cleaning 1PMБ─⌠3PM Fri (weeks 2,4 of month)"]"8
+6["Street cleaning 1PMБ─⌠3PM Thu (weeks 2,4 of month)"]"8
+6["Street cleaning 1PMБ─⌠3PM Tue (weeks 2,4 of month)"]"9
+7["Street cleaning 12PMБ─⌠2PM Fri (weeks 2,4 of month)"]"9
+7["Street cleaning 12PMБ─⌠2PM Mon (weeks 2,4 of month)"]"9
+7["Street cleaning 12PMБ─⌠2PM Thu (weeks 2,4 of month)"]"9
+7["Street cleaning 12PMБ─⌠2PM Tue (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Fri (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Mon (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Thu (weeks 2,4 of month)"]"9
+7["Street cleaning 8AMБ─⌠10AM Tue (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Fri (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Mon (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Thu (weeks 2,4 of month)"]"9
+7["Street cleaning 9AMБ─⌠11AM Tue (weeks 2,4 of month)"]"`
+^[{"activity":"street_cleaning","days":["fr"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["fr"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["fr"],"times":[{"start":720,"end":840}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["fr"],"times":[{"start":780,"end":900}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":840}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["th"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["th"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["th"],"times":[{"start":720,"end":840}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["th"],"times":[{"start":780,"end":900}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["tu"],"times":[{"start":480,"end":600}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["tu"],"times":[{"start":540,"end":660}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["tu"],"times":[{"start":720,"end":840}],"weeks":[2,4]}]"`
+^[{"activity":"street_cleaning","days":["tu"],"times":[{"start":780,"end":900}],"weeks":[2,4]}]"o
+m["Street cleaning 12PMБ─⌠2PM Mon (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"o
+m["Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)"]"o
+m["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)"]"o
+m["Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)"]"o
+m["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)"]"o
+m["Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)"]"o
+m["Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)"]"o
+m["Street cleaning 8AMБ─⌠10AM Mon (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"o
+m["Street cleaning 8AMБ─⌠10AM Thu (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"o
+m["Street cleaning 9AMБ─⌠11AM Fri (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"o
+m["Street cleaning 9AMБ─⌠11AM Mon (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"o
+m["Street cleaning 9AMБ─⌠11AM Mon (weeks 2,4 of month)","Time-limited (1h) 8AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"o
+m["Street cleaning 9AMБ─⌠11AM Thu (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"o
+m["Street cleaning 9AMБ─⌠11AM Tue (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"█
+┼["Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Metered (2h) 9AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"▓
+▐["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)","Time-limited (1h) 7AMБ─⌠6PM Mon Tue Wed Thu Fri Sat"]"ю
+╫[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"ю
+╫[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"ю
+╫[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"ю
+╫[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"ю
+╫[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"ю
+╫[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"т
+я[{"activity":"street_cleaning","days":["fr"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"т
+я[{"activity":"street_cleaning","days":["mo"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"т
+я[{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"т
+я[{"activity":"street_cleaning","days":["mo"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":480,"end":1080}],"maxStay":60}]"т
+я[{"activity":"street_cleaning","days":["mo"],"times":[{"start":720,"end":840}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"т
+я[{"activity":"street_cleaning","days":["th"],"times":[{"start":480,"end":600}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"т
+я[{"activity":"street_cleaning","days":["th"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"т
+я[{"activity":"street_cleaning","days":["tu"],"times":[{"start":540,"end":660}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"э
+ы["Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Thu (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Thu (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Mon (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)"]"э
+ы["Street cleaning 7AMБ─⌠8AM Tue (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 2,4 of month)","Street cleaning 7AMБ─⌠8AM Fri (weeks 1,3,5 of month)","Street cleaning 7AMБ─⌠8AM Tue (weeks 1,3,5 of month)"]"К
+Х[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"metered","days":["mo","tu","we","th","fr","sa"],"times":[{"start":540,"end":1080}],"maxStay":120}]"О
+Л[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"time_limited","days":["mo","tu","we","th","fr","sa"],"times":[{"start":420,"end":1080}],"maxStay":60}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["th"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["mo"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"Э
+Ы[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]}]"Э
+Ы[{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[2,4]},{"activity":"street_cleaning","days":["fr"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]},{"activity":"street_cleaning","days":["tu"],"times":[{"start":420,"end":480}],"weeks":[1,3,5]}]"	млллллЛ?" " " " 9' тт т°	х
+ъЙГЦ"	йХи÷9' ууу°	╫
+тЙГЦ"	йХи÷6' ≥≥ ≥°	┘
+⌡ХГ╧"		÷П>
+╟9' ⌡⌡⌡°	┌
+░ХГ╣"	Н─<М$÷9'     °	│
+°ХГ╣"	Н─<М$÷6'    °	┌
+░ХГ╧"		÷П>
+╟9' ██  █°	┐
+■ХГМ"	╨÷
+═$└9' ▌▌ ▌°	└
+≈ХГМ"	╨÷
+═$└6$ jj j°	▀
+⌠ХГК"	°÷═Ч6$ ii  i°	▄
+√ХГК"	°÷═Ч6$ ^^ ^°	▄
+√ХГР"	╬÷═р6$ ]]  ]°	▀
+⌠ХГР"	╬÷═р6$ RR R°	▀
+⌠ХГИ"	з ÷
+═╕6$ QQ  Q°	▄
+√ХГИ"	з ÷
+═╕6$ ))
+  )°	┬
+∙ХГ╒"	Ф9÷═Т6$ **
+ *°	▀
+⌠ХГ╒"	Ф9÷═Т9' ╨╨  ╨°	─
+≤ХГч"	Х└Г÷
+9' ╩╩ ╩°	┐
+■ХГч"	Х└Г÷
+9' ││  │°	└
+≈ХГЮ"	з÷
+═ ь6' ╦╦  ╦°	─
+≤ХГУ"		└ь
+⌡,6' ╧╧ ╧°	┐
+■ХГУ"		└ь
+⌡,6' ╥╥ ╥°	┐
+■ХГ║"		╒╛
+²,6' ╤╤  ╤°	─
+≤ХГ║"		╒╛
+²,6' └└ └║	²
+╥ИГЛ"		└ь
+bБ6' ┐┐  ┐°	└
+≈ХГЛ"		└ь
+bБ9' ┌┌ ┌°	┐
+■ХГЮ"	з÷
+═ ь3$ ╢╢ ! ╢°	─
+≤ХГ"		╡√
+▐3$ ╣╣ !╣°	┐
+■ХГ"		╡√
+▐6$ uu  u°	▀
+⌠ХГХ"	З÷
+═╛6$ vv v°	▄
+√ХГХ"	З÷
+═╛6' рр р°	к
+БЙГС"		Ф╨
+⌡.6' ▒▒ ▒°	┌
+░ХГ╥"		йХ
+bч6' ссс°	н
+ЕЙГС"		Ф╨
+⌡.6' ▐▐  ▐°	┐
+■ХГъ"		Х└
+bД6' ░░ ░°	└
+≈ХГъ"		Х└
+bД6' ▓▓▓°	┘
+⌡ХГ╥"		йХ
+bч6' ┘┘ ┘°	┘
+⌡ХГ╬"		Ф╨
+`Ю6' ├├├°	┌
+░ХГ╬"		Ф╨
+`Ю6' яяя°	м
+ДЙГБ"		└▄
+².3$ ww  w°	▀
+⌠ХГ╗"		╒╛
+bЮ6' пп п°	й
+АЙГБ"		└▄
+².3$ xx x°	▄
+√ХГ╗"		╒╛
+bЮ3$ ФФ! Ф°	Ъ
+▒ХГ"		Ть
+▐3$ ГГ!Г°	█
+ ХГ"		Ть
+▐3$ yy y°	┌
+░ХГ·"		└▄
+`Б3$ zzz°	┘
+⌡ХГ·"		└▄
+`Б3$ ЁЁ !Ё°	┐
+■ХГ"		юЧ
+█3$ ╡╡ ! ╡°	─
+≤ХГ"		юЧ
+█3$ kk  k°	▄
+√ХГ╓"		юЧ
+bБ3$ ll l°	▀
+⌠ХГ╓"		юЧ
+bБ6' ╝╝  ╝°	─
+≤ХГА"		З ╕
+≥,6' ╠╠ ╠°	▀
+⌠ХГ╚"		Юр
+÷,6' ╟╟  ╟°	─
+≤ХГ╚"		Юр
+÷,6' ╞╞ ╞°	▀
+⌠ХГА"		З ╕
+≥,3$ `` `°	▄
+√ХГО"		Юр
+`Ю3$ __  _║	╗
+╤ИГО"		Юр
+`Ю3$ оо!о°	╫
+тЙГ"		▓Ж
+█3$ лл! л°	б
+ыЙГ"		╒Ю
+▐3$ мм!м°	о
+ФЙГ"		╒Ю
+▐3$ нн! н°	д
+шЙГ"		▓Ж
+█3$ mm m°	█
+ ХГж"		╒Ю
+bБ3$ nnn°	┼
+▐ХГж"		╒Ю
+bБ3$ ДД! Д°	Ъ
+▒ХГ"		└б
+▐3$ ЕЕ!Е°	█
+ ХГ"		└б
+▐6' йй й°	ц
+зЙГг"		ю╡
+².3$ aa a°	┼
+▐ХГЙ"		ю╡
+bБ6' иии°	╩
+рЙГЕ"		ч!├
+²,6' хх х°	г
+чЙГЕ"		ч!├
+²,6' ккк°	м
+ДЙГг"		ю╡
+².3$ bbb°	█
+ ХГЙ"		ю╡
+bБ6' ЦЦЦ°	█
+ ХГа"		╒■
+².3$ ddd°	█
+ ХГв"		╒■
+bз3$ cc c°	┼
+▐ХГв"		╒■
+bз6' ББ Б°	Ъ
+▒ХГа"		╒■
+².9' МММ°	┘
+⌡ХГ╠"	╛ф ╚÷
+9' ЛЛ Л°	Ъ
+▒ХГ╠"	╛ф ╚÷
+6' ККК°	┘
+⌡ХГД"		ф	  
+≥,6' ЙЙ Й°	Ъ
+▒ХГД"		ф	  
+≥,6' ⌠⌠ ⌠°	┌
+░ХГ╡"		╛ф 
+`з9' ┘┘┘°	═
+╞ИГ╖"	▄═.▀÷
+9' └└ └°	·
+╜ИГ╖"	▄═.▀÷
+6' ■■■°	┘
+⌡ХГ╡"		╛ф 
+`з6' ┬┬┬°	┌
+░ХГ╪"		ф	  
+bз6' ХХ Х°	Ъ
+▒ХГ═"		ДН
+²,6' ИИИ°	┘
+⌡ХГ═"		ДН
+²,6' ┤┤ ┤°	┘
+⌡ХГ╪"		ф	  
+bз6' ┐┐┐°	║
+╟ИГе"		╗
+Т-
+⌡,6' ┌┌ ┌°	·
+╜ИГе"		╗
+Т-
+⌡,6' ┼┼┼°	┌
+░ХГЁ"		╗
+Т-
+`Ю6' ┴┴ ┴°	┘
+⌡ХГЁ"		╗
+Т-
+`Ю6' ≥≥≥°	┌
+░ХГх"		┬т;
+≥,6' √√√°	┘
+⌡ХГ╨"		▄═.
+bЮ6' ≤≤ ≤°	│
+°ХГх"		┬т;
+≥,6' ∙∙ ∙°	┌
+░ХГ╨"		▄═.
+bЮ6' ── ─°	·
+╜ИГП"		дх-
+⌡,3$ {{ {°	┌
+░ХГя"		ДН
+`з3$ ~~~°	█
+ ХГш"		дх-
+`Ю6' │││°	═
+╞ИГП"		дх-
+⌡,3$ }} }°	┌
+░ХГш"		дх-
+`Ю3$ |||°	█
+ ХГя"		ДН
+`з3$ ЪЪ!Ъ°	║
+╟ИГ"		ж╡-
+▒3$ ЧЧ! Ч°	÷
+╝ИГ"		ж╡-
+▒6' ШШШ°	║
+╟ИГ╒"		└Н,
+╞.3$ ЩЩ!Щ°	═
+╞ИГ"		т°-
+Щ3$ ЭЭ! Э°	·
+╜ИГ"		т°-
+Щ5$ oo o°	█
+ ХГ╘"	└б^З`6' ЗЗ З°	÷
+╝ИГ╒"		└Н,
+╞.5$ ppp°	┼
+▐ХГ╘"	└б^З`3$ ee e°	┼
+▐ХГм"		└Н,
+N├3$ fff°	█
+ ХГм"		└Н,
+N├6$  °	┌
+░ХГй"	╓╗;"ь═9' ───°	█
+ ХГй"	╓╗;"ь═6' √√ √°	│
+°ХГ╣"		╓╗;
+⌡,3$ ∙∙!∙°	┌
+░ХГ"		╤▄;
+▒6' ≈≈≈°	┌
+░ХГ╣"		╓╗;
+⌡,3$ ■■! ■°	│
+°ХГ"		╤▄;
+▒3$ ▓▓! ▓°	│
+°ХГ"		╢й:
+ЩB3$ ⌠⌠!⌠°	┼
+▐ХГ"		╢й:
+ЩB0! qq q°	█
+ ХГ"		т°-
+`╝;' ▒▒▒°	┼
+▐ХГ╟"	рТ7⌠ю┴√0! rrr°	┼
+▐ХГ"		т°-
+`╝6$ ss s°	█
+ ХГй"	╢й:(╤═;' ░░ ░°	│
+°ХГ╟"	рТ7⌠ю┴√6$ ttt°	┼
+▐ХГй"	╢й:(╤═6$ hhh°	█
+ ХГт"	рТ78▄
+═6$ gg g°	┼
+▐ХГт"	рТ78▄
+═3$ SS  S°	▄
+√ХГЬ"		З ╕
+dЮ6' ╜╜ ╜°	▀
+⌠ХГН"		═'З
+╔,3$ TT T°	▀
+⌠ХГЬ"		З ╕
+dЮ6' ╛╛  ╛°	─
+≤ХГН"		═'З
+╔,6$ HH H°	▄
+√ХГВ"	┌'÷═З3$ II  I°	▀
+⌠ХГЩ"		═'З
+`Ю6$ GG  G°	▀
+⌠ХГВ"	┌'÷═З3$ JJ J║	╘
+╧ИГЩ"		═'З
+`Ю6' ╚╚ ╚°	▀
+⌠ХГ╙"		╬-л
+².6$ @@ @°	▀
+⌠ХГЯ"	╓-÷═л3$ AA  A║	╔
+╦ИГЗ"		╬-л
+bБ6' ╙╙  ╙°	─
+≤ХГ╙"		╬-л
+².3$ BB B°	▀
+⌠ХГЗ"		╬-л
+bБ6$ ??  ?°	┬
+∙ХГЯ"	╓-÷═л6' фф ф°	д
+шЙГЧ"		─(з
+║,6' ггг°	ю
+вЙГЧ"		─(з
+║,3$ UU U°	█
+ ХГр"		ч!├
+dБ3$ ЮЮ Ю°	Ъ
+▒ХГ"		б"Х
+÷,3$ VVV°	┼
+▐ХГр"		ч!├
+dБ3$ ААА°	█
+ ХГ"		б"Х
+÷,3$ KK K║	╕
+ЁИГз"		─(з
+bБ3$ LLL°	█
+ ХГз"		─(з
+bБ6' ццц°	╪
+сЙГТ"		ю4─
+÷.6' еее°	╬
+уЙГ╝"		═.╝
+÷,6' бб б°	ф
+щЙГТ"		ю4─
+÷.3$ CC C║	╙
+╨ИГ╞"		═.╝
+`Ю6' дд д°	г
+чЙГ╝"		═.╝
+÷,3$ DDD°	┼
+▐ХГ╞"		═.╝
+`Ю3$ NNN°	█
+ ХГл"		Б(╪
+`ь3$ MM M°	┼
+▐ХГл"		Б(╪
+`ь6' чч ч°	Ъ
+▒ХГ╔"		Б(╪
+÷,6' ъъъ°	█
+ ХГ╔"		Б(╪
+÷,6' щщщ°	█
+ ХГю"		─/▌
+².6' ээ э°	Ъ
+▒ХГю"		─/▌
+².6' ╗╗  ╗°	─
+≤ХГ║"		ч3═
+÷,6' ╘╘ ╘°	▀
+⌠ХГ║"		ч3═
+÷,6' ╖╖ 
+╖°	▀
+⌠ХГШ"		Э9Т
+²,6$ 66 6°	┬
+∙ХГГ"	ф3÷══6$ 55  5°	▀
+⌠ХГГ"	ф3÷══6' ╕╕ 
+ ╕°	─
+≤ХГШ"		Э9Т
+²,5$ ╔╔ 	
+╔°	▀
+⌠ХГ"	 @х┐*5$ ╓╓ 	
+ ╓°	─
+≤ХГ"	 @х┐*3$ ,,
+ ,°	▀
+⌠ХГЖ"		Э9Т
+bЮ3$ ++
+  +°	┬
+∙ХГЖ"		Э9Т
+bЮ3$ 88 8°	┬
+∙ХГЭ"		ч3═
+bЮ6' юю
+ ю°	и
+ЮЙГэ"		ч:т
+²,6' аа
+а°	а
+ьЙГэ"		ч:т
+²,3$ 77  7║	╖
+╣ИГЭ"		ч3═
+bЮ3$ :::║	╙
+╨ИГь"		ю4─
+`Б3$ 99 9°	┼
+▐ХГь"		ю4─
+`Б6' зз з°	Ъ
+▒ХГё"		═5Б
+÷,6' шшш°	█
+ ХГё"		═5Б
+÷,6' ыы
+ы°	█
+ ХГб"		╬;╤
+²,6' ьь
+ ь°	Ъ
+▒ХГб"		╬;╤
+²,3$ ..
+.°	├
+▌ХГщ"		ч:т
+`Б3$ --
+ -║	╙
+╨ИГщ"		ч:т
+`Б5$ XXX°	┼
+▐ХГн"	б"Х\Ь	b5$ WW W°	█
+ ХГн"	б"Х\Ь	b8$ YY Y°	█
+ ХГк"	■#б,▌:ЬbX6' ЫЫЫ°	║
+╟ИГ╕"		■#б,
+▐,6' ЬЬ Ь°	·
+╜ИГ╕"		■#б,
+▐,8$ ZZZ°	┼
+▐ХГк"	■#б,▌:ЬbX6' УУУ°	═
+╞ИГф"		Д/Х+
+║,6' ЖЖ Ж°	л
+ЦЙГц"		б)■,
+╜.6' ВВВ°	═
+╞ИГц"		б)■,
+╜.6' ТТ Т°	╒
+╠ИГф"		Д/Х+
+║,3$ FFF°	┼
+▐ХГп"		─/▌
+dз3$ EE E°	█
+ ХГп"		─/▌
+dз=' ▌▌ ▌°	│
+°ХГ╩"	═$═6╚≥0┤▓A' ███°	┼
+▐ХГо"	Т)х1*Q\ё\⌠tЦ e=' ▐▐▐°	┼
+▐ХГ╩"	═$═6╚≥0┤▓A' ▄▄ ▄°	│
+°ХГо"	Т)х1*Q\ё\⌠tЦ e3$ OO O°	┼
+▐ХГ╜"		б)■,
+2╢3$ PPP°	█
+ ХГ╜"		б)■,
+2╢3$ ┼┼ ┼°	│
+°ХГ"		 ,╝1
+╔3$ ▀▀▀°	█
+ ХГ"		 ,╝1
+╔E' °°"°°	█
+ ХГй"	ф)═A:'w7яc▒┤Ъ[CE' ⌡⌡" ⌡°	┼
+▐ХГй"	ф)═A:'w7яc▒┤Ъ[C3$ РР Р°	╒
+╠ИГ"		┌6╨+
+².6' ПП
+ П°	ё
+╡ИГф"		═<▌+
+²,6' ЯЯ
+Я°	║
+╟ИГф"		═<▌+
+²,3$ ССС°	═
+╞ИГ"		┌6╨+
+².3$ ;; ;°	┼
+▐ХГй"		═5Б
+bь3$ <<<°	█
+ ХГй"		═5Б
+bь>$ >>>°	█
+ ХГы"	┌6╨+*,Z'√5╤х╝>$ == =°	┼
+▐ХГы"	┌6╨+*,Z'√5╤х╝<! 11
+ 1°	│
+°ХГ"	═<▌+*╬cьWЧ░╡<! 22
+2°	├
+▌ХГ"	═<▌+*╬cьWЧ░╡3$ //
+ /°	█
+ ХГу"		╬;╤
+bь9' НН	
+ Н°	ё
+╡ИГ©"	═AЙ*÷
+ъ3$ 00
+0°	├
+▌ХГу"		╬;╤
+bь9' ОО	
+О°	║
+╟ИГ©"	═AЙ*÷
+ъB' ═══°	█
+ ХГй"	═5ж3*w/к┐╣С≈B' ÷÷ ÷°	┼
+▐ХГй"	═5ж3*w/к┐╣С≈Q' ┬┬
+ ┬°	│
+°ХГ╦"$	Ю:з8J╠≥╫╣▒Ёыe▒╧╚╜Y┐Q' ┴┴
+┴°	┼
+▐ХГ╦"$	Ю:з8J╠≥╫╣▒Ёыe▒╧╚╜Y┐:' ²²
+ ²°	┼
+▐ХГо"	╡:Д3Иs3:' ··
+·°	█
+ ХГо"	╡:Д3Иs35$ 33
+ 3°	│
+°ХГ÷"	╡:Д34 б5$ 44
+4°	├
+▌ХГ÷"	╡:Д34 б<' ┤┤
+┤°	┼
+▐ХГ╤"	═A─:÷+ы;е=<' ├├
+ ├°	│
+°ХГ╤"	═A─:÷+ы;е=3$ %%	  %║	╓
+╢ИГЫ"		 @х
+`Ю3$ ##	  #°	┤
+▓ХГФ"		├@÷
+Х3$ &&	 &°	┬
+∙ХГЫ"		 @х
+`Ю3$ $$	 $°	┬
+∙ХГФ"		├@÷
+Х6' ёё 	ё°	▀
+⌠ХГ║"		═Aю
+┘6' ╒╒ 	 ╒°	─
+≤ХГ║"		═Aю
+┘8' ╬╬	
+ ╬║	╛
+яКГ╛"	З@╗y║&8' ©©	
+©°	©
+жЙГ╛"	З@╗y║&5' ╪╪	 ╪°	е
+эЙГи"	═A╕
+%:, ╫╫	╫	╚
+пКГ²Ии"	═A╕
+%3$ ((	(°	┴
+≥ХГс"		З@╗
+&╨9' жж	
+ ж°	Ъ
+▒ХГд"	═A▌÷а 3$ ''	 '°	├
+▌ХГс"		З@╗
+&╨9' вв	
+в°	█
+ ХГд"	═A▌÷а 9' ≈≈ ≈°	┌
+░ХГ╫"	Н─<─
+═9' ≤≤≤°	┘
+⌡ХГ╫"	Н─<─
+═9' ▀▀ ▀°	┘
+⌡ХГ╢"	┬т;╛
+═9' ▄▄▄°	┌
+░ХГ╢"	┬т;╛
+═8$ \\\°	┼
+▐ХГй"	═$═6Ur@Н═8$ [[ [°	█
+ ХГй"	═$═6Ur@Н═
