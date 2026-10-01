@@ -1,21 +1,21 @@
 {
  "source": "NYC 311 Public API",
- "fetched_at": "2026-08-31 22:08 UTC",
+ "fetched_at": "2026-10-01 00:53 UTC",
  "days": [
   {
-   "date": "2026-08-31",
+   "date": "2026-10-01",
    "status": "IN EFFECT",
    "details": "Alternate side parking and meters are in effect."
   },
   {
-   "date": "2026-09-01",
+   "date": "2026-10-02",
    "status": "IN EFFECT",
    "details": "Alternate side parking and meters are in effect."
   },
   {
-   "date": "2026-09-02",
-   "status": "IN EFFECT",
-   "details": "Alternate side parking and meters are in effect."
+   "date": "2026-10-03",
+   "status": "SUSPENDED",
+   "details": "Alternate side parking is suspended for Shemini Atzereth. Meters are in effect."
   }
  ]
 }
