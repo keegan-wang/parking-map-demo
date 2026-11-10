@@ -1,12 +1,7 @@
 {
  "source": "NYC 311 Public API",
- "fetched_at": "2026-11-09 20:15 UTC",
+ "fetched_at": "2026-11-10 03:52 UTC",
  "days": [
-  {
-   "date": "2026-11-09",
-   "status": "IN EFFECT",
-   "details": "Alternate side parking and meters are in effect."
-  },
   {
    "date": "2026-11-10",
    "status": "IN EFFECT",
@@ -16,6 +11,11 @@
    "date": "2026-11-11",
    "status": "SUSPENDED",
    "details": "Alternate side parking is suspended for Veterans Day. Meters are in effect."
+  },
+  {
+   "date": "2026-11-12",
+   "status": "IN EFFECT",
+   "details": "Alternate side parking and meters are in effect."
   }
  ]
 }
